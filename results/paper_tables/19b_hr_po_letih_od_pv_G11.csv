@@ -1,0 +1,7 @@
+﻿model;pas (leta od leta PV);HR;IZ spodaj;IZ zgoraj;p;dogodkov v pasu;osebo-let v pasu
+M1 s pasovi let od PV;1–2;0.6196;0.4928;0.7791;0.0;87.0;10502.0
+M1 s pasovi let od PV;3+;0.6888;0.519;0.9141;0.0098;59.0;7183.0
+M1 s trendom;PV (leto 0);1.0578;0.724;1.5456;0.7713;;
+M1 s trendom;× na leto od PV;0.8289;0.7258;0.9465;0.0056;;
+M4 CEM s pasovi let od PV;1–2;0.6905;0.5081;0.9383;0.0179;45.0;4606.0
+M4 CEM s pasovi let od PV;3+;0.9277;0.6424;1.3397;0.689;30.0;4001.0

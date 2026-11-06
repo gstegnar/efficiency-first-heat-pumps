@@ -1,0 +1,29 @@
+﻿del;arhetip;skupina;n;P25;P50;P75;P90;model S0 G13;model S0 G11;leto izkaznice mediana;n_ogr / ET mediana
+1 B2;A1;(a) brez ukrepa tudi do 2026;31;68.805;118.39;246.975;318.0;358.19;263.09;2020.0;
+1 B2;A1;(b) ukrep PO izkaznici (izkaznica pred prenovo);43;134.545;212.0;250.28;314.056;358.19;263.09;2019.0;
+1 B2;A1;(c) brez ukrepa ≥ 2003, a GURS obnova pred 2003;197;94.0;146.73;231.0;283.472;358.19;263.09;2020.0;
+1 B2;A1;vse st 0;271;96.5;151.0;237.335;289.0;358.19;263.09;2020.0;
+1 B2;A2;(a) brez ukrepa tudi do 2026;112;104.062;160.07;217.66;279.702;256.71;242.39;2021.0;
+1 B2;A2;(b) ukrep PO izkaznici (izkaznica pred prenovo);142;135.122;176.81;218.128;280.8;256.71;242.39;2019.5;
+1 B2;A2;(c) brez ukrepa ≥ 2003, a GURS obnova pred 2003;266;91.49;140.53;200.3;263.98;256.71;242.39;2021.0;
+1 B2;A2;vse st 0;520;103.0;154.995;207.615;277.113;256.71;242.39;2021.0;
+1 B2;A3;(a) brez ukrepa tudi do 2026;216;101.202;148.36;199.38;251.5;188.68;254.26;2019.5;
+1 B2;A3;(b) ukrep PO izkaznici (izkaznica pred prenovo);128;107.348;157.07;205.094;265.952;188.68;254.26;2019.0;
+1 B2;A3;(c) brez ukrepa ≥ 2003, a GURS obnova pred 2003;127;81.5;114.43;172.66;201.91;188.68;254.26;2021.0;
+1 B2;A3;vse st 0;471;97.91;146.28;195.965;244.98;188.68;254.26;2020.0;
+1 B2;A4;(a) brez ukrepa tudi do 2026;727;67.565;92.82;131.75;181.054;110.23;146.26;2020.0;
+1 B2;A4;(b) ukrep PO izkaznici (izkaznica pred prenovo);93;80.55;105.0;162.43;258.926;110.23;146.26;2018.0;
+1 B2;A4;(c) brez ukrepa ≥ 2003, a GURS obnova pred 2003;78;74.14;95.745;123.74;152.508;110.23;146.26;2020.5;
+1 B2;A4;vse st 0;898;69.0;94.565;132.668;182.09;110.23;146.26;2020.0;
+2 ETICS;A1;Eko fasada / stena toplotnega ovoja (G13);70;1.038;1.284;1.609;;;;;0.618
+2 ETICS;A1;Eko fasada / bruto stena vseh etaž GURS;70;0.589;0.709;0.829;;;;;0.618
+2 ETICS;A1;Eko streha / tloris etaže F;47;0.79;1.161;1.401;;;;;0.618
+2 ETICS;A2;Eko fasada / stena toplotnega ovoja (G13);164;0.862;1.072;1.312;;;;;0.744
+2 ETICS;A2;Eko fasada / bruto stena vseh etaž GURS;164;0.608;0.719;0.899;;;;;0.744
+2 ETICS;A2;Eko streha / tloris etaže F;44;0.75;0.965;1.196;;;;;0.731
+2 ETICS;A3;Eko fasada / stena toplotnega ovoja (G13);158;0.923;1.122;1.381;;;;;0.816
+2 ETICS;A3;Eko fasada / bruto stena vseh etaž GURS;158;0.682;0.808;0.926;;;;;0.816
+2 ETICS;A3;Eko streha / tloris etaže F;42;0.694;0.876;1.102;;;;;0.842
+2 ETICS;A4;Eko fasada / stena toplotnega ovoja (G13);166;0.859;1.067;1.332;;;;;0.799
+2 ETICS;A4;Eko fasada / bruto stena vseh etaž GURS;166;0.623;0.765;0.899;;;;;0.799
+2 ETICS;A4;Eko streha / tloris etaže F;64;0.813;1.0;1.234;;;;;0.756

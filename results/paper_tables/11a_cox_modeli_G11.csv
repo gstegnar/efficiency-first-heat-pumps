@@ -1,0 +1,7 @@
+﻿model;SE;HR PV;IZ spodaj;IZ zgoraj;p;stavb;dogodkov;HR log A_ogr;max |gradient|;celic;paket v ujemanju
+M1 Cox, PV časovno odvisna, dogodek Eko sklad;robustne (po stavbi);0.6448;0.5329;0.7801;0.0;28371;1219;0.9338;0.0;;
+M2 kot M1, PV preklopi leto prej;robustne (po stavbi);0.6852;0.5754;0.8159;0.0;28371;1219;0.9353;0.0;;
+M3 kot M1, dogodek Eko sklad ali GURS obnova (brez GURS obnove ≤ leto TČ);robustne (po stavbi);0.6386;0.5315;0.7674;0.0;28371;1363;1.2596;0.0;;
+M1 samo Q1;robustne (po stavbi);0.662;0.5099;0.8596;0.002;14236;692;0.9563;0.1449;;
+M1 samo Q2;robustne (po stavbi);0.6297;0.4761;0.8329;0.0012;13817;518;0.8659;0.0;;
+M4 ujemanje (CEM), paket PV v [TČ − 3, TČ] proti brez PV, Cox po celici;;0.771;0.594;1.0007;0.0506;16102;422;;0.0;1533.0;3508.0

@@ -1,0 +1,288 @@
+﻿skupina;razred;leto po TČ;kumulativna incidenca ovoja;v tveganju;vir
+samo TČ;Q1;1;0.0198;11876.0;Kaplan–Meier
+samo TČ;Q1;2;0.0325;9203.0;Kaplan–Meier
+samo TČ;Q1;3;0.0422;7118.0;Kaplan–Meier
+samo TČ;Q1;4;0.0528;5802.0;Kaplan–Meier
+samo TČ;Q1;5;0.0615;4791.0;Kaplan–Meier
+samo TČ;Q1;6;0.0707;3783.0;Kaplan–Meier
+samo TČ;Q1;7;0.0765;2716.0;Kaplan–Meier
+samo TČ;Q1;8;0.0831;2091.0;Kaplan–Meier
+samo TČ;Q1;9;0.0892;1669.0;Kaplan–Meier
+samo TČ;Q1;10;0.092;1312.0;Kaplan–Meier
+samo TČ;Q1;11;0.0982;1015.0;Kaplan–Meier
+samo TČ;Q1;12;0.1033;713.0;Kaplan–Meier
+samo TČ;Q1;13;0.1096;283.0;Kaplan–Meier
+samo TČ;Q1;14;0.1148;39.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;15;0.12;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;16;0.1251;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;17;0.1302;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;18;0.1353;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;19;0.1404;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;20;0.1454;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;21;0.1504;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;22;0.1554;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;23;0.1603;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;24;0.1652;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;25;0.1701;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;26;0.1749;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;27;0.1798;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;28;0.1845;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;29;0.1893;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q1;30;0.194;0.0;ekstrapolacija (konstantna nevarnost)
+paket TČ+PV;Q1;1;0.0108;2318.0;Kaplan–Meier
+paket TČ+PV;Q1;2;0.022;1677.0;Kaplan–Meier
+paket TČ+PV;Q1;3;0.0338;830.0;Kaplan–Meier
+paket TČ+PV;Q1;4;0.042;468.0;Kaplan–Meier
+paket TČ+PV;Q1;5;0.0455;275.0;Kaplan–Meier
+paket TČ+PV;Q1;1;0.0128;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;2;0.0211;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;3;0.0274;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;4;0.0344;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;5;0.0401;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;6;0.0462;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;7;0.05;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;8;0.0544;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;9;0.0584;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;10;0.0603;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;11;0.0645;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;12;0.0679;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;13;0.0721;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;14;0.0756;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;15;0.0791;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;16;0.0826;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;17;0.086;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;18;0.0895;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;19;0.0929;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;20;0.0963;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;21;0.0998;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;22;0.1031;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;23;0.1065;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;24;0.1099;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;25;0.1133;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;26;0.1166;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;27;0.1199;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;28;0.1233;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;29;0.1266;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;30;0.1299;;S_samoTČ^HR, M1
+paket TČ+PV;Q1;1;0.0153;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;2;0.0251;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;3;0.0327;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;4;0.041;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;5;0.0478;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;6;0.055;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;7;0.0595;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;8;0.0647;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;9;0.0695;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;10;0.0717;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;11;0.0766;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;12;0.0806;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;13;0.0856;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;14;0.0897;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;15;0.0938;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;16;0.0979;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;17;0.102;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;18;0.106;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;19;0.1101;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;20;0.1141;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;21;0.1181;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;22;0.1221;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;23;0.126;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;24;0.13;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;25;0.1339;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;26;0.1378;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;27;0.1417;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;28;0.1455;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;29;0.1494;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q1;30;0.1532;;S_samoTČ^HR, M4 CEM
+samo TČ;Q2;1;0.0121;11130.0;Kaplan–Meier
+samo TČ;Q2;2;0.0227;9134.0;Kaplan–Meier
+samo TČ;Q2;3;0.0301;7385.0;Kaplan–Meier
+samo TČ;Q2;4;0.0366;6157.0;Kaplan–Meier
+samo TČ;Q2;5;0.0434;5269.0;Kaplan–Meier
+samo TČ;Q2;6;0.0483;4282.0;Kaplan–Meier
+samo TČ;Q2;7;0.0542;3196.0;Kaplan–Meier
+samo TČ;Q2;8;0.0599;2517.0;Kaplan–Meier
+samo TČ;Q2;9;0.0663;2046.0;Kaplan–Meier
+samo TČ;Q2;10;0.0726;1640.0;Kaplan–Meier
+samo TČ;Q2;11;0.08;1253.0;Kaplan–Meier
+samo TČ;Q2;12;0.0822;835.0;Kaplan–Meier
+samo TČ;Q2;13;0.0903;337.0;Kaplan–Meier
+samo TČ;Q2;14;0.0963;54.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;15;0.1023;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;16;0.1081;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;17;0.114;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;18;0.1198;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;19;0.1256;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;20;0.1313;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;21;0.1371;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;22;0.1427;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;23;0.1484;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;24;0.1539;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;25;0.1595;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;26;0.165;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;27;0.1705;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;28;0.176;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;29;0.1814;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;Q2;30;0.1867;0.0;ekstrapolacija (konstantna nevarnost)
+paket TČ+PV;Q2;1;0.008;2632.0;Kaplan–Meier
+paket TČ+PV;Q2;2;0.0145;1980.0;Kaplan–Meier
+paket TČ+PV;Q2;3;0.0163;1076.0;Kaplan–Meier
+paket TČ+PV;Q2;4;0.0293;683.0;Kaplan–Meier
+paket TČ+PV;Q2;5;0.0383;429.0;Kaplan–Meier
+paket TČ+PV;Q2;6;0.047;221.0;Kaplan–Meier
+paket TČ+PV;Q2;1;0.0078;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;2;0.0147;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;3;0.0195;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;4;0.0238;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;5;0.0282;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;6;0.0314;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;7;0.0353;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;8;0.039;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;9;0.0433;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;10;0.0474;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;11;0.0523;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;12;0.0538;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;13;0.0592;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;14;0.0632;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;15;0.0672;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;16;0.0711;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;17;0.0751;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;18;0.079;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;19;0.0829;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;20;0.0868;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;21;0.0907;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;22;0.0945;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;23;0.0984;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;24;0.1022;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;25;0.106;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;26;0.1098;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;27;0.1136;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;28;0.1173;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;29;0.1211;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;30;0.1248;;S_samoTČ^HR, M1
+paket TČ+PV;Q2;1;0.0094;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;2;0.0176;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;3;0.0233;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;4;0.0283;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;5;0.0336;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;6;0.0374;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;7;0.0421;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;8;0.0465;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;9;0.0515;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;10;0.0564;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;11;0.0622;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;12;0.064;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;13;0.0704;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;14;0.0751;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;15;0.0798;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;16;0.0845;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;17;0.0891;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;18;0.0937;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;19;0.0983;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;20;0.1029;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;21;0.1074;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;22;0.112;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;23;0.1165;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;24;0.1209;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;25;0.1254;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;26;0.1298;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;27;0.1342;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;28;0.1386;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;29;0.143;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;Q2;30;0.1473;;S_samoTČ^HR, M4 CEM
+samo TČ;vse;1;0.0161;23006.0;Kaplan–Meier
+samo TČ;vse;2;0.0277;18337.0;Kaplan–Meier
+samo TČ;vse;3;0.0363;14503.0;Kaplan–Meier
+samo TČ;vse;4;0.0448;11959.0;Kaplan–Meier
+samo TČ;vse;5;0.0525;10060.0;Kaplan–Meier
+samo TČ;vse;6;0.0594;8065.0;Kaplan–Meier
+samo TČ;vse;7;0.0653;5912.0;Kaplan–Meier
+samo TČ;vse;8;0.0714;4608.0;Kaplan–Meier
+samo TČ;vse;9;0.0776;3715.0;Kaplan–Meier
+samo TČ;vse;10;0.0823;2952.0;Kaplan–Meier
+samo TČ;vse;11;0.0892;2268.0;Kaplan–Meier
+samo TČ;vse;12;0.0927;1548.0;Kaplan–Meier
+samo TČ;vse;13;0.1;620.0;Kaplan–Meier
+samo TČ;vse;14;0.1057;93.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;15;0.1112;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;16;0.1168;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;17;0.1223;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;18;0.1278;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;19;0.1333;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;20;0.1387;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;21;0.1441;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;22;0.1494;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;23;0.1547;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;24;0.16;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;25;0.1653;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;26;0.1705;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;27;0.1757;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;28;0.1808;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;29;0.1859;0.0;ekstrapolacija (konstantna nevarnost)
+samo TČ;vse;30;0.191;0.0;ekstrapolacija (konstantna nevarnost)
+paket TČ+PV;vse;1;0.0093;4950.0;Kaplan–Meier
+paket TČ+PV;vse;2;0.018;3657.0;Kaplan–Meier
+paket TČ+PV;vse;3;0.0241;1906.0;Kaplan–Meier
+paket TČ+PV;vse;4;0.0352;1151.0;Kaplan–Meier
+paket TČ+PV;vse;5;0.042;704.0;Kaplan–Meier
+paket TČ+PV;vse;6;0.0501;356.0;Kaplan–Meier
+paket TČ+PV;vse;1;0.0104;;S_samoTČ^HR, M1
+paket TČ+PV;vse;2;0.018;;S_samoTČ^HR, M1
+paket TČ+PV;vse;3;0.0236;;S_samoTČ^HR, M1
+paket TČ+PV;vse;4;0.0291;;S_samoTČ^HR, M1
+paket TČ+PV;vse;5;0.0341;;S_samoTČ^HR, M1
+paket TČ+PV;vse;6;0.0387;;S_samoTČ^HR, M1
+paket TČ+PV;vse;7;0.0426;;S_samoTČ^HR, M1
+paket TČ+PV;vse;8;0.0466;;S_samoTČ^HR, M1
+paket TČ+PV;vse;9;0.0508;;S_samoTČ^HR, M1
+paket TČ+PV;vse;10;0.0539;;S_samoTČ^HR, M1
+paket TČ+PV;vse;11;0.0584;;S_samoTČ^HR, M1
+paket TČ+PV;vse;12;0.0608;;S_samoTČ^HR, M1
+paket TČ+PV;vse;13;0.0657;;S_samoTČ^HR, M1
+paket TČ+PV;vse;14;0.0695;;S_samoTČ^HR, M1
+paket TČ+PV;vse;15;0.0732;;S_samoTČ^HR, M1
+paket TČ+PV;vse;16;0.077;;S_samoTČ^HR, M1
+paket TČ+PV;vse;17;0.0807;;S_samoTČ^HR, M1
+paket TČ+PV;vse;18;0.0844;;S_samoTČ^HR, M1
+paket TČ+PV;vse;19;0.0881;;S_samoTČ^HR, M1
+paket TČ+PV;vse;20;0.0918;;S_samoTČ^HR, M1
+paket TČ+PV;vse;21;0.0954;;S_samoTČ^HR, M1
+paket TČ+PV;vse;22;0.0991;;S_samoTČ^HR, M1
+paket TČ+PV;vse;23;0.1027;;S_samoTČ^HR, M1
+paket TČ+PV;vse;24;0.1063;;S_samoTČ^HR, M1
+paket TČ+PV;vse;25;0.1099;;S_samoTČ^HR, M1
+paket TČ+PV;vse;26;0.1135;;S_samoTČ^HR, M1
+paket TČ+PV;vse;27;0.1171;;S_samoTČ^HR, M1
+paket TČ+PV;vse;28;0.1207;;S_samoTČ^HR, M1
+paket TČ+PV;vse;29;0.1242;;S_samoTČ^HR, M1
+paket TČ+PV;vse;30;0.1277;;S_samoTČ^HR, M1
+paket TČ+PV;vse;1;0.0124;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;2;0.0214;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;3;0.0281;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;4;0.0347;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;5;0.0407;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;6;0.0461;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;7;0.0507;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;8;0.0555;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;9;0.0604;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;10;0.0641;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;11;0.0695;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;12;0.0723;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;13;0.078;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;14;0.0825;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;15;0.0869;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;16;0.0913;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;17;0.0957;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;18;0.1001;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;19;0.1044;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;20;0.1087;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;21;0.113;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;22;0.1173;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;23;0.1216;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;24;0.1258;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;25;0.13;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;26;0.1342;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;27;0.1384;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;28;0.1425;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;29;0.1467;;S_samoTČ^HR, M4 CEM
+paket TČ+PV;vse;30;0.1508;;S_samoTČ^HR, M4 CEM

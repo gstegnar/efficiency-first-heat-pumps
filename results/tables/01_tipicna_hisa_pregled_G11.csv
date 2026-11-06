@@ -1,0 +1,43 @@
+﻿razred;Q1;Q1;Q2;Q2
+populacija;TČ brez ovoja;paket TČ+PV brez ovoja;TČ brez ovoja;paket TČ+PV brez ovoja
+kazalnik;;;;
+št. stavb;15341;2751;14636;3218
+A_ogr P25;71.3;80.4;78.1;80.8
+A_ogr mediana;96.9;106.2;100.1;102.4
+A_ogr P75;126.5;132.9;130.0;131.9
+TČ moč P25;8.0;10.0;9.0;10.0
+TČ moč mediana;11.0;12.0;11.0;12.0
+TČ moč P75;13.0;14.0;13.9;14.0
+TČ specifična moč mediana;112.0;112.0;110.0;114.0
+PV P25;11.2;11.2;11.1;11.1
+PV mediana;12.4;12.4;12.0;12.0
+PV P75;13.8;13.8;13.8;13.7
+delež s PV;22.1;100.0;28.2;100.0
+delež PV ≥ 11 kWp;81.8;82.4;80.1;81.0
+Qh,nd ob vgradnji mediana;151.0;151.0;94.6;94.6
+Qh,nd ob vgradnji P25–P75;146–155;146–155;95–95;95–95
+delež Qh,nd iz EI;3.9;1.6;2.8;1.7
+obdobje 1 (≤1945);24.3;19.9;0.2;0.0
+obdobje 2 (1946–1970);36.0;36.5;0.4;0.4
+obdobje 3 (1971–1980);38.5;43.3;0.5;0.3
+obdobje 4 (1981–2002);0.9;0.2;98.5;99.0
+obdobje 5 (2003–2008);0.0;;0.2;0.2
+obdobje 6 (2009–2022);0.1;0.0;0.1;0.1
+obdobje 7 (2023–2025);0.0;0.0;0.0;
+leto gradnje mediana;1967.0;1969.0;1991.0;1991.0
+tip TČ tczv;93.1;91.6;92.6;91.9
+tip TČ tczemlja;3.7;5.1;4.4;4.9
+tip TČ tcvv;3.2;3.3;3.0;3.2
+nadomeščeno: ELKO;51.0;49.6;54.1;50.9
+nadomeščeno: biomasa;37.2;36.1;34.0;36.9
+nadomeščeno: plin;8.9;11.7;9.5;9.9
+nadomeščeno: elektrika;1.5;1.1;1.2;1.0
+nadomeščeno: premog;0.6;0.6;0.4;0.4
+nadomeščeno: poleg_obstojece;0.8;1.0;0.8;0.8
+delež z znano kodo nadomeščenega;80.2;92.5;79.3;94.3
+delež s prezračevanjem;7.4;8.0;6.4;7.1
+leto vgradnje TČ mediana;2022.0;2023.0;2022.0;2023.0
+toplota Q_heat mediana;18327.0;19931.0;11144.0;11381.0
+SCOP realni mediana;2.4;2.4;2.8;2.8
+E_el TČ realni mediana;7535.0;8157.0;3930.0;4017.0
+lock-in dosegljivi mediana;4925.0;5334.0;1359.0;1389.0

@@ -1,0 +1,159 @@
+﻿razred;populacija;kazalnik;vrednost;enota;n;opomba
+Q1;TČ brez ovoja;št. stavb;15341;št.;;
+Q1;TČ brez ovoja;A_ogr P25;71.3;m²;15326.0;brez imputirane površine
+Q1;TČ brez ovoja;A_ogr mediana;96.9;m²;15326.0;brez imputirane površine
+Q1;TČ brez ovoja;A_ogr P75;126.5;m²;15326.0;brez imputirane površine
+Q1;TČ brez ovoja;TČ moč P25;8.0;kW;13208.0;brez imputirane moči
+Q1;TČ brez ovoja;TČ moč mediana;11.0;kW;13208.0;brez imputirane moči
+Q1;TČ brez ovoja;TČ moč P75;13.0;kW;13208.0;brez imputirane moči
+Q1;TČ brez ovoja;TČ specifična moč mediana;112.0;W/m²;13193.0;oba podatka neimputirana
+Q1;TČ brez ovoja;PV P25;11.2;kWp;3397.0;stavbe s PV
+Q1;TČ brez ovoja;PV mediana;12.4;kWp;3397.0;stavbe s PV
+Q1;TČ brez ovoja;PV P75;13.8;kWp;3397.0;stavbe s PV
+Q1;TČ brez ovoja;delež s PV;22.1;%;;
+Q1;TČ brez ovoja;delež PV ≥ 11 kWp;81.8;%;;med stavbami s PV
+Q1;TČ brez ovoja;Qh,nd ob vgradnji mediana;151.0;kWh/m²a;;kalibrirano (06) ali rEI
+Q1;TČ brez ovoja;Qh,nd ob vgradnji P25–P75;146–155;kWh/m²a;;
+Q1;TČ brez ovoja;delež Qh,nd iz EI;3.9;%;;
+Q1;TČ brez ovoja;obdobje 1 (≤1945);24.3;%;;
+Q1;TČ brez ovoja;obdobje 2 (1946–1970);36.0;%;;
+Q1;TČ brez ovoja;obdobje 3 (1971–1980);38.5;%;;
+Q1;TČ brez ovoja;obdobje 4 (1981–2002);0.9;%;;
+Q1;TČ brez ovoja;obdobje 5 (2003–2008);0.0;%;;
+Q1;TČ brez ovoja;obdobje 6 (2009–2022);0.1;%;;
+Q1;TČ brez ovoja;obdobje 7 (2023–2025);0.0;%;;
+Q1;TČ brez ovoja;leto gradnje mediana;1967.0;leto;;
+Q1;TČ brez ovoja;tip TČ tczv;93.1;%;;
+Q1;TČ brez ovoja;tip TČ tczemlja;3.7;%;;
+Q1;TČ brez ovoja;tip TČ tcvv;3.2;%;;
+Q1;TČ brez ovoja;nadomeščeno: ELKO;51.0;%;12309.0;med znanimi kodami (uradni šifrant)
+Q1;TČ brez ovoja;nadomeščeno: biomasa;37.2;%;12309.0;med znanimi kodami (uradni šifrant)
+Q1;TČ brez ovoja;nadomeščeno: plin;8.9;%;12309.0;med znanimi kodami (uradni šifrant)
+Q1;TČ brez ovoja;nadomeščeno: elektrika;1.5;%;12309.0;med znanimi kodami (uradni šifrant)
+Q1;TČ brez ovoja;nadomeščeno: premog;0.6;%;12309.0;med znanimi kodami (uradni šifrant)
+Q1;TČ brez ovoja;nadomeščeno: poleg_obstojece;0.8;%;12309.0;med znanimi kodami (uradni šifrant)
+Q1;TČ brez ovoja;delež z znano kodo nadomeščenega;80.2;%;;
+Q1;TČ brez ovoja;delež s prezračevanjem;7.4;%;;
+Q1;TČ brez ovoja;leto vgradnje TČ mediana;2022.0;leto;;
+Q1;TČ brez ovoja;toplota Q_heat mediana;18327.0;kWh/a;;analiza, mesečni pristop
+Q1;TČ brez ovoja;SCOP realni mediana;2.4;–;;analiza §5
+Q1;TČ brez ovoja;E_el TČ realni mediana;7535.0;kWh/a;;analiza
+Q1;TČ brez ovoja;lock-in dosegljivi mediana;4925.0;kWh/a;;analiza
+Q1;paket TČ+PV brez ovoja;št. stavb;2751;št.;;
+Q1;paket TČ+PV brez ovoja;A_ogr P25;80.4;m²;2750.0;brez imputirane površine
+Q1;paket TČ+PV brez ovoja;A_ogr mediana;106.2;m²;2750.0;brez imputirane površine
+Q1;paket TČ+PV brez ovoja;A_ogr P75;132.9;m²;2750.0;brez imputirane površine
+Q1;paket TČ+PV brez ovoja;TČ moč P25;10.0;kW;2172.0;brez imputirane moči
+Q1;paket TČ+PV brez ovoja;TČ moč mediana;12.0;kW;2172.0;brez imputirane moči
+Q1;paket TČ+PV brez ovoja;TČ moč P75;14.0;kW;2172.0;brez imputirane moči
+Q1;paket TČ+PV brez ovoja;TČ specifična moč mediana;112.0;W/m²;2171.0;oba podatka neimputirana
+Q1;paket TČ+PV brez ovoja;PV P25;11.2;kWp;2751.0;stavbe s PV
+Q1;paket TČ+PV brez ovoja;PV mediana;12.4;kWp;2751.0;stavbe s PV
+Q1;paket TČ+PV brez ovoja;PV P75;13.8;kWp;2751.0;stavbe s PV
+Q1;paket TČ+PV brez ovoja;delež s PV;100.0;%;;
+Q1;paket TČ+PV brez ovoja;delež PV ≥ 11 kWp;82.4;%;;med stavbami s PV
+Q1;paket TČ+PV brez ovoja;Qh,nd ob vgradnji mediana;151.0;kWh/m²a;;kalibrirano (06) ali rEI
+Q1;paket TČ+PV brez ovoja;Qh,nd ob vgradnji P25–P75;146–155;kWh/m²a;;
+Q1;paket TČ+PV brez ovoja;delež Qh,nd iz EI;1.6;%;;
+Q1;paket TČ+PV brez ovoja;obdobje 1 (≤1945);19.9;%;;
+Q1;paket TČ+PV brez ovoja;obdobje 2 (1946–1970);36.5;%;;
+Q1;paket TČ+PV brez ovoja;obdobje 3 (1971–1980);43.3;%;;
+Q1;paket TČ+PV brez ovoja;obdobje 4 (1981–2002);0.2;%;;
+Q1;paket TČ+PV brez ovoja;obdobje 6 (2009–2022);0.0;%;;
+Q1;paket TČ+PV brez ovoja;obdobje 7 (2023–2025);0.0;%;;
+Q1;paket TČ+PV brez ovoja;leto gradnje mediana;1969.0;leto;;
+Q1;paket TČ+PV brez ovoja;tip TČ tczv;91.6;%;;
+Q1;paket TČ+PV brez ovoja;tip TČ tczemlja;5.1;%;;
+Q1;paket TČ+PV brez ovoja;tip TČ tcvv;3.3;%;;
+Q1;paket TČ+PV brez ovoja;nadomeščeno: ELKO;49.6;%;2544.0;med znanimi kodami (uradni šifrant)
+Q1;paket TČ+PV brez ovoja;nadomeščeno: biomasa;36.1;%;2544.0;med znanimi kodami (uradni šifrant)
+Q1;paket TČ+PV brez ovoja;nadomeščeno: plin;11.7;%;2544.0;med znanimi kodami (uradni šifrant)
+Q1;paket TČ+PV brez ovoja;nadomeščeno: elektrika;1.1;%;2544.0;med znanimi kodami (uradni šifrant)
+Q1;paket TČ+PV brez ovoja;nadomeščeno: premog;0.6;%;2544.0;med znanimi kodami (uradni šifrant)
+Q1;paket TČ+PV brez ovoja;nadomeščeno: poleg_obstojece;1.0;%;2544.0;med znanimi kodami (uradni šifrant)
+Q1;paket TČ+PV brez ovoja;delež z znano kodo nadomeščenega;92.5;%;;
+Q1;paket TČ+PV brez ovoja;delež s prezračevanjem;8.0;%;;
+Q1;paket TČ+PV brez ovoja;leto vgradnje TČ mediana;2023.0;leto;;
+Q1;paket TČ+PV brez ovoja;toplota Q_heat mediana;19931.0;kWh/a;;analiza, mesečni pristop
+Q1;paket TČ+PV brez ovoja;SCOP realni mediana;2.4;–;;analiza §5
+Q1;paket TČ+PV brez ovoja;E_el TČ realni mediana;8157.0;kWh/a;;analiza
+Q1;paket TČ+PV brez ovoja;lock-in dosegljivi mediana;5334.0;kWh/a;;analiza
+Q2;TČ brez ovoja;št. stavb;14636;št.;;
+Q2;TČ brez ovoja;A_ogr P25;78.1;m²;14621.0;brez imputirane površine
+Q2;TČ brez ovoja;A_ogr mediana;100.1;m²;14621.0;brez imputirane površine
+Q2;TČ brez ovoja;A_ogr P75;130.0;m²;14621.0;brez imputirane površine
+Q2;TČ brez ovoja;TČ moč P25;9.0;kW;12684.0;brez imputirane moči
+Q2;TČ brez ovoja;TČ moč mediana;11.0;kW;12684.0;brez imputirane moči
+Q2;TČ brez ovoja;TČ moč P75;13.9;kW;12684.0;brez imputirane moči
+Q2;TČ brez ovoja;TČ specifična moč mediana;110.0;W/m²;12674.0;oba podatka neimputirana
+Q2;TČ brez ovoja;PV P25;11.1;kWp;4124.0;stavbe s PV
+Q2;TČ brez ovoja;PV mediana;12.0;kWp;4124.0;stavbe s PV
+Q2;TČ brez ovoja;PV P75;13.8;kWp;4124.0;stavbe s PV
+Q2;TČ brez ovoja;delež s PV;28.2;%;;
+Q2;TČ brez ovoja;delež PV ≥ 11 kWp;80.1;%;;med stavbami s PV
+Q2;TČ brez ovoja;Qh,nd ob vgradnji mediana;94.6;kWh/m²a;;kalibrirano (06) ali rEI
+Q2;TČ brez ovoja;Qh,nd ob vgradnji P25–P75;95–95;kWh/m²a;;
+Q2;TČ brez ovoja;delež Qh,nd iz EI;2.8;%;;
+Q2;TČ brez ovoja;obdobje 1 (≤1945);0.2;%;;
+Q2;TČ brez ovoja;obdobje 2 (1946–1970);0.4;%;;
+Q2;TČ brez ovoja;obdobje 3 (1971–1980);0.5;%;;
+Q2;TČ brez ovoja;obdobje 4 (1981–2002);98.5;%;;
+Q2;TČ brez ovoja;obdobje 5 (2003–2008);0.2;%;;
+Q2;TČ brez ovoja;obdobje 6 (2009–2022);0.1;%;;
+Q2;TČ brez ovoja;obdobje 7 (2023–2025);0.0;%;;
+Q2;TČ brez ovoja;leto gradnje mediana;1991.0;leto;;
+Q2;TČ brez ovoja;tip TČ tczv;92.6;%;;
+Q2;TČ brez ovoja;tip TČ tczemlja;4.4;%;;
+Q2;TČ brez ovoja;tip TČ tcvv;3.0;%;;
+Q2;TČ brez ovoja;nadomeščeno: ELKO;54.1;%;11607.0;med znanimi kodami (uradni šifrant)
+Q2;TČ brez ovoja;nadomeščeno: biomasa;34.0;%;11607.0;med znanimi kodami (uradni šifrant)
+Q2;TČ brez ovoja;nadomeščeno: plin;9.5;%;11607.0;med znanimi kodami (uradni šifrant)
+Q2;TČ brez ovoja;nadomeščeno: elektrika;1.2;%;11607.0;med znanimi kodami (uradni šifrant)
+Q2;TČ brez ovoja;nadomeščeno: premog;0.4;%;11607.0;med znanimi kodami (uradni šifrant)
+Q2;TČ brez ovoja;nadomeščeno: poleg_obstojece;0.8;%;11607.0;med znanimi kodami (uradni šifrant)
+Q2;TČ brez ovoja;delež z znano kodo nadomeščenega;79.3;%;;
+Q2;TČ brez ovoja;delež s prezračevanjem;6.4;%;;
+Q2;TČ brez ovoja;leto vgradnje TČ mediana;2022.0;leto;;
+Q2;TČ brez ovoja;toplota Q_heat mediana;11144.0;kWh/a;;analiza, mesečni pristop
+Q2;TČ brez ovoja;SCOP realni mediana;2.8;–;;analiza §5
+Q2;TČ brez ovoja;E_el TČ realni mediana;3930.0;kWh/a;;analiza
+Q2;TČ brez ovoja;lock-in dosegljivi mediana;1359.0;kWh/a;;analiza
+Q2;paket TČ+PV brez ovoja;št. stavb;3218;št.;;
+Q2;paket TČ+PV brez ovoja;A_ogr P25;80.8;m²;3216.0;brez imputirane površine
+Q2;paket TČ+PV brez ovoja;A_ogr mediana;102.4;m²;3216.0;brez imputirane površine
+Q2;paket TČ+PV brez ovoja;A_ogr P75;131.9;m²;3216.0;brez imputirane površine
+Q2;paket TČ+PV brez ovoja;TČ moč P25;10.0;kW;2589.0;brez imputirane moči
+Q2;paket TČ+PV brez ovoja;TČ moč mediana;12.0;kW;2589.0;brez imputirane moči
+Q2;paket TČ+PV brez ovoja;TČ moč P75;14.0;kW;2589.0;brez imputirane moči
+Q2;paket TČ+PV brez ovoja;TČ specifična moč mediana;114.0;W/m²;2587.0;oba podatka neimputirana
+Q2;paket TČ+PV brez ovoja;PV P25;11.1;kWp;3218.0;stavbe s PV
+Q2;paket TČ+PV brez ovoja;PV mediana;12.0;kWp;3218.0;stavbe s PV
+Q2;paket TČ+PV brez ovoja;PV P75;13.7;kWp;3218.0;stavbe s PV
+Q2;paket TČ+PV brez ovoja;delež s PV;100.0;%;;
+Q2;paket TČ+PV brez ovoja;delež PV ≥ 11 kWp;81.0;%;;med stavbami s PV
+Q2;paket TČ+PV brez ovoja;Qh,nd ob vgradnji mediana;94.6;kWh/m²a;;kalibrirano (06) ali rEI
+Q2;paket TČ+PV brez ovoja;Qh,nd ob vgradnji P25–P75;95–95;kWh/m²a;;
+Q2;paket TČ+PV brez ovoja;delež Qh,nd iz EI;1.7;%;;
+Q2;paket TČ+PV brez ovoja;obdobje 1 (≤1945);0.0;%;;
+Q2;paket TČ+PV brez ovoja;obdobje 2 (1946–1970);0.4;%;;
+Q2;paket TČ+PV brez ovoja;obdobje 3 (1971–1980);0.3;%;;
+Q2;paket TČ+PV brez ovoja;obdobje 4 (1981–2002);99.0;%;;
+Q2;paket TČ+PV brez ovoja;obdobje 5 (2003–2008);0.2;%;;
+Q2;paket TČ+PV brez ovoja;obdobje 6 (2009–2022);0.1;%;;
+Q2;paket TČ+PV brez ovoja;leto gradnje mediana;1991.0;leto;;
+Q2;paket TČ+PV brez ovoja;tip TČ tczv;91.9;%;;
+Q2;paket TČ+PV brez ovoja;tip TČ tczemlja;4.9;%;;
+Q2;paket TČ+PV brez ovoja;tip TČ tcvv;3.2;%;;
+Q2;paket TČ+PV brez ovoja;nadomeščeno: ELKO;50.9;%;3036.0;med znanimi kodami (uradni šifrant)
+Q2;paket TČ+PV brez ovoja;nadomeščeno: biomasa;36.9;%;3036.0;med znanimi kodami (uradni šifrant)
+Q2;paket TČ+PV brez ovoja;nadomeščeno: plin;9.9;%;3036.0;med znanimi kodami (uradni šifrant)
+Q2;paket TČ+PV brez ovoja;nadomeščeno: elektrika;1.0;%;3036.0;med znanimi kodami (uradni šifrant)
+Q2;paket TČ+PV brez ovoja;nadomeščeno: premog;0.4;%;3036.0;med znanimi kodami (uradni šifrant)
+Q2;paket TČ+PV brez ovoja;nadomeščeno: poleg_obstojece;0.8;%;3036.0;med znanimi kodami (uradni šifrant)
+Q2;paket TČ+PV brez ovoja;delež z znano kodo nadomeščenega;94.3;%;;
+Q2;paket TČ+PV brez ovoja;delež s prezračevanjem;7.1;%;;
+Q2;paket TČ+PV brez ovoja;leto vgradnje TČ mediana;2023.0;leto;;
+Q2;paket TČ+PV brez ovoja;toplota Q_heat mediana;11381.0;kWh/a;;analiza, mesečni pristop
+Q2;paket TČ+PV brez ovoja;SCOP realni mediana;2.8;–;;analiza §5
+Q2;paket TČ+PV brez ovoja;E_el TČ realni mediana;4017.0;kWh/a;;analiza
+Q2;paket TČ+PV brez ovoja;lock-in dosegljivi mediana;1389.0;kWh/a;;analiza

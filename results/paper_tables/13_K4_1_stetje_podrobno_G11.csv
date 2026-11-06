@@ -1,0 +1,32 @@
+﻿zaporedje;;hkrati;hkrati;ovoj_pozneje;ovoj_pozneje;ovoj_prej;ovoj_prej;skupaj
+PV;;brez PV;s PV;brez PV;s PV;brez PV;s PV;
+arhetip;sestava;;;;;;;
+A1;S1 okna;79;14;24;7;445;102;671
+A1;S2 streha+okna;41;8;10;3;204;57;323
+A1;S3 fasada+streha+okna (+tla) / celovita;90;19;25;12;291;90;527
+A1;fasada+okna;37;7;11;1;124;36;216
+A1;fasada+streha;42;13;10;5;106;34;210
+A1;samo fasada;55;13;21;5;206;68;368
+A1;samo streha;28;7;7;3;273;64;382
+A2;S1 okna;101;20;40;12;700;181;1054
+A2;S2 streha+okna;50;19;16;4;325;115;529
+A2;S3 fasada+streha+okna (+tla) / celovita;184;59;44;11;440;194;932
+A2;fasada+okna;114;25;20;8;293;114;574
+A2;fasada+streha;118;35;35;11;231;89;519
+A2;samo fasada;222;61;78;30;458;210;1059
+A2;samo streha;38;15;8;3;595;191;850
+A3;S1 okna;113;19;52;16;727;296;1223
+A3;S2 streha+okna;63;25;28;7;380;139;642
+A3;S3 fasada+streha+okna (+tla) / celovita;153;72;34;25;410;204;898
+A3;fasada+okna;106;43;32;18;261;167;627
+A3;fasada+streha;128;44;31;12;218;120;553
+A3;samo fasada;205;69;87;40;464;244;1109
+A3;samo streha;28;12;12;3;876;292;1223
+A4;S1 okna;256;83;145;68;730;338;1620
+A4;S2 streha+okna;99;38;59;27;286;141;650
+A4;S3 fasada+streha+okna (+tla) / celovita;151;62;50;21;302;171;757
+A4;fasada+okna;103;42;36;18;158;100;457
+A4;fasada+streha;87;54;23;14;199;128;505
+A4;samo fasada;234;92;76;36;456;250;1144
+A4;samo streha;78;36;35;15;954;426;1544
+A4;samo tla / drugo;2;0;0;0;0;0;2

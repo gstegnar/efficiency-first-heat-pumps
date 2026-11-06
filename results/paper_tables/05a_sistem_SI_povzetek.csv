@@ -1,0 +1,17 @@
+﻿kazalnik;vrednost
+odjem SI [TWh];12.534
+proizvodnja SI [TWh];13.453
+uvoz (fizični, vsota mej) [TWh];8.633
+maks. odjem [MW];2248.7
+prag 100 ur konice [MW];2124.2
+EF proizvodni SI, uteženo z odjemom [t/MWh];0.191
+EF potrošni SI, uteženo z odjemom [t/MWh];0.152
+EF potrošni SI, zima nov–feb [t/MWh];0.231
+EF potrošni SI, poletje jun–avg [t/MWh];0.033
+EF potrošni SI v urah konice [t/MWh];0.246
+ure konice: delež v nov–feb [%];99.0
+ure konice: najpogostejša ura dneva;8.0
+EF proizvodni AT povprečje [t/MWh];0.064
+EF proizvodni HR povprečje [t/MWh];0.129
+EF proizvodni IT povprečje [t/MWh];0.251
+EF proizvodni HU povprečje [t/MWh];0.148

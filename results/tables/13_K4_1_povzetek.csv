@@ -1,0 +1,10 @@
+﻿;vrednost
+eno-/dvostanovanjske s TČ (07);73472
+obdobje 1–4, brez novogradenj;56211
+  od tega obdobje imputirano;5349
+K4_1: z ukrepom na ovoju (obdobje 1–4);11363
+  od tega obdobje znano (neimputirano);11334
+"  brez ovoja (za primerjavo; obdobje 1–4)";44848
+kontrola: Q1+Q2 z ovojem (07: brez_ovoja = False);17150
+kontrola: Q1+Q2 z ovojem, ta opredelitev;8631
+K4_1 po razredu Qh,nd ob TČ: Q1 / Q2 / Q3 / Q4 / neznano;2688 / 5934 / 2607 / 105 / 29

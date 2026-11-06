@@ -1,0 +1,22 @@
+﻿kazalnik;vzorec;hiš;enota vsote;P3 − P1 vsota;P1r − P1 vsota (dimenzioniranje);P3 − P1r vsota (ovoj);P3 boljši od P1r [%];P3 = P1r [%];P3 slabši od P1r [%];hiš brez ukrepa na ovoju v P3 [%];P3 boljši od P1r med hišami z ukrepom na ovoju [%]
+posameznik R1 [kEUR];paket;8134;mio EUR;96.302;-89.046;185.348;0.0;0.0;100.0;0.0;0.0
+posameznik R1 [kEUR];paket pred 1981;4286;mio EUR;30.097;-57.311;87.408;0.0;0.0;100.0;0.0;0.0
+posameznik R1 [kEUR];paket 1981–2002;3848;mio EUR;66.205;-31.735;97.94;0.0;0.0;100.0;0.0;0.0
+posameznik R3 [kEUR];paket;8134;mio EUR;53.899;-31.0;84.899;17.15;0.0;82.85;0.0;17.15
+posameznik R3 [kEUR];paket pred 1981;4286;mio EUR;-0.19;-20.776;20.586;31.918;0.0;68.082;0.0;31.918
+posameznik R3 [kEUR];paket 1981–2002;3848;mio EUR;54.089;-10.224;64.313;0.702;0.0;99.298;0.0;0.702
+proračun R3 [kEUR];paket;8134;mio EUR;136.3;15.214;121.086;0.0;0.0;100.0;0.0;0.0
+proračun R3 [kEUR];paket pred 1981;4286;mio EUR;77.092;8.709;68.383;0.0;0.0;100.0;0.0;0.0
+proračun R3 [kEUR];paket 1981–2002;3848;mio EUR;59.208;6.505;52.703;0.0;0.0;100.0;0.0;0.0
+družbeni NPV [kEUR];paket;8134;mio EUR;79.245;-35.766;115.011;16.449;0.0;83.551;0.0;16.449
+družbeni NPV [kEUR];paket pred 1981;4286;mio EUR;3.256;-25.05;28.306;30.518;0.0;69.482;0.0;30.518
+družbeni NPV [kEUR];paket 1981–2002;3848;mio EUR;75.989;-10.717;86.706;0.78;0.0;99.22;0.0;0.78
+zimski uvoz [kWh/a];paket;8134;GWh/a;-37.352;-6.482;-30.87;100.0;0.0;0.0;0.0;100.0
+zimski uvoz [kWh/a];paket pred 1981;4286;GWh/a;-25.631;-4.921;-20.71;100.0;0.0;0.0;0.0;100.0
+zimski uvoz [kWh/a];paket 1981–2002;3848;GWh/a;-11.721;-1.562;-10.159;100.0;0.0;0.0;0.0;100.0
+obremenitev NN [kW];paket;8134;MW;-47.373;-10.144;-37.228;100.0;0.0;0.0;0.0;100.0
+obremenitev NN [kW];paket pred 1981;4286;MW;-27.895;-2.708;-25.187;100.0;0.0;0.0;0.0;100.0
+obremenitev NN [kW];paket 1981–2002;3848;MW;-19.478;-7.437;-12.041;100.0;0.0;0.0;0.0;100.0
+CO2e 30 let [t];paket;8134;kt;-166.38;-35.742;-130.637;87.669;0.012;12.319;0.0;87.669
+CO2e 30 let [t];paket pred 1981;4286;kt;-125.25;-22.436;-102.814;96.057;0.0;3.943;0.0;96.057
+CO2e 30 let [t];paket 1981–2002;3848;kt;-41.129;-13.306;-27.823;78.326;0.0;21.674;0.0;78.326

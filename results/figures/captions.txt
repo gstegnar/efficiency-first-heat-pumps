@@ -1,0 +1,35 @@
+Figure 1 (Fig0_framework): Figure 1: Study framework. The subsidy register provides the cohort for the lock-in analysis and four groups of actual houses, which are simulated with one hourly model over 30 years; the two approaches are applied to each house, and every result is reported from the household, state (public budget and society) and climate perspectives side by side.
+
+Figure 2 (Fig1_empirical_lock_in): Figure 2: Single- and two-family houses with a subsidised heat pump by heat-demand class and envelope/PV state, and the relative risk of envelope renovation within three years after a heat pump + PV package compared with a heat pump only.
+
+Figure 3 (Fig2_pathways): Figure 3: Pathways P0–P6 over the 30-year horizon: measures in year 0 and later years, and replacements.
+
+Figure 4 (Fig4_three_perspectives): Figure 4: Household, state and climate on a common axis P3 − P1 (median and P25–P75), with P3 − P2 as open markers and P3 − P1r as crosses, for the heat pump + PV package (8,134 houses), pre-1981 (4,286) and 1981–2002 (3,848) houses, base case; percentages give the share of package houses in which P3 is better.
+
+Figure 5 (Fig3_monthly_balance): Figure 5: Monthly electricity consumption, PV yield and grid import, P1 vs P3, representative 1971–1980 house.
+
+Figure 6 (Fig5_marginal_value_envelope): Figure 6: Value to the household of an envelope renovation in year 10, with and without PV already installed; stock medians, pre-1981 and 1981–2002 houses.
+
+Figure 7 (Fig_sizing_envelope): Figure 7: Decomposition of efficiency first minus renewables first (P3 − P1) into a sizing effect (P1r − P1, right-sized heat pump and PV without envelope) and an envelope effect (P3 − P1r): sums over the heat pump + PV package, pre-1981 and 1981–2002 houses, for households (R3), society, emissions and winter grid import, base case. Diamonds give the total; percentages the share of houses in which efficiency first is better than right-sized renewables first.
+
+Figure 8 (Fig6_break_even): Figure 8: P3 − P1 against heat demand before renovation for households, the state and the climate, archetypes A1–A4; the curves bend at the boundaries of the ladder of envelope states.
+
+Figure 9 (Fig7_tornado_monte_carlo): Figure 9: Tornado diagrams for pre-1981 and 1981–2002 houses and Monte Carlo share of houses in which efficiency first is better.
+
+Figure 10 (Fig8_population): Figure 10: Cost of lock-in in the existing stock of 39,776 houses (as built, right-sized, threshold rule, efficiency first) and the flow of new installations under four scenarios from 2028 (continuation, measure A, right-sizing only, threshold rule), base case.
+
+Figure 11 (Fig10_pv_without_hp): Figure 11: Houses with PV but no heat pump (9,486): (a) expected heat-pump uptake within 3, 5 and 10 years by construction period (Kaplan–Meier); (b) share of houses in which envelope first with a smaller heat pump (F3) beats the heat pump as installed in practice (F1), by perspective; ‘actual tariff’ is annual net metering for the life of the PV. Base case.
+
+Figure 12 (Fig23_break_even_umestitev): Figure 12: Empirical break-even by heat need at heat-pump installation: median P3 − P1 per 20 kWh/m²a bin (at least 30 houses) for households (R3), society and the climate, heat pump + PV package, under the base case, the base case with a lowered original state for A1 and A2, and the lower bound (placement by the register); solid lines pre-1981, dashed lines 1981–2002 houses. Vertical lines mark 90 and 180 kWh/m²a.
+
+Figure S1 (Fig_k2_slap_drzava): Figure S1: State perspective, P1 − P3 for the heat pump + PV package: public budget and social cost–benefit analysis by item.
+
+Figure S2 (Fig_k2_razclenitev): Figure S2: Shapley decomposition of the winter-import and system-peak difference P1 − P3 into envelope, COP and PV size.
+
+Figure S3 (Fig_k2_lockin): Figure S3: Cumulative probability of envelope renovation after a heat pump only vs a heat pump + PV.
+
+Figure S4 (FigS4_archetype_vs_houses): Figure S4: Distribution of P3 − P1 over the actual houses (L3) for households (R3) and society, base case, pre-1981 and 1981–2002, with the medians of the simplified descriptions L0–L2 and the share of houses they misclassify.
+
+Figure S5 (FigS5_PV_net_metering): Figure S5: Subsidised PV on annual net metering in single- and two-family houses (Eko sklad register): (a) new installations per year, 2017–2024, by construction period, with the share of houses built before 1981 above the bars; (b) houses with subsidised PV by construction period and state at the end of 2025 (envelope measure from the subsidy register or the cadastre at any time).
+
+Figure S6 (Fig9_comparison_group): Figure S6: Houses that renovated the envelope before, with or after the heat pump: (a) envelope state by recorded measures, compared with matched locked-in houses placed on the ladder by heat demand; (b) winter grid import, low-voltage grid load and 30-year CO₂e per house, locked-in = 100.

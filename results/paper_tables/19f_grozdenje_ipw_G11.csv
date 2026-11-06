@@ -1,0 +1,4 @@
+﻿model;HR;IZ spodaj;IZ zgoraj;p;grozdov;uteži min / mediana / maks;AUC logit
+M1, robustne SE grozdene po občini;0.6448;0.4918;0.8454;0.0015;213.0;;
+Cox s PV samo (Breslow, strata leto TČ), neutežen — kontrola;0.8268;0.6913;0.9888;0.0372;;;
+IPW: stabilizirane uteži P(PV kadarkoli), odrezane 1./99. p., Cox s PV samo, robustne SE po stavbi;0.6959;0.5776;0.8384;0.0001;;0.36 / 0.95 / 2.29;0.708

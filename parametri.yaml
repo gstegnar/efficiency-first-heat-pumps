@@ -1,0 +1,556 @@
+# Članek »URE najprej« — ena resnica za parametre (CLAUDE.md §12).
+# Vsaka vrednost: vrednost + vir + datum. Kjer vira ni: PREVERI (ne gre v članek).
+# Relativne poti so glede na to mapo (Clanek URE prej/).
+
+poti:
+  analiza: "../Interno/2026 analiza"                     # empirični del v3 (22. 9. 2026), samo branje
+  ei_energenti: "<set local path>"   # krog 4 (K4_2): ista izdaja kot analiza v3 (mapa preimenovana)
+  hecm: "<set local path>"
+  # CLAUDE.md navaja D:/Users/gaspers/... — na tem računalniku (9. 10. 2026) je HECM na C:/Users/Gašper/...
+  hecm_python: "<set local path>"
+  hecm_root: "<set local path>"               # {root} v hecm/configs/defaults.yaml
+  hecm_cache: "<set local path>"
+  epw: "<set local path>"
+  # Eko sklad EUR/m2: trajna lokacija od 2. 10. 2026; kopija v GreenRenoV8 je starejša (glej 00_inventar.md)
+  eko_eur_m2: "<set local path>"
+  eko_eur_m2_kopija: "<set local path>"
+
+hecm:
+  # kodiranje scenarijev SI: hecm/configs/SI.yaml (»00 -> EPC class 0 (un-renovated), 10 -> A1 ... 90 -> G«);
+  # empirično potrjeno v 00_inventar.py (monotonost Qh,nd in U-vrednosti)
+  razredi_scenarijev: {"00": "izhodišče", "10": "A1", "20": "A2", "30": "B1", "40": "B2",
+                       "50": "C", "60": "D", "70": "E", "80": "F", "90": "G"}
+  arhetip_Q1: "SI-SFH-1966-1981"    # CLAUDE.md §3.2 (obdobje 1971–80)
+  arhetip_Q2: "SI-SFH-1982-2008"    # CLAUDE.md §3.2 (obdobje 1981–2002)
+
+tipicna_hisa:
+  # Populacija za tipično hišo (korak 01). Definicije iz analize v3 (07_kohorte.py):
+  #   Qr = Qhnd_razred ob vgradnji TČ (meje common.QHND_MEJE), z neznanim obdobjem -> »neznano« (izločeno)
+  #   brez_ovoja = stopnja_ovoja_komb == 0 (nikoli noben ukrep na ovoju, Eko ∪ GURS)
+  #   paket = paket_osnovni (TČ + PV ±3 leta)
+  razredi: ["Q1", "Q2"]
+  pogoj_ovoja: "brez_ovoja"
+  # krog 13 (Gašper 22. 10. 2026): prenova v GURS pred 2010 ni ukrep URE — brez_ovoja, stopnja ob vgradnji, razred Qr in stopnja izkaznic (01_rEI_vzorec)
+  # s pragom GURS ≥ 2010 (analiza v3: ≥ 2003; +8.303 hiš v Q1+Q2 brez ovoja). Velja tudi v K2_4 (kohorta), K4_1, K4_2, 03 (vzorčenje izkaznic).
+  gurs_min_leto: 2010
+  # za mediane izloči imputirane vrednosti (enako kot 09_dimenzioniranje.py)
+  izloci_imputirano_A: true
+  izloci_imputirano_tc_kW: true
+  # novi primeri letno: povprečje let vgradnje TČ. 2025 ni zaključeno v podatkih (4.257 proti 8.797 v 2024),
+  # zato samo 2023–2024. CLAUDE.md »≈ 8.500 novih na leto« = vse TČ v Q1+Q2 (ne samo brez ovoja); 01_novi_letno.csv
+  leta_novih: [2023, 2024]
+
+# ---------------------------------------------------------------- fond (odločitev Gašper 9. 10. 2026)
+# Dvoravenski pristop: (A) reprezentativne hiše po arhetipu za mehanizem in slike; (B) urni model za vsako
+# stavbo fonda. Fond = vse eno-/dvostanovanjske stavbe s TČ v Q1+Q2 brez ukrepa na ovoju (29.977).
+fond:
+  razredi: ["Q1", "Q2"]
+  pogoj_ovoja: "brez_ovoja"
+  # krog 13 (Gašper 22. 10. 2026): prenova v GURS pred 2010 ni ukrep URE — brez_ovoja, stopnja ob vgradnji, razred Qr in stopnja izkaznic (01_rEI_vzorec)
+  # s pragom GURS ≥ 2010 (analiza v3: ≥ 2003; +8.303 hiš v Q1+Q2 brez ovoja). Velja tudi v K2_4 (kohorta), K4_1, K4_2, 03 (vzorčenje izkaznic).
+  gurs_min_leto: 2010
+  # obdobje gradnje (common.OBDOBJE_OPIS) -> arhetip modela; 5–7 jih je v fondu < 1 % (Qh,nd iz EI) -> A4
+  arhetip_po_obdobju: {1: "A1", 2: "A2", 3: "A3", 4: "A4", 5: "A4", 6: "A4", 7: "A4"}
+  arhetip_opis: {"A1": "≤1945", "A2": "1946–1970", "A3": "1971–1980", "A4": "1981–2002"}
+  # stratumi za korak 03b (optimizacija na stratumih): arhetip × razred površine × razred PV
+  meje_A_m2: [85, 125]          # ≤85 · 85–125 · >125 (≈ terciili A_ogr fonda)
+  meje_PV_kWp: [0, 11]          # brez PV · ≤11 · >11 kWp
+  # Qh,nd posamezne stavbe: lastna rEI, sicer vzorec iz porazdelitve rEI celice (obdobje × stopnja 0 × eno_dvo)
+  # — vzorec B iz 06_kalibracija.py (vse veljavne rEI 5–400 na stavbah s TČ, stopnja ovoja ob letu izdaje EI)
+  n_min_celica: 50
+
+# ---------------------------------------------------------------- HECM vhodi CLK-* (korak 02)
+# Vir geometrije in izhodiščnih U: TABULA SI, Šijanec Zavrl, Rakušček, Stegnar (2014): Tipologija stavb —
+# energetska učinkovitost in tipične stavbe v Sloveniji, 2. izd., GI ZRMK
+# (episcope.eu/fileadmin/tabula/public/docs/brochure/SI_TABULA_TypologyBrochure_ZRMK.pdf), listi SI.N.SFH.01–04.
+# U-vrednosti so prebrane s pdftotext (postavitev stolpcev) — PREVERI vrstni red streha/stena/tla/okna.
+# HECM SI SFH arhetipi imajo vsi geometrijo SI.N.SFH.01 (151 m², streha in tla 226 m²) — zato je ne uporabljamo.
+hecm_vhodi:
+  predloga: "Inputs/SI/33-SI-SFH-1966-1981-EXB-00-90-02.txt"   # samo za nespremenjena polja (urniki, notranji dobitki, h-koeficienti)
+  # višina etaže: HECM SI config ima airflow.storey_height_source = fixed, 2.8 m (building_height iz vhoda se ne uporabi)
+  visina_etaze_m: 2.8
+  # HECM SI config ima airflow.min_total_ach = 0.5 na EFEKTIVNI izmenjavi (po rekuperaciji) -> rekuperacija nima učinka.
+  # Za CLK-* preglasimo na 0 (neprenovljene hiše imajo 0,5 + infiltracija, vpliva samo na GLOB).
+  cfg_preglasitve: {airflow: {min_total_ach: 0.0}}
+  geometrija:   # m²: ogrevana površina, streha/strop, stena (neto), tla, okna (okna enakomerno po 4 orientacijah kot v HECM)
+    TAB01: {vir: "SI.N.SFH.01 (≤1945)", A: 151.0, streha: 226.0, stena: 147.0, tla: 226.0, okna: 75.0}      # samo referenca
+    TAB02: {vir: "SI.N.SFH.02 (1946–1970)", A: 380.0, streha: 126.5, stena: 207.1, tla: 98.6, okna: 58.4}   # samo referenca
+    TAB03: {vir: "SI.N.SFH.03 (1971–1980)", A: 181.0, streha: 91.7, stena: 149.0, tla: 89.2, okna: 22.8}
+    TAB04: {vir: "SI.N.SFH.04 (1981–2002)", A: 113.2, streha: 133.2, stena: 92.1, tla: 113.2, okna: 22.3}
+    # krog 11 (Gašper 21. 10. 2026, B + odločitev 1): geometrija iz projektov Eko sklada — mediane količine ukrepa po obdobju (pred 1981 / 1981–2002) na m²
+    # A_ogr modela (0,85 × GURS A_stan; tabele/21a), preračunane na ogrevano površino G11 = A_ogr modela × povrsina_G11_faktor (kondicionirana površina
+    # izkaznic / A_ogr modela, mediana po obdobju; tabele/21b). A = 100 m² (razmerja); okna po 4 orientacijah kot doslej. Vklop: GEOM=G11.
+    G11_A1: {vir: "Eko sklad naložbe 2023–2025 / 1.25", A: 100.0, stena: 200.0, streha: 87.8, okna: 13.8, tla: 56.2}
+    G11_A2: {vir: "Eko sklad naložbe 2023–2025 / 1.41", A: 100.0, stena: 177.3, streha: 77.9, okna: 12.3, tla: 49.9}
+    G11_A3: {vir: "Eko sklad naložbe 2023–2025 / 1.52", A: 100.0, stena: 164.5, streha: 72.2, okna: 11.4, tla: 46.2}
+    G11_A4: {vir: "Eko sklad naložbe 2023–2025 / 1.54", A: 100.0, stena: 160.0, streha: 69.9, okna: 11.7, tla: 57.1}
+    # krog 13 (Gašper 22. 10. 2026): ENOTNA geometrija za izgube in strošek. Toplotni ovoj ogrevanega dela iz GURS (K13_toplotni_ovoj.py --korak geo,
+    # tabele/22a): F = BRUTO_TLOR / ET, n_ogr = A_G11 / (0,85 F) ∈ [1, ET], stena = 4√F × 2,8 × n_ogr − okna, streha = tla = F; podvzorec z GURS tlorisom
+    # (4–8 % fonda) je večji od fonda → vrednosti na m² pri MEDIANI fonda iz log-log regresije na A (stena ~ A^−0,3, streha ~ A^−0,5). Okna kot G11 (Eko).
+    # U izvirni GreenRenoV8 brez faktorja. Prva različica (podvzorec brez popravka, strošek po G11) = G13a (22a_*_G13a).
+    G13_A1: {vir: "GURS toplotni ovoj pri mediani fonda (K13 geo, 22a)", A: 100.0, stena: 128.4, streha: 83.6, okna: 13.8, tla: 83.6}
+    G13_A2: {vir: "GURS toplotni ovoj pri mediani fonda (K13 geo, 22a)", A: 100.0, stena: 127.7, streha: 66.5, okna: 12.3, tla: 66.5}
+    G13_A3: {vir: "GURS toplotni ovoj pri mediani fonda (K13 geo, 22a)", A: 100.0, stena: 122.4, streha: 60.5, okna: 11.4, tla: 60.5}
+    G13_A4: {vir: "GURS toplotni ovoj pri mediani fonda (K13 geo, 22a)", A: 100.0, stena: 122.2, streha: 63.5, okna: 11.7, tla: 63.5}
+    # strošek (izolirana površina) = toplotni ovoj × pokritost, izmerjena na isti hiši (Eko količina 2023–2025 / ovoj iz GURS; tabele/22e, n 44–170):
+    # stena 1,28 / 1,07 / 1,12 / 1,07, streha 1,16 / 0,96 / 0,88 / 1,00; tla in okna 1,0.
+    G13S_A1: {vir: "strošek: ovoj × pokritost Eko (stena 1.28, streha 1.16; 22e)", A: 100.0, stena: 164.9, streha: 97.1, okna: 13.8, tla: 83.6}
+    G13S_A2: {vir: "strošek: ovoj × pokritost Eko (stena 1.07, streha 0.96; 22e)", A: 100.0, stena: 136.9, streha: 64.2, okna: 12.3, tla: 66.5}
+    G13S_A3: {vir: "strošek: ovoj × pokritost Eko (stena 1.12, streha 0.88; 22e)", A: 100.0, stena: 137.3, streha: 53.0, okna: 11.4, tla: 60.5}
+    G13S_A4: {vir: "strošek: ovoj × pokritost Eko (stena 1.07, streha 1.00; 22e)", A: 100.0, stena: 130.4, streha: 63.5, okna: 11.7, tla: 63.5}
+  geometrija_G11: {A1: G11_A1, A2: G11_A2, A3: G11_A3, A4: G11_A4}   # krog 11, z GEOM=G11
+  geometrija_G13: {A1: G13_A1, A2: G13_A2, A3: G13_A3, A4: G13_A4}   # krog 13, z GEOM=G13: izgube (02)
+  geometrija_G13_strosek: {A1: G13S_A1, A2: G13S_A2, A3: G13S_A3, A4: G13S_A4}   # krog 13, z GEOM=G13: strošek in vgrajeni CO2 (04, 06)
+  # krog 11 (odločitev 1): ogrevana površina hiše = A_ogr × faktor po obdobju (kondicionirana površina izkaznic / (0,85 × A_stan), mediana 6.735 rEI);
+  # Qh,nd izkaznice se uporabi, kot je (na kondicionirano površino). Velja le z GEOM=G11 (03_urni_model).
+  povrsina_G11_faktor: {1: 1.25, 2: 1.41, 3: 1.52, 4: 1.54}
+  # krog 11 (odločitev 2): ciljna prenova po U-vrednostih (krog3.cilj), brez zaostritve g in brez pravila ≤ 50 kWh/m²a (z GEOM=G11: K3_PAR celovita_max_Qhnd 1e9)
+  arhetipi:
+    # A1–A3: kompaktna 2-etažna geometrija SI.N.SFH.03 (velikost blizu fonda); primera SI.N.SFH.01 (pritlična, 151 m²)
+    # in .02 (380 m²) nista reprezentativna za fond z mediano ~100 m². U = list TABULA istega obdobja.
+    A1: {geometrija: TAB03, U: {streha: 2.70, stena: 1.50, tla: 1.17, okna: 2.20}, n50: 8.0, U_vir: "SI.N.SFH.01", cilj_Qhnd: 151.0, cilj_FSO: 76.4}
+    A2: {geometrija: TAB03, U: {streha: 0.77, stena: 1.50, tla: 1.03, okna: 2.80}, n50: 6.0, U_vir: "SI.N.SFH.02", cilj_Qhnd: 155.0, cilj_FSO: 78.5}
+    A3: {geometrija: TAB03, U: {streha: 0.77, stena: 0.70, tla: 0.75, okna: 2.80}, n50: 5.0, U_vir: "SI.N.SFH.03", cilj_Qhnd: 146.3, cilj_FSO: 65.8}
+    A4: {geometrija: TAB04, U: {streha: 0.29, stena: 0.52, tla: 0.54, okna: 1.60}, n50: 3.5, U_vir: "SI.N.SFH.04", cilj_Qhnd: 94.6, cilj_FSO: 69.8}
+  # n50: docs/izhodisca_ovoja_SI.xlsx (predlog po arhetipu HECM; 1896-1920 → A1, 1946-1965 → A2, 1966-1981 → A3, 1982-2008 → A4)
+  # cilj_Qhnd / cilj_FSO: 06_Qhnd_kalibrirano.csv, eno_dvo, stopnja 0 / stopnja 3
+  kalibracija:
+    # Ena neopazovana veličina: f_U = množitelj U neprenovljenih NEPROZORNIH elementov (stena, streha, tla).
+    # n50 sam ne zadošča (preizkus 9. 10.: A4 125 → 95 in A1 ~300 → 151 nedosegljivo z n50). f_U se NE uporablja
+    # na prenovljenih elementih (nova izolacija ima znan U).
+    parameter: f_U
+    meje: [0.2, 2.0]
+    toleranca_kWh_m2a: 2.0
+    max_iteracij: 8
+  lestvica:    # ovojne variante (CLAUDE.md §3.2); U novih elementov
+    F:    {stena: 0.25}
+    FS:   {stena: 0.25, streha: 0.18}
+    # FSO (krog 2, Gašper 12. 10. 2026): z zamenjavo oken se izboljša tudi zrakotesnost — n50 največ 4,0 h⁻¹ (prej nespremenjen
+    # n50 arhetipa: A1 8, A2 6, A3 5; A4 3,5 ostane). PREVERI vrednost; občutljivost 3,0 v točki 5.
+    FSO:  {stena: 0.25, streha: 0.18, okna: 1.0, n50_max: 4.0}
+    # GLOB (Gašper 9. 10. 2026): bodoči SI standard ZEB za prenovo — Qh,nd ≤ 25 kWh/m²a IN pogoj na primarni energiji (zeb spodaj).
+    # Izhodišče = FSO + izolacija tal + n50 1,5 + rekuperacija 0,8; če Qh,nd > 25, se U neprozornih elementov (stena, streha, tla)
+    # zaostrijo z enim faktorjem g ≤ 1, da Qh,nd = 25 (GLOB nikoli ohlapnejši od FSO).
+    GLOB: {stena: 0.25, streha: 0.18, tla: 0.30, okna: 1.0, n50: 1.5, rekuperacija: 0.8}
+  # ---------------------------------------------------------------- krog 3 (12. 10. 2026): lestvica stanj ovoja namesto kalibracije fU
+  krog3:
+    # S0 = izvirno stanje: U in n50 iz »GreenRenoV8 izhodišča ovoja SI« (<HECM>/docs/izhodisca_ovoja_SI.xlsx, list izhodisca, stolpci predlog_*;
+    # potrjeno_* v datoteki prazno), potrdil G. Stegnar 12. 10. 2026. Geometrija ostane TABULA (arhetipi.geometrija). Brez množitelja fU.
+    vir_S0: "GreenRenoV8 izhodišča ovoja SI, potrdil G. Stegnar 12. 10. 2026"
+    S0:
+      A1: {U: {stena: 1.6, tla: 1.2, streha: 1.6, okna: 3.5}, n50: 8.0, vrstica: SI-SFH-1896-1920-EXB}
+      A2: {U: {stena: 1.3, tla: 1.0, streha: 1.2, okna: 3.0}, n50: 6.0, vrstica: SI-SFH-1946-1965-EXB}
+      A3: {U: {stena: 1.0, tla: 0.9, streha: 0.9, okna: 2.8}, n50: 5.0, vrstica: SI-SFH-1966-1981-EXB}
+      A4: {U: {stena: 0.6, tla: 0.6, streha: 0.45, okna: 2.2}, n50: 3.5, vrstica: SI-SFH-1982-2008-EXB}
+    # občutljivost A1: povprečje 1896–1920 in 1921–1945 (HOT/SHO: 1,5 / 1,1 / 1,5 / 3,2 / n50 7)
+    S0_A1_obcutljivost: {U: {stena: 1.55, tla: 1.15, streha: 1.55, okna: 3.35}, n50: 7.5}
+    # krog 11 (Gašper 21. 10. 2026, »a za A1 in A2«): z geometrijo G11 je S0 A1 / A2 1,7 / 1,3 × P90 izkaznic → neprozorni U (stena, streha, tla) × f,
+    # da je S0 na sredini pasu P75–P90 izkaznic istega obdobja (A1 263, A2 242 kWh/m²a na kondicionirano površino); okna in n50 nespremenjeni.
+    # f A1 0,470, A2 0,653 (sekanta, K11; cache/02_lestvica_G11.log). Velja le z GEOM=G11; A3, A4 ostanejo GreenRenoV8.
+    S0_G11:
+      A1: {U: {stena: 0.752, tla: 0.564, streha: 0.752, okna: 3.5}, n50: 8.0}
+      A2: {U: {stena: 0.849, tla: 0.653, streha: 0.783, okna: 3.0}, n50: 6.0}
+    # krog 15 (Gašper 22. 10. 2026): G13 + umestitev B2; neprozorni U A1/A2 × razmerje izkaznica / S0 (P50) hiš fonda z lastno izkaznico pred TČ
+    # (tabele/23d_izkaznica_proti_S0.csv: A1 0,47, A2 0,64); okna in n50 izvirna. SAMO OBČUTLJIVOST (S0_FAKTOR=1): z umestitvijo B2 bi bila osnova dvojno štetje.
+    S0_G13:
+      A1: {U: {stena: 0.752, tla: 0.564, streha: 0.752, okna: 3.5}, n50: 8.0}
+      A2: {U: {stena: 0.832, tla: 0.640, streha: 0.768, okna: 3.0}, n50: 6.0}
+    # S1–S3 (Gašper 12. 10. 2026): S1 1–2 ukrepa URE ali OVE, S2 3 ukrepi, S3 celovita prenova ali ≥ 4 ukrepi. Fiziko določajo SAMO ukrepi URE;
+    # sestava po registru (Eko sklad ∪ GURS ≥ 2003, eno-/dvostanovanjske, obdobja 1–4; 02_lestvica_stanj.py): najpogostejša kombinacija URE
+    # S1 okna, S2 streha + okna, S3 fasada + streha + okna. Kakovost (Gašper 12. 10. 2026, 2. predlog): okna 1,3, streha 0,20, fasada 0,30; n50 S1/S2 ≤ 5, S3 ≤ 4.
+    stanja:
+      S1: {okna: 1.3, n50_max: 5.0}
+      S2: {streha: 0.20, okna: 1.3, n50_max: 5.0}
+      S3: {stena: 0.30, streha: 0.20, okna: 1.3, tla: 0.30, n50_max: 4.0}   # celovita: fasada + streha + okna + tla (Gašper 12. 10. 2026)
+    # celovita prenova (S3 in ciljna prenova iz katerega koli stanja) ima Qh,nd ≤ 50 kWh/m²a (Gašper 12. 10. 2026): če je model višji, se U prenovljenih
+    # neprozornih elementov (stena, streha, tla) zaostrijo z enim faktorjem g ≤ 1 (kot pri GLOB); izbran najvišji g iz mreže, ki doseže pogoj.
+    celovita_max_Qhnd: 50.0
+    celovita_g_mreza: [1.0, 0.95, 0.9, 0.85, 0.8, 0.75, 0.7, 0.65, 0.6, 0.55, 0.5]
+    # ciljna prenova »URE najprej« (Gašper 12. 10. 2026, izbira b): fasada + streha + okna + tla/strop kleti; iz stanja S_k le manjkajoči ukrepi
+    # po ciljnem U, izvedeni ostanejo; n50 ≤ 4 ob zamenjavi oken (sicer n50 stanja).
+    cilj: {stena: 0.25, streha: 0.18, okna: 1.0, tla: 0.30, n50_max: 4.0}
+    # prezračevanje (Gašper 12. 10. 2026): HECM vsem hišam vsili 0,5 h⁻¹ (typology.derive_ventilation) na bruto prostornino a_use × 2,8 m
+    # in prišteje infiltracijo n50/20 → 0,7–0,9 h⁻¹ (pri FSO ~40 % izgub). Krog 3: higienska izmenjava 0,3 h⁻¹ + n50/20 (pri n50 4 skupaj 0,5 h⁻¹),
+    # neto prostornina a_use × 2,5 m. Preglasitev le v tem projektu (GreenRenoV8 nespremenjen).
+    prezracevanje: {osnovna_ach_1_h: 0.3}
+    cfg_preglasitve: {airflow: {min_total_ach: 0.0, storey_height_default: 2.5}, typology: {derive_ventilation: false}}
+  glob_kalibracija: {cilj_Qhnd_max: 25.0, parameter: g_neprozorni, meje: [0.3, 1.0], toleranca_kWh_m2a: 1.0, max_iteracij: 8}
+  # os Qh,nd za Monte Carlo (korak 03): neprenovljena hiša z f_U × spodnji faktorji (oblika profila fizikalna)
+  os_Qhnd_faktorji_fU: [0.5, 0.75, 1.3, 1.7]
+  delavcev: 6
+
+# ---------------------------------------------------------------- ZEB (pogoj za GLOB, preveri se v koraku 03)
+# Vir: NPS 2050 v41 (pogl. 3, Preglednica 17 in 18; pogl. 2.2.4) in IJS-CEU Porocilo_primarni_razredi_v2 (tabela 1 in 4).
+# ZEB = meja razredov A|B na ravni SKUPNE primarne energije: 75 kWh/(m²·a) za enostanovanjsko hišo
+# (izhaja iz PURES 2021 / TSG-1-004:2022 sNES, sprejeto na MOPE kot izhodišče za ZEB; predlog v javni obravnavi).
+# Q_P = Σ(E_dovedena,i · f_P,tot,i) / A_kondicionirana. Faktorji PURES 2021, tabela 1.
+zeb:
+  Qhnd_max_kWh_m2a: 25.0               # Gašper, 9. 10. 2026 (pričakovani SI standard ZEB za prenovo)
+  EP_tot_max_SFH_kWh_m2a: 75.0         # NPS v41 Preglednica 17, A|B (ZEB), enostanovanjska hiša
+  meje_razredov_SFH_kWh_m2a: {A_B: 75, B_C: 166, C_D: 257, D_E: 347, E_F: 438, F_G: 529}   # NPS v41 Preglednica 17
+  f_P_tot:                             # PURES 2021, tabela 1 (Porocilo_primarni_razredi_v2, tabela 1)
+    elektrika: 2.5
+    ELKO: 1.1
+    plin: 1.1
+    premog: 1.1
+    lesna_biomasa: 1.2
+    toplota_okolice: 1.0               # okoliška toplota TČ šteje v SKUPNO primarno energijo (f = 1,0)
+    soncna: 1.0
+  # trajektorija f_P,tot elektrike (NPS v41 Preglednica 18, referenčna DU-OVE; 2045/2050 strokovna ocena NPS)
+  f_P_el_trajektorija_DU_OVE: {2025: 2.5, 2030: 2.11, 2035: 2.01, 2040: 1.86, 2045: 1.8, 2050: 1.7}
+  f_P_el_trajektorija_DU_JE:  {2025: 2.5, 2030: 2.11, 2035: 2.02, 2040: 2.36, 2045: 2.3, 2050: 2.25}
+  # obseg rab (EPBD Priloga I, stanovanjske): ogrevanje, topla voda, prezračevanje (+ pomožna energija); gospodinjski aparati ne.
+  # Konvencija (Gašper, 9. 10. 2026): kot v registru EI — Q_P,tot = dovedena energija × f_P,tot (elektrika 2,5); okoliška toplota TČ
+  # se NE prišteje in oddaja se NE odšteje. PURES 2022 (Priloga 1, Tabela 1; pisrs.si/api/datoteke/integracije/408384068)
+  # formalno daje toploti okolja f_P,tot = 1,0 in oddani elektriki −2,5 × k_exp (Tabela 13: 1,0 do 1. 1. 2026, 0,8 od 1. 1. 2026,
+  # 1,0 pri sistemih z baterijami) — oboje samo kot občutljivost.
+  # PV na stavbi zmanjša dovedeno elektriko z omrežja (samoporaba, urno), samoporaba se rabam pripiše sorazmerno urni rabi.
+  vkljuci_toploto_okolice: false
+  pv_oddaja_odsteta: false
+  k_exp: {brez_baterije: 0.8, z_baterijo: 1.0}    # PURES 2022 Tabela 13 (od 1. 1. 2026) — za občutljivost PE_z_oddajo
+
+# ---------------------------------------------------------------- urni energijski model (korak 03)
+urni_model:
+  seme: 20261009                     # Monte Carlo Qh,nd (ena realizacija za osnovni izračun; več v koraku 07)
+  rEI_percentili_meje: [5, 95]       # vzorec rEI celice obrezan na P5–P95 (skrajne vrednosti = verjetno napačen zapis/neevidentirana prenova)
+  # razvod/oddaja/regulacija ogrevanja: common.f_razvod (analiza v3, §5): obdobje 1–4 0,78–0,86; stopnja ovoja ≥ 2 -> 0,88
+  stopnja_po_varianti: {BREZ: 0, F: 1, FS: 2, FSO: 3, GLOB: 3}
+  brez_ovoja_prag_kWh_m2a: 5.0      # krog 3 (B3): če je Qh,nd hiše ≤ Qh,nd ciljne prenove + prag, P3 nima ukrepa na ovoju
+  tsv_izgube_faktor: 1.15            # PREVERI: hranilnik + razvod TSV (EN 15316-3/-5 red velikosti); Q_W iz HECM = potreba na pipi
+  kotli:                             # analiza v3, common.VIR (sezonski izkoristek); TSV pri V0a iz kotla, pri V0b električni bojler
+    ELKO: {eta: 0.82, gorivo: ELKO}
+    plin: {eta: 0.85, gorivo: plin}   # krog 3 (D1): 10 % paketa je prej imelo plin; izkoristek kot kalkulator NPS 2050 (povracilne_dobe.json) — PREVERI
+    biomasa: {eta: 0.85, gorivo: lesna_biomasa}
+    tsv_V0b_elektricni_bojler_eta: 0.95   # PREVERI
+  gospodinjstvo:
+    raba_kWh_a: 4000.0               # analiza v3 (common.GOSP_ENO); dvostanovanjska 2x
+    dvostanovanjska_faktor: 2.0
+    # Urni profil (Gašper 9. 10. 2026: SI tipičnega vzorca ni). Osnovno: BDEW H0 dinamiziran (demandlib 0.2.1, standardni profil
+    # gospodinjstva, agregat mnogih gospodinjstev — za vsote fonda in sistemske konice). Občutljivost: stohastični profili posameznih
+    # gospodinjstev (model CREST, richardsonpy 0.2.3; Richardson et al. 2010), brez električnih grelnih naprav, normirani na letno rabo.
+    # Kasneje, če bo na voljo: anonimizirani AMI podatki SI distributerja.
+    profil: H0                         # H0 | stoh | nadomestek_HECM
+    prazniki_SI_2023: ["2023-01-01", "2023-01-02", "2023-02-08", "2023-04-09", "2023-04-10", "2023-04-27", "2023-05-01",
+                       "2023-05-02", "2023-05-28", "2023-06-25", "2023-08-15", "2023-10-31", "2023-11-01", "2023-12-25", "2023-12-26"]
+    stoh_n_profilov: 100
+    # PREVERI (SURS): porazdelitev števila članov gospodinjstev v eno-/dvostanovanjskih hišah
+    stoh_clani_delezi: {1: 0.15, 2: 0.30, 3: 0.22, 4: 0.23, 5: 0.10}
+    # nadomestek (prvotni, samo za primerjavo)
+    sezonska_amplituda: 0.15
+    osnovna_raba_delez: 0.40
+  ev:                                  # občutljivost (Gašper 9. 10. 2026), ni v osnovnih variantah
+    raba_kWh_a: 2500.0                 # PREVERI: ~13.000 km/a × 0,175 kWh/km / 0,9 izkoristek polnjenja
+    moc_polnilnika_kW: 3.7             # PREVERI: enofazni 16 A; nepametno polnjenje
+    prihod_ura: 18                     # polnjenje ob prihodu domov, vsak dan enak dnevni obrok
+  tc:
+    # COP = eta · (T_dovod+273,15)/(T_dovod − T_zun) (hecm.heatpump.carnot_cop), eta iz nazivne točke A7/W35
+    COP_A7W35: 4.5                   # PREVERI: tipične zrak-voda naprave (CLAUDE.md §5); zemlja-voda v fondu 4 % (ni ločeno)
+    cop_min: 1.0
+    cop_max: 7.0
+    # krivulja dovoda (vremensko vodenje): projektna T_dovod pri −13 °C, linearno do T_dovod_min pri +15 °C
+    T_zun_projektna: -13.0
+    T_zun_brez_ogrevanja: 15.0
+    T_dovod_projektna: {BREZ: 55.0, F: 55.0, FS: 50.0, FSO: 45.0, GLOB: 35.0}   # CLAUDE.md §4.1 (55 / 45 / 35)
+    T_dovod_min: 30.0
+    T_dovod_TSV: 55.0                # hecm defaults sink_temp_dhw_C
+    # kapaciteta zrak-voda pada z T_zun: P(T) = P_nom · clip(1 + k·(T − 7), c_min, 1); P_nom pri A7
+    kapaciteta_k_na_K: 0.015         # PREVERI: ~79 % pri −7 °C, ~70 % pri −13 °C (EN 14825 podatki proizvajalcev)
+    kapaciteta_min: 0.5
+    T_zun_min_obratovanja: -20.0     # pod tem samo grelnik
+    # obratovanje: 'vzporedno' = TČ dela do T_min, grelnik krije le primanjkljaj moči (osnovno);
+    # 'hecm_bivalentno' = pod −7 °C TČ ugasne, vse krije grelnik (hecm.heatpump, CLAUDE.md §5.2) — občutljivost
+    nacin: vzporedno
+    T_bivalentna_hecm: -7.0
+    grelnik_eta: 1.0
+    # dimenzioniranje nove TČ (V4–V7): P99,9 urne potrebe (ogrevanje/f_razvod + povprečna TSV) / kapaciteta(−13 °C), navzgor na velikost
+    velikosti_kW: [4, 5, 6, 7, 8, 10, 12, 14, 16]
+  pv:
+    nagib: 30
+    azimut: 180                      # jug; občutljivost V-Z
+    sistemske_izgube: 0.14           # CLAUDE.md §5.3
+    gamma_pdc: -0.0037               # 1/K
+    temp_model: close_mount_glass_glass   # pvlib SAPM (strešna montaža)
+    kontrola_kWh_kWp: 1100           # analiza v3 (common.PV_SPEC)
+    # IWEC (GHI 1.078 kWh/m²a, starejše obdobje) da le 963 kWh/kWp. Urni profil IWEC se mesečno skalira na PVGIS
+    # (ohrani urno korelacijo s toploto znotraj meseca). Vir: PVGIS v5.2 API PVcalc, PVGIS-SARAH2, lat 46,06 lon 14,51,
+    # 1 kWp, izgube 14 %, naklon 30°, azimut 0 (jug), pridobljeno 9. 10. 2026: E_y = 1.154,8 kWh/kWp.
+    skaliraj_na_PVGIS: true
+    PVGIS_E_m_kWh_kWp: [53.7, 63.25, 99.4, 120.85, 130.09, 137.31, 146.57, 135.24, 106.81, 77.8, 43.39, 40.34]
+    # V2/V3: empirična kWp stavbe (če ima PV), sicer mediana paketa arhetipa; V5–V7: letna raba po prenovi / donos, korak 0,5 kWp
+    korak_kWp: 0.5
+    min_kWp: 3.0
+    # krog 9 (NAVODILA_CLAUDE_CODE_v9 §1): omejitev oddaje v omrežje, oddaja(t) ≤ c · kWp [kW/kWp]; presežek se izgubi (curtailment).
+    # null = brez omejitve (osnova, c = 1,0; urni AC donos modela ne preseže 1 kW/kWp). Občutljivost 0,7 / 0,5 (npr. DE EEG 2012–2022
+    # 70-%-pravilo za male PV — PREVERI pogoje priključitve SODO za SI); zagon s K2_PAR in --tag _K9c07 / _K9c05.
+    omejitev_oddaje_kW_kWp: null
+  # krog 9 (§2): toplejše podnebje — Q_H (urno) × faktor; 1,0 = osnova. Faktor pada linearno 1,0 (2026) → 0,90 / 0,80 (2050), nato konstanten do 2055;
+  # model računa z enim letom → povprečje let 2026–2055 (30 let): 0,9417 / 0,8833. Q_W in gospodinjstvo nespremenjena.
+  # PREVERI vir: ARSO podnebne projekcije (OPS21, RCP4.5) / Copernicus C3S HDD — upad HDD v SI ~10–20 % do 2050.
+  faktor_QH: 1.0
+  baterija:
+    kWh: 10.0                        # neoptimirano (V3, V6, V7); optimizacija velikosti v 03b
+    izkoristek_krozni: 0.90
+    DoD: 0.90
+    C_rate: 0.5
+  prezracevanje_SFP_kW_m3s: 1.1      # HECM predloga (Ventilation SFP kW_per_m3_s); samo GLOB (mehansko)
+  zimski_meseci: [11, 12, 1, 2]
+  # sistemska konica ELES (uvoz v 100 urah najvišjega odjema) — v koraku 05 (potrebni urni podatki ENTSO-E)
+
+# ---------------------------------------------------------------- optimizacija obratovanja in velikosti (korak 03b)
+optimizacija:
+  # Stavba kot hranilnik toplote (ekvivalent 1R1C, »virtual storage«): E_b = C·(T_not − 20 °C), 0 ≤ E_b ≤ C·ΔT_pas;
+  # E_b(t) = E_b(t−1)·(1 − H/C·1 h) + dovedena toplota − potreba HECM (pri 20 °C). Pri E_b = 0 je bilanca enaka HECM.
+  # H [W/K] = naklon urne potrebe HECM proti (20 − T_zun) v urah s T_zun < 0 °C (po arhetipu in ovoju).
+  C_eff_J_m2K: 165000               # PREVERI: ISO 13790 Tab. 12, razred »medium« (opečne SI hiše); občutljivost 110000 / 260000
+  komfort_pas_K: 2.0                # 20–22 °C (PREVERI; občutljivost 1 K)
+  hranilnik:
+    volumni_L: [0, 300, 800, 1500]
+    dT_uporabna_K: 20.0             # 35 → 55 °C
+    izgube_na_uro: 0.005            # PREVERI: ~0,5 %/h vsebine (EN 12897 red velikosti)
+    # polnjenje hranilnika s TČ pri T_dovod_TSV (55 °C) — konservativno; iz hranilnika se krije ogrevanje in TSV
+  mreza:
+    ovoji: [BREZ, F, FS, FSO, GLOB]
+    kWp: [0, 4, 8, 12.5]
+    baterija_kWh: [0, 5, 10, 15]
+    hranilnik_L: [0, 300, 800, 1500]
+    arhetipi: [A3, A4]              # Q1 (1971–80) in Q2 (1981–2002) reprezentativni hiši
+  ev_okno: {od: 18, do: 7}          # EV na voljo za polnjenje od 18. do 7. ure; dnevni obrok = raba_kWh_a / 365
+  # O1 posameznik: R2 s fiksnima cenama (analiza v3, 10_sezonski.py; PREVERI — urne cene BSP in omrežnina R3 v koraku 04)
+  cena_uvoz_EUR_kWh: 0.18
+  cena_oddaja_EUR_kWh: 0.05
+  # O2 omrežje: min maksimalna urna moč uvoza; izenačitev z O1 z utežjo
+  O2_utez_energije: 0.001
+  # O3 (CO2, urni EF) — v koraku 06, ko bodo urni emisijski faktorji
+  delavcev: 6
+
+# ---------------------------------------------------------------- ekonomika (korak 04) — viri: podatki/04_viri_tarife_racun.md, podatki/04_viri_stroski.md
+ekonomika:
+  leto0: 2026
+  horizont_let: 30
+  ddv: 0.22                                   # [P]
+  # --- urne cene (energy-charts.info API, vir SMARD/BNetzA CC BY 4.0, cona SI dan vnaprej; pridobljeno 9. 10. 2026)
+  cene_datoteka: "podatki/cene_SI_dan_vnaprej_2024_2025.csv"
+  cene_leto: 2025                              # 8.760 h, povprečje 104,6 EUR/MWh; preslikava po položaju na koledar modela (2023)
+  # --- cena energije za gospodinjstva (brez DDV) [P] GEN-I redni cenik od 1. 3. 2025; samooskrba (net metering) ET 0,1299
+  energija_ET: 0.10890
+  energija_ET_netmetering: 0.12990
+  dinamicna_pribitek_uvoz: 0.01195             # Petrol dinamični (SPOT + pribitek), od 1. 7. 2026 [P]
+  oddaja_odbitek: 0.01199                      # GEN-I dinamični samooskrba: SIPX − 11,99 EUR/MWh [P]
+  nadomestilo_dobavitelja_mes: 1.99            # GEN-I [P]
+  # --- omrežnina 2026 (Ur. l. 105/25), skupina 0, prenos + distribucija [P]
+  omreznina_moc_blok_EUR_kW_mes: [3.82301, 1.09230, 0.28902, 0.02436, 0.00245]
+  omreznina_energija_blok_EUR_kWh: [0.02217, 0.01998, 0.01717, 0.01805, 0.01299]
+  # blok se obračuna v mesecih, v katerih nastopi (blok 1 le višja sezona, blok 5 le nižja) — PREVERI v aktu
+  min_DOM_blok1_kW: 2.8                        # 3-fazni ≤ 43 kW: 20 % priključne moči, najmanj 2,8 kW [P]
+  DOM_konic: 5                                 # povprečje 5 konic bloka [P] (urne vrednosti ~ podcenijo 15-min konice)
+  # brez 15-min meritev / pred 2024 (R1, R2): moč 2,68165 EUR/kW/mes × obračunska moč (32 % priključne moči 3-f ≤ 17 kW) [P]
+  omreznina_moc_brez15_EUR_kW_mes: 2.68165
+  omreznina_energija_ET: 0.01864
+  prikljucna_moc_kW: 17.0                      # PREVERI: tipičen 3 × 25 A
+  obracunska_moc_delez_brez15: 0.32            # [P] 14. člen
+  # --- dajatve [P]
+  prispevek_OVE_EUR_kW_mes: 0.77562            # gospodinjstvo NN; pri samooskrbi na (obračunska moč − moč naprave) ≥ 0
+  prispevek_URE_EUR_kWh: 0.00080               # samooskrba oproščena (ZSROVE-1, 60. člen)
+  trosarina_EUR_kWh: 0.00153                   # pri samooskrbi na (prevzem − oddaja)
+  prispevek_operater_trga_EUR_kWh: 0.00013     # datum NEPREVERJEN
+  # --- goriva (z DDV)
+  ELKO_EUR_kWh: 0.110                          # 1,09–1,11 EUR/L (regulirana cena IX 2025, gov.si / RTV), 10 kWh/L
+  plin_EUR_kWh: 0.087                  # krog 3 (D1): SURS 2. četrtletje 2025 (kot kalkulator NPS 2050) — PREVERI
+  biomasa_EUR_kWh: 0.050                       # PREVERI: drva ~100 EUR/prm, ~2.000 kWh/prm (GIS InfoGozd)
+  vzdrzevanje_kotla_EUR_a: 150                 # PREVERI
+  # --- investicije (z DDV): Eko sklad 2023–2025 (04a_stroski.py), baterija in hranilnik iz literature
+  TC_a_EUR: 7028                               # Theil–Sen, tczv: 7.028 + 285·kW (krog 11: 04a s filtrom V statistiki = DA; prej 7.225 + 293)
+  TC_b_EUR_kW: 285
+  PV_a_EUR: 4928                               # 4.928 + 746·kWp (krog 11; prej 4.751 + 764)
+  PV_b_EUR_kWp: 746
+  baterija_EUR_kWh: 861                        # 706 brez DDV (AT 2024, BMWET) × 1,22; občutljivost 500–1.000 brez DDV
+  hranilnik_EUR_L: 3.5                         # PREVERI: oprema 1,74 EUR/L (Seltron 800 L) + vgradnja enako (DEA 50/50)
+  # ovoj: osnovno EUR na enoto elementa (Eko mediane) × površina elementa (TABULA/arhetip); občutljivost Eko EUR/m² ogrevane
+  ovoj_osnova: element                         # element | ogrevana — Gašper 9. 10. 2026: osnova element, ogrevana = zgornja meja
+  ovoj_EUR_enota: {stena: 74.2, streha: 98.7, okna: 753.4, tla: 97.5}  # krog 11 (prej 74,3 / 98,7 / 755,6 / 98,5)          # Eko mediane (fasada, streha, okna_vrata, talna_izolacija)
+  ovoj_EUR_m2_ogrevane: {stena: 157.6, streha: 97.3, okna: 90.2, tla: 56.7}   # Eko mediane, občutljivost
+  ovoj_delez_debeline: 0.0                     # krog 3: delež stroška neprozornih elementov, sorazmeren debelini izolacije; pri zaostritvi g (A4, celovita ≤ 50) faktor 1 + α·(1/g − 1); osnova 0, občutljivost 0,5 / 1,0 (PREVERI)
+  MVHR_EUR: 8323                               # Eko prezrac_centr mediana na napravo
+  zrakotesnost_EUR_m2_strehe: 13.97            # IWU Hinz 2015 (parna zapora); PREVERI
+  # --- spodbude 2026: Eko sklad 126SUB-OB26 (16. 4. 2026; krog 2, Gašper 12. 10. 2026 — enako kot kalkulator NPS 2050,
+  #     C:/dev/nps2050/src/data/povracilne_dobe.json). Prej 114SUB-OB24: TČ 40 % ≤ 2.500, ovoj 30 % ≤ 25 EUR/m², okna ≤ 250, MVHR 30 %.
+  #     MVHR: delež 40 % po 126SUB-OB26, zgornja meja ni v podatkih kalkulatorja — ohranjena 2.500 EUR (PREVERI).
+  spodbude:
+    TC_delez: 0.50
+    TC_max: 4500                               # zrak-voda (zemlja-voda 8.000 — v modelu ni ločeno)
+    ovoj_delez: 0.40
+    ovoj_max_EUR_m2: 35                        # fasada, streha, tla
+    okna_max_EUR_m2: 300
+    MVHR_delez: 0.40
+    MVHR_max: 2500
+    # PV (krog 2, Gašper 12. 10. 2026: Borzen 250/675 EUR/kW je pretirano) — zadnja Eko skladova shema 104SUB-SO22
+    # (konec 2022–2023): 50 EUR/kW brez baterije oz. 500 EUR/kW z baterijo, največ 25 % upravičenih stroškov.
+    # Register potrjuje izplačano: 180 EUR/kW (2017–2023, ≤ 20 %), 50 EUR/kW (2024).
+    PV_EUR_kW: 50
+    PV_max_delez: 0.25
+    PV_bat_EUR_kW: 500
+    PV_bat_max_delez: 0.25
+  # opazovano stanje (P1/P2/PA za stavbe fonda): dejansko izplačane spodbude iz registra (tc_znesek, PV_znesek; ZnesekSpodbude)
+  dejanske_spodbude_opazovano: true
+  # --- vzdrževanje
+  TC_vzdrzevanje_delez: 0.027                  # DEA list 207 (350 EUR/a pri 12.869)
+  PV_vzdrzevanje_delez: 0.01                   # Gašper 9. 10. 2026: 1 %/a investicije (ISE 2024 26 EUR/kW·a le kot občutljivost)
+  MVHR_vzdrzevanje_EUR_a: 100                  # PREVERI (filtri)
+  # --- življenjske dobe in zamenjave
+  TC_let: 18                                   # VDI 2067 (DEA: 20)
+  razsmernik_let: 15
+  razsmernik_delez_PV: 0.12                    # PREVERI: zamenjava razsmernika kot delež investicije PV
+  baterija_let: 15
+  baterija_zamenjava_delez: 0.45               # ISE 2024: 40–50 %
+  ovoj_let: {stena: 40, streha: 50, okna: 40, tla: 50, MVHR: 25}   # BBSR 2017
+  # --- diskontiranje in cene
+  diskont_zasebni: 0.04                        # CLAUDE.md; občutljivost 0,02 / 0,07 (EU Ref. 2020: 12–14,75 %)
+  diskont_javni: 0.03                          # EU Better Regulation Toolbox #64 (realno)
+  scenariji_cen: {konstantne: 0.0, rast2: 0.02}
+  sok_leta: [5, 6]                             # 2022-podoben šok: energija × 2 v letih 5–6
+  sok_faktor: 2.0
+
+# ---------------------------------------------------------------- elektroenergetski sistem SI (koraka 05, 06)
+# Vir: energy-charts.info API (public_power, cbpf), leto 2025, pridobljeno 9. 10. 2026 (podatki/energy_charts/*.json; CC BY 4.0).
+sistem:
+  leto: 2025
+  drzave_soseda: [at, hr, it, hu]
+  konica_ur: 100                     # ure sistemske konice = 100 ur najvišjega odjema SI (Load)
+  # neposredni emisijski faktorji proizvodnje [t CO2/MWh_el] — podatki/06_viri_CO2.md
+  EF_tehnologija:
+    "Fossil brown coal / lignite": 1.119      # UBA CC 13/2025, Tab. 4 (2024)
+    "Fossil hard coal": 0.860                 # isto
+    "Fossil coal-derived gas": 1.20           # PREVERI (plavžni/koksni plin; ni v viru)
+    "Fossil gas": 0.392                       # UBA CC 13/2025
+    "Fossil oil": 0.70                        # IPCC 2006 Vol. 2 Tab. 2.2, izkoristek 38 % [izpeljano]
+    "Waste": 0.60                             # IPCC 2006 (nebiogeni delež 40 %, el. izkoristek 22 %) [izpeljano], negotovo
+    "Others": 0.45                            # PREVERI
+  # vse ostale tehnologije (jedrska, hidro, veter, sonce, geotermalna, biomasa — biogeni CO2 = 0, baterije, črpalne) = 0
+  # potrošni EF SI: (Σ proizvodnja_SI·EF + Σ_c max(uvoz_c, 0)·EF_c) / (Σ proizvodnja_SI + Σ_c max(uvoz_c, 0)); izvoz ima mešanico SI
+
+# ---------------------------------------------------------------- okolje (korak 06) — viri v podatki/06_viri_CO2.md
+okolje:
+  EF_goriva_kg_kWh: {ELKO: 0.267, biomasa: 0.034, plin: 0.202}   # IPCC 2006 Vol. 2 Tab. 2.5; biomasa: biogeni CO2 = 0, le CH4 + N2O (AR5 GWP)
+  # razogljičenje elektrike: faktor glede na 2025 (PREVERI: ocena po neobnovljivem deležu proizvodnje v NEPN 2024 DU-OVE, NPS v41 Pregl. 18)
+  EF_trajektorija: {2025: 1.0, 2030: 0.90, 2040: 0.65, 2050: 0.50}
+  vgrajeno:                                       # kg CO2e — podatki/06_viri_CO2.md
+    PV_kg_kWp: 680                                # moduli 530 + BOS 150 (IEA PVPS Task 12, 2024) [izpeljano]
+    razsmernik_kg_kW: 115                         # KBOB 34.033 (5 kW), na enoto razsmernika
+    baterija_kg_kWh: 110                          # Peters et al. 2017 (proizvodnja)
+    TC_kg_enota: 0
+    TC_kg_kW: 102                                 # Mitsubishi R290 8,5 kW, CIBSE TM65 (865 kg); KBOB 7 kW 4.000 kg = občutljivost
+    hladivo_kg_CO2e_zivljenjska_doba: 460         # R32, 2,2 kg × GWP 675 × (2 %/a · 15 a + 1 % EoL) [izpeljano]
+    fasada_kg_m2: 32                              # ETICS EPS (EPD VDPM 2025, A–C 36,1 pri 160 mm) skalirano na ~12 cm
+    streha_kg_m2: 5                               # mineralna volna 20 cm (KBOB) [izpeljano]
+    tla_kg_m2: 22.8                               # EPS 10 cm (KBOB) [izpeljano]
+    okna_kg_m2: 111                               # PVC + trojna zasteklitev (KBOB) [izpeljano]
+    MVHR_kg_m2: 8.25                              # KBOB 32.002, na m² ogrevane površine
+  cena_CO2_EUR_t: {2025: 165, 2030: 250, 2040: 525, 2050: 800}   # EIB senčna cena (EUR2016), Vademecum 2021–2027 Tab. 4
+  cena_CO2_obcutljivost_EUR_t: 350                                  # UBA MK 4.0 (2026, 1 % časovna preferenca)
+  # izognjene emisije oddaje PV: v osnovi se NE odštejejo (konzervativno); občutljivost: odštejejo se po urnem EF
+  odstej_izognjene_oddaje: false
+
+# ---------------------------------------------------------------- država (korak 05)
+drzava:
+  # ojačitev NN omrežja: Gašperjeva ocena 4.000 EUR na priključek, preračunano na ~6 kW povečanja priključne/konične moči
+  # (npr. 11 → 17 kW) → ~670 EUR/kW prispevka h konici. Literatura: 200–1.230 EUR/stanovanje (Meunier et al. 2021). PREVERI
+  ojacitev_EUR_kW: 670
+
+# ---------------------------------------------------------------- občutljivost in prelomna točka (korak 07)
+obcutljivost:
+  Qhnd_mreza: [40, 50, 60, 70, 80, 90, 100, 110, 120, 130, 140, 150, 160, 170, 180, 190, 200, 210, 220]
+  # tornado (nizko / visoko); faktorji so množitelji osnovne vrednosti, razen kjer je navedena absolutna vrednost
+  tornado:
+    diskont_zasebni: [0.02, 0.07]                 # CLAUDE.md §6.1
+    cena_energije_faktor: [0.8, 1.3]              # PREVERI: razpon cen 2024–2025 in šok
+    ovoj_strosek_faktor: [0.85, 1.20]             # Eko sklad P25/P75 EUR/enoto (fasada 63/88, okna 575/933)
+    TC_strosek_faktor: [0.8, 1.2]                 # IZ Theil–Sen naklona in razpon EUR/kW
+    PV_strosek_faktor: [0.85, 1.15]               # P25/P75 EUR/kWp (Eko sklad)
+    PV_vzdrzevanje_delez: [0.005, 0.02]
+    TC_let: [15, 20]                              # DEA 14–25 a, VDI 18
+    spodbude_faktor: [0.0, 1.5]
+    cena_CO2_faktor: [0.5, 1.5]                   # država
+    ojacitev_EUR_kW: [300, 1200]                  # država; Meunier et al. 2021 razpon na stanovanje, PREVERI
+    EF_2050: [0.3, 0.7]                           # okolje/država: faktor EF elektrike v 2050
+  # Monte Carlo: trikotne porazdelitve (min, modus, max) za iste parametre
+  mc_n: 1000
+  mc:
+    diskont_zasebni: [0.02, 0.04, 0.07]
+    cena_energije_faktor: [0.8, 1.0, 1.3]
+    ovoj_strosek_faktor: [0.8, 1.0, 1.35]
+    TC_strosek_faktor: [0.7, 1.0, 1.3]
+    PV_strosek_faktor: [0.8, 1.0, 1.2]
+    PV_vzdrzevanje_delez: [0.005, 0.01, 0.02]
+    TC_let: [15, 18, 20]
+    cena_CO2_faktor: [0.5, 1.0, 1.5]
+    ojacitev_EUR_kW: [300, 670, 1200]
+    EF_2050: [0.3, 0.5, 0.7]
+    vgrajeno_faktor: [0.7, 1.0, 1.3]
+
+# ---------------------------------------------------------------- populacija (korak 08)
+populacija:
+  # tok novih TČ v eno-/dvostanovanjskih stavbah Q1+Q2 brez ovoja ob vgradnji: povprečje 2023–2024 (tabele/01_novi_letno.csv)
+  novi_letno: 5633
+  leta_novih: [2026, 2035]           # kohorte novih vgradenj (PREVERI: obseg trga po 2035)
+  horizont_do: 2050
+  ukrep_A_od: 2028                   # CLAUDE.md §8: »URE najprej od 2028«
+  ukrep_A_prag_Qhnd: 90              # poročilo za Eko sklad, ukrep A
+  prag_ovoj_Qhnd: 180                # krog 15: pravilo s pragom — nad 180 pogojevanje z ovojem, 90–180 le dimenzioniranje (24c)
+  # obstoječe stanje: P1 (TČ + PV), če ima stavba PV, sicer PA (samo TČ); protidejstvo URE-najprej: P3 oz. PC
+
+# ---------------------------------------------------------------- država, krog 2 (javni proračun in družbena CBA)
+drzava_k2:
+  diskont: 0.03                       # realno, EU Better Regulation Toolbox #64
+  # strošek zmogljivosti: letni »break-even cost« OCGT v ERAA 2025 (ACER Decision 06/2026, odst. o kalibraciji tveganja):
+  # 62 EUR/kW za OCGT, 113 EUR/kW za CCGT; OCGT CAPEX 541,2 EUR/kW, FOM 22,4 EUR/kW/leto (op. 19)
+  # https://www.acer.europa.eu/sites/default/files/documents/Individual%20Decisions/ACER-Decision-06-2026-ERAA-2025.pdf
+  zmogljivost_EUR_kW_leto: 62
+  zmogljivost_obcutljivost_EUR_kW_leto: 113
+  # zimska elektrika: osnovno urne cene SI 2025; scenarij višjih zimskih cen (nov–feb) — faktor na urno ceno PREVERI
+  zimska_cena_faktor_scenarij: 1.5
+  # distribucijsko (NN) omrežje (krog 2, Gašper 12. 10. 2026: osnovni izračun, 670 EUR/kW kot drzava.ojacitev_EUR_kW):
+  # izvod mora prenesti večjo od sočasne konice uvoza (zima) in sočasne konice oddaje PV (poletje) — ne vsote, ker nastopita ob različnih urah.
+  # Sočasna konica na hišo = povprečni uvoz (oddaja) hiše v N urah največjega skupnega uvoza (oddaje) flote iste variante (osnovni tek 03).
+  # Nadomesti ojačitev po prispevku k nacionalni sistemski konici (krog 1); zmogljivost ostane na sistemski konici. PREVERI N in EUR/kW.
+  distribucija_ur_konice: 10
+  # ojačitev omrežja: obstoječi 670 EUR/kW (Gašper, PREVERI); literatura 200–1.230 EUR/stanovanje (Meunier et al. 2021)
+  # vzdrževanje in investicije v Eko skladovih podatkih vključujejo DDV → v družbeni CBA brez DDV (÷ 1 + DDV)
+
+# ---------------------------------------------------------------- krog 4 (NAVODILA_CLAUDE_CODE_v4, 12. 10. 2026)
+krog4:
+  # K4_1: dodatna stanja ovoja (Gašper 12. 10. 2026, odločitev 3): isti U kot lestvica (fasada 0,30, streha 0,20, okna 1,3), brez tal;
+  # n50 ≤ 5 le ob zamenjavi oken (kot S1/S2). Ciljna prenova iz stanja: manjkajoči ukrepi po krog3.cilj, celovita ≤ 50 kWh/m²a (zaostritev g).
+  stanja_dodatna:
+    SF: {stena: 0.30}
+    SS: {streha: 0.20}
+    SFO: {stena: 0.30, okna: 1.3, n50_max: 5.0}
+    SFS: {stena: 0.30, streha: 0.20}
+  # sestava ukrepov (register) → stanje; tla se upoštevajo le pri S3 (kot lestvica); »samo tla / drugo« → S0 (najbližje po fiziki)
+  sestava_stanje:
+    "S3 fasada+streha+okna (+tla) / celovita": S3
+    "S2 streha+okna": S2
+    "S1 okna": S1
+    "samo fasada": SF
+    "fasada+okna": SFO
+    "fasada+streha": SFS
+    "samo streha": SS
+    "samo tla / drugo": BREZ
+  # odločitev 1c: osnova šteje vse ukrepe GURS (tudi streho); občutljivost: streha samo iz Eko sklada (GURS »obnova strehe« = kritina)
+  # ujemanje (CEM) s fondom zaklenjenih (29.977): obdobje, kvartil površine, regija, leto TČ (razredi), nadomeščeni energent
+  cem_leta_TC_meje: [2015, 2019, 2022]
+  cem_energenti: [ELKO, biomasa, plin]
+  # K4_2 »PV brez TČ«: pričakovana vgradnja TČ po Kaplan–Meier (prva ogrevalna TČ po letu PV, eno-/dvostanovanjske, obdobje 1–4, brez ovoja);
+  # po zadnjem opazovanem trajanju konstantna hazardna stopnja = povprečje zadnjih km_rep_let let s podporo
+  km_rep_let: 3
+  km_min_tveganje: 100                # hazard ocenjen le pri ≥ 100 hišah v tveganju, sicer rep
+  km_horizonti: [3, 5, 10]
+  # PV, priključen do 31. 12. net_metering_priklop_do (Gašper 13. 10. 2026: do konca 2024), je na letnem net meteringu (R1); PV, priključen pozneje: R3.
+  # Krog 7 (Gašper 13. 10. 2026): režim velja do spremembe zakonodaje ali do konca življenjske dobe PV (ZSROVE-1, 115. člen; varstvo pri dobavitelju
+  # do 31. 12. 2030, 101. in 116. člen). Osnova: R1 do konca življenjske dobe PV (leto PV + zivljenjska_doba_PV − 1; zamenjava razsmernika režima ne prekine),
+  # nato R3; občutljivost (sprememba zakonodaje): R1 do konca leta net_metering_obcutljivost, nato R3.
+  net_metering_priklop_do: 2024
+  net_metering_konec: "zivljenjska_doba"
+  zivljenjska_doba_PV: 30                       # kot v 04 (ostanek vrednosti PV, 30 let)
+  net_metering_obcutljivost: [2030, 2034]       # 2030 konec varstva pri dobavitelju; 2034 dosedanja predpostavka (krog 4–5)
+  # F1: moč TČ kot v opazovani praksi paketa istega obdobja (mediana W/m², 01_fond paket_osnovni); energent brez EI: porazdelitev paketa istega obdobja
+  seme_k42: 4242

@@ -1,0 +1,41 @@
+﻿vzorec;račun;postavka;P1 − P3 [mio EUR]
+paket;proračun (R3);spodbude;-78.096
+paket;proračun (R3);DDV investicije in vzdrževanje;24.577
+paket;proračun (R3);R3 DDV elektrika;-26.497
+paket;proračun (R3);R3 trošarina in prispevki;-1.45
+paket;družbena CBA;investicije brez DDV (− ostanek);-98.805
+paket;družbena CBA;vzdrževanje brez DDV;7.857
+paket;družbena CBA;elektrika (urna vrednost);58.285
+paket;družbena CBA;zmogljivost;14.042
+paket;družbena CBA;ojačitev omrežja;27.232
+paket;družbena CBA;CO2 (EIB);54.614
+paket pred 1981;proračun (R3);spodbude;-36.144
+paket pred 1981;proračun (R3);DDV investicije in vzdrževanje;10.616
+paket pred 1981;proračun (R3);R3 DDV elektrika;-18.485
+paket pred 1981;proračun (R3);R3 trošarina in prispevki;-1.17
+paket pred 1981;družbena CBA;investicije brez DDV (− ostanek);-42.813
+paket pred 1981;družbena CBA;vzdrževanje brez DDV;4.076
+paket pred 1981;družbena CBA;elektrika (urna vrednost);48.856
+paket pred 1981;družbena CBA;zmogljivost;9.993
+paket pred 1981;družbena CBA;ojačitev omrežja;15.623
+paket pred 1981;družbena CBA;CO2 (EIB);38.503
+paket 1981–2002;proračun (R3);spodbude;-41.952
+paket 1981–2002;proračun (R3);DDV investicije in vzdrževanje;13.961
+paket 1981–2002;proračun (R3);R3 DDV elektrika;-8.012
+paket 1981–2002;proračun (R3);R3 trošarina in prispevki;-0.28
+paket 1981–2002;družbena CBA;investicije brez DDV (− ostanek);-55.992
+paket 1981–2002;družbena CBA;vzdrževanje brez DDV;3.781
+paket 1981–2002;družbena CBA;elektrika (urna vrednost);9.429
+paket 1981–2002;družbena CBA;zmogljivost;4.05
+paket 1981–2002;družbena CBA;ojačitev omrežja;11.61
+paket 1981–2002;družbena CBA;CO2 (EIB);16.111
+fond;proračun (R3);spodbude;-406.061
+fond;proračun (R3);DDV investicije in vzdrževanje;113.158
+fond;proračun (R3);R3 DDV elektrika;-131.089
+fond;proračun (R3);R3 trošarina in prispevki;-7.47
+fond;družbena CBA;investicije brez DDV (− ostanek);-454.722
+fond;družbena CBA;vzdrževanje brez DDV;37.014
+fond;družbena CBA;elektrika (urna vrednost);297.28
+fond;družbena CBA;zmogljivost;69.887
+fond;družbena CBA;ojačitev omrežja;131.206
+fond;družbena CBA;CO2 (EIB);273.013

@@ -1,0 +1,61 @@
+﻿primerjava;kazalnik;vzorec;mediana;delež P3 boljši [%];vsota;enota;enota vsote;scenarij
+P3 − Pdej;posameznik R1;paket;-2.501;64.265;-9.465;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;posameznik R1;paket pred 1981;-3.958;77.73;-14.233;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;posameznik R1;paket 1981–2002;-0.593;52.638;4.768;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;posameznik R3;paket;-2.416;67.147;-19.315;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;posameznik R3;paket pred 1981;-6.463;98.735;-25.972;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;posameznik R3;paket 1981–2002;0.937;39.869;6.657;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;proračun R3;paket;6.454;0.285;46.492;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;proračun R3;paket pred 1981;7.07;0.217;22.978;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;proračun R3;paket 1981–2002;5.897;0.343;23.514;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;družbeni NPV;paket;-2.944;66.661;-22.097;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;družbeni NPV;paket pred 1981;-7.516;99.964;-32.149;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;družbeni NPV;paket 1981–2002;1.416;37.902;10.052;kEUR;mio EUR;F20 Cox M1
+P3 − Pdej;CO2e 30 let;paket;-11.202;99.983;-95.525;t;kt;F20 Cox M1
+P3 − Pdej;CO2e 30 let;paket pred 1981;-17.426;100.0;-62.616;t;kt;F20 Cox M1
+P3 − Pdej;CO2e 30 let;paket 1981–2002;-8.438;99.969;-32.91;t;kt;F20 Cox M1
+P3 − Pdej;posameznik R1;paket;-2.554;64.584;-9.856;kEUR;mio EUR;F20 CEM
+P3 − Pdej;posameznik R1;paket pred 1981;-4.004;78.091;-14.335;kEUR;mio EUR;F20 CEM
+P3 − Pdej;posameznik R1;paket 1981–2002;-0.644;52.919;4.479;kEUR;mio EUR;F20 CEM
+P3 − Pdej;posameznik R3;paket;-2.414;67.13;-19.221;kEUR;mio EUR;F20 CEM
+P3 − Pdej;posameznik R3;paket pred 1981;-6.421;98.662;-25.764;kEUR;mio EUR;F20 CEM
+P3 − Pdej;posameznik R3;paket 1981–2002;0.914;39.9;6.543;kEUR;mio EUR;F20 CEM
+P3 − Pdej;proračun R3;paket;6.399;0.302;46.058;kEUR;mio EUR;F20 CEM
+P3 − Pdej;proračun R3;paket pred 1981;7.006;0.217;22.757;kEUR;mio EUR;F20 CEM
+P3 − Pdej;proračun R3;paket 1981–2002;5.859;0.375;23.302;kEUR;mio EUR;F20 CEM
+P3 − Pdej;družbeni NPV;paket;-2.931;66.762;-22.032;kEUR;mio EUR;F20 CEM
+P3 − Pdej;družbeni NPV;paket pred 1981;-7.464;99.964;-31.886;kEUR;mio EUR;F20 CEM
+P3 − Pdej;družbeni NPV;paket 1981–2002;1.373;38.089;9.854;kEUR;mio EUR;F20 CEM
+P3 − Pdej;CO2e 30 let;paket;-11.173;99.983;-94.987;t;kt;F20 CEM
+P3 − Pdej;CO2e 30 let;paket pred 1981;-17.314;100.0;-62.163;t;kt;F20 CEM
+P3 − Pdej;CO2e 30 let;paket 1981–2002;-8.422;99.969;-32.824;t;kt;F20 CEM
+P3 − Pdej;posameznik R1;paket;-3.803;74.1;-19.206;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;posameznik R1;paket pred 1981;-4.877;89.696;-16.568;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;posameznik R1;paket 1981–2002;-2.161;60.631;-2.638;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;posameznik R3;paket;-2.236;69.258;-17.493;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;posameznik R3;paket pred 1981;-5.565;98.301;-21.238;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;posameznik R3;paket 1981–2002;0.46;44.177;3.745;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;proračun R3;paket;5.167;0.452;36.007;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;proračun R3;paket pred 1981;5.661;0.325;17.949;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;proračun R3;paket 1981–2002;4.751;0.562;18.058;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;družbeni NPV;paket;-2.756;70.866;-21.208;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;družbeni NPV;paket pred 1981;-6.355;99.928;-26.181;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;družbeni NPV;paket 1981–2002;0.432;45.77;4.973;kEUR;mio EUR;F = 50 % (hipotetično)
+P3 − Pdej;CO2e 30 let;paket;-10.402;99.983;-83.037;t;kt;F = 50 % (hipotetično)
+P3 − Pdej;CO2e 30 let;paket pred 1981;-14.949;100.0;-52.321;t;kt;F = 50 % (hipotetično)
+P3 − Pdej;CO2e 30 let;paket 1981–2002;-8.197;99.969;-30.717;t;kt;F = 50 % (hipotetično)
+P3 − Pdej;posameznik R1;paket;-5.391;86.798;-31.06;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;posameznik R1;paket pred 1981;-6.189;98.952;-19.461;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;posameznik R1;paket 1981–2002;-4.223;76.303;-11.6;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;posameznik R3;paket;-2.025;73.731;-15.152;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;posameznik R3;paket pred 1981;-4.338;97.505;-15.373;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;posameznik R3;paket 1981–2002;-0.185;53.2;0.221;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;proračun R3;paket;3.564;0.905;23.176;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;proračun R3;paket pred 1981;3.869;0.615;11.72;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;proračun R3;paket 1981–2002;3.32;1.155;11.455;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;družbeni NPV;paket;-2.585;80.164;-19.963;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;družbeni NPV;paket pred 1981;-4.945;99.928;-18.79;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;družbeni NPV;paket 1981–2002;-0.76;63.097;-1.173;kEUR;mio EUR;F = 100 % (= P2)
+P3 − Pdej;CO2e 30 let;paket;-9.292;99.966;-67.632;t;kt;F = 100 % (= P2)
+P3 − Pdej;CO2e 30 let;paket pred 1981;-11.959;100.0;-39.569;t;kt;F = 100 % (= P2)
+P3 − Pdej;CO2e 30 let;paket 1981–2002;-7.839;99.938;-28.063;t;kt;F = 100 % (= P2)

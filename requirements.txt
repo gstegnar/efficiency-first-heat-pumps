@@ -1,0 +1,12 @@
+numpy
+pandas
+pyarrow
+scipy
+statsmodels
+lifelines
+pvlib
+demandlib
+matplotlib
+pyyaml
+pulp
+# ISO 52016-1 hourly model: pyBuildingEnergy 2.1.0, called through the GreenRenoV8 HECM building model (see README)

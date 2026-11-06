@@ -1,0 +1,13 @@
+﻿skupina;razred;osnova;stavb;dogodkov;zadnje zanesljivo leto;letna nevarnost po zadnjem letu;F(3);F(5);F(10);F(20);F(30)
+samo TČ;Q1;KM + ekstrapolacija;11876;631.0;13.0;0.0059;0.0422;0.0615;0.092;0.1454;0.194
+paket TČ+PV;Q1;KM (opazovano);2318;60.0;5.0;;0.0338;0.0455;;;
+paket TČ+PV;Q1;S_samoTČ^HR, M1 (HR 0.64);2318;;;;0.0274;0.0401;0.0603;0.0963;0.1299
+paket TČ+PV;Q1;S_samoTČ^HR, M4 CEM (HR 0.77);2318;;;;0.0327;0.0478;0.0717;0.1141;0.1532
+samo TČ;Q2;KM + ekstrapolacija;11130;464.0;13.0;0.0066;0.0301;0.0434;0.0726;0.1313;0.1867
+paket TČ+PV;Q2;KM (opazovano);2632;53.0;6.0;;0.0163;0.0383;;;
+paket TČ+PV;Q2;S_samoTČ^HR, M1 (HR 0.64);2632;;;;0.0195;0.0282;0.0474;0.0868;0.1248
+paket TČ+PV;Q2;S_samoTČ^HR, M4 CEM (HR 0.77);2632;;;;0.0233;0.0336;0.0564;0.1029;0.1473
+samo TČ;vse;KM + ekstrapolacija;23006;1095.0;13.0;0.0063;0.0363;0.0525;0.0823;0.1387;0.191
+paket TČ+PV;vse;KM (opazovano);4950;113.0;6.0;;0.0241;0.042;;;
+paket TČ+PV;vse;S_samoTČ^HR, M1 (HR 0.64);4950;;;;0.0236;0.0341;0.0539;0.0918;0.1277
+paket TČ+PV;vse;S_samoTČ^HR, M4 CEM (HR 0.77);4950;;;;0.0281;0.0407;0.0641;0.1087;0.1508

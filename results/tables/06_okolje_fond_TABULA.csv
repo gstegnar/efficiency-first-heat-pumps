@@ -1,0 +1,24 @@
+﻿;Q1;Q2
+P0 skupaj [t];144.86;117.06
+P1 skupaj [t];43.64;36.36
+P1b skupaj [t];40.49;33.29
+P2 skupaj [t];37.75;35.5
+P3 skupaj [t];25.96;27.81
+P3b skupaj [t];24.55;26.36
+P4 skupaj [t];25.65;27.47
+P5 skupaj [t];24.05;25.86
+P6 skupaj [t];23.54;27.1
+PA skupaj [t];43.83;35.57
+PB skupaj [t];36.12;33.85
+PC skupaj [t];27.12;29.06
+P1r skupaj [t];41.47;33.1
+P3 − P1 [t];-16.76;-8.03
+P4 − P1 [t];-17.09;-8.36
+P6 − P1 [t];-19.55;-8.86
+P1 − P0 [t];-107.7;-84.14
+CO2 povračilna doba ovoja [a];3.6;9.14
+CO2 povračilna doba PV (V1→V2) [a];17.54;19.06
+kg CO2 izogib / EUR spodbude P1;37.45;28.36
+kg CO2 izogib / EUR spodbude P3;14.93;9.44
+kg CO2 izogib / EUR spodbude P4;14.97;9.47
+kg CO2 izogib / EUR spodbude P6;6.8;3.69

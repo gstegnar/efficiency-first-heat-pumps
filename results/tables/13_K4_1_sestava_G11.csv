@@ -1,0 +1,9 @@
+﻿sestava;A1;A2;A3;A4;skupaj;delež [%]
+S1 okna;671;1054;1223;1620;4568;21.6
+samo streha;382;850;1223;1544;3999;18.9
+samo fasada;368;1059;1109;1144;3680;17.4
+S3 fasada+streha+okna (+tla) / celovita;527;932;898;757;3114;14.7
+S2 streha+okna;323;529;642;650;2144;10.1
+fasada+okna;216;574;627;457;1874;8.9
+fasada+streha;210;519;553;505;1787;8.4
+samo tla / drugo;0;0;0;2;2;0.0

@@ -1,0 +1,9 @@
+﻿razvrstitev;razred;HR;IZ spodaj;IZ zgoraj;p;dogodkov s PV;hiš s PV;mediana razreda
+pokritost PV / raba po TČ;< 0,8;0.1005;0.0249;0.4058;0.0013;2.0;579.0;0.6608
+pokritost PV / raba po TČ;0,8–1,2;0.3858;0.2481;0.5999;0.0;21.0;1613.0;1.0236
+pokritost PV / raba po TČ;> 1,2;0.8078;0.6579;0.9917;0.0414;123.0;5432.0;1.6741
+pokritost PV / raba po TČ;trend: × na razred;2.3299;1.6072;3.3777;0.0;;;
+kWp v tercilih;≤ 11.2 kWp;0.6158;0.4648;0.8158;0.0007;57.0;2466.0;10.8
+kWp v tercilih;11.2–13.5 kWp;0.6792;0.4961;0.9297;0.0157;43.0;2434.0;12.15
+kWp v tercilih;> 13.5 kWp;0.6525;0.4794;0.888;0.0066;46.0;2724.0;14.43
+kWp v tercilih;trend: × na razred;1.0313;0.8505;1.2506;0.7538;;;

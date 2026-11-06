@@ -1,0 +1,7 @@
+cache/
+__pycache__/
+*.parquet
+*.feather
+*.docx
+*.xlsx
+.hecm_cache/

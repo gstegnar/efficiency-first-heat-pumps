@@ -1,0 +1,1201 @@
+﻿primerjava;kazalnik;vzorec;mediana;delež P3 boljši [%];vsota;enota;enota vsote;parameter;smer;vrsta
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;osnova;osnova;
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;osnova;osnova;
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;osnova;osnova;
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;osnova;osnova;
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;osnova;osnova;
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;osnova;osnova;
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;osnova;osnova;
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;osnova;osnova;
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;osnova;osnova;
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;osnova;osnova;
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;osnova;osnova;
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;osnova;osnova;
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;osnova;osnova;
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;osnova;osnova;
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;osnova;osnova;
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;osnova;osnova;
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;osnova;osnova;
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;osnova;osnova;
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;osnova;osnova;
+P3 − P1;posameznik R1;paket;-3.031;66.075;-43.825;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-5.217;77.983;-38.571;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-1.502;55.791;-5.254;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-3.318;75.591;-63.088;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-10.873;93.131;-54.211;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-0.746;60.443;-8.877;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;3.804;0.888;38.945;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;3.107;1.916;13.81;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;4.62;0.0;25.134;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;-1.308;65.622;-36.149;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-9.627;88.648;-34.847;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.19;45.738;-1.302;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;diskont zasebni 2 / 7 %;nizko;ekonomski
+P3 − P1;posameznik R1;paket;0.138;49.305;4.246;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-0.745;55.278;-7.223;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;1.617;44.146;11.469;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-1.755;66.293;-8.414;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-3.528;94.071;-16.821;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.953;42.304;8.407;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;5.494;0.318;52.314;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;5.298;0.687;21.104;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.701;0.0;31.21;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.011;49.187;8.721;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-1.807;83.153;-6.788;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;2.375;19.856;15.508;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;diskont zasebni 2 / 7 %;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-5.822;78.238;-119.323;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-8.973;88.25;-89.279;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-4.01;69.591;-30.044;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-8.581;72.625;-138.875;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-22.116;85.792;-108.4;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-2.793;61.255;-30.474;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;2.147;9.063;24.753;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;1.301;19.414;6.379;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;3.278;0.125;18.374;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;-8.87;79.276;-96.524;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-20.098;88.648;-72.709;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;-5.249;71.183;-23.815;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;kot kalkulator: brez diskonta, cene +2 %/a;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.261;56.241;-9.365;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-2.383;65.727;-15.3;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.485;48.049;5.934;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.865;72.474;-25.855;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-5.731;97.867;-27.798;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-0.061;50.546;1.943;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.525;0.821;45.075;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.068;1.772;17.211;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.012;0.0;27.864;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.031;47.998;-6.334;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-4.264;89.986;-15.997;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;1.087;11.739;9.663;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;cene energije ×0,8 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.819;59.876;-31.468;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.737;70.499;-32.165;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-0.23;50.702;0.698;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-1.854;63.796;-46.51;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-8.292;90.926;-44.824;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.691;40.368;-1.686;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;5.217;0.084;49.42;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.799;0.181;19.243;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.652;0.0;30.177;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;-0.104;50.829;-21.009;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-6.992;88.648;-26.083;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.595;18.17;5.074;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;cene energije ×0,8 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-2.556;65.271;-30.411;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-4.25;77.549;-27.97;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-0.959;54.667;-2.441;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-3.087;78.254;-46.322;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-8.212;96.24;-40.533;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-0.841;62.722;-5.789;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.329;1.776;53.776;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.166;1.121;29.975;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.073;2.342;23.801;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.803;69.71;-52.955;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-8.566;95.011;-50.274;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.15;47.861;-2.681;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;3.391;0.955;34.608;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;2.757;2.061;12.099;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;4.151;0.0;22.509;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;-0.642;57.447;-24.409;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-7.197;88.648;-25.956;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.243;30.503;1.547;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.014;20.724;42.64;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;6.95;11.352;24.035;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.643;28.817;18.605;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;-0.386;52.722;-27.079;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-8.181;88.648;-31.888;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.36;21.698;4.81;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek ovoja ×0,85 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R1;paket;0.107;49.74;0.483;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-1.191;56.905;-13.07;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;2.036;43.553;13.553;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-1.415;62.087;-15.428;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-4.442;93.348;-25.633;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;1.659;35.092;10.204;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.817;1.776;56.27;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.803;1.121;31.401;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.485;2.342;24.869;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.284;59.357;-21.095;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-4.371;92.155;-34.709;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;2.266;31.033;13.615;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;6.866;0.084;65.502;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;6.766;0.181;26.999;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;6.977;0.0;38.503;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.213;39.822;6.485;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-2.723;81.49;-11.056;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;2.621;3.84;17.541;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.51;20.724;45.135;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.571;11.352;25.462;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;4.064;28.817;19.673;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.203;41.716;4.781;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-3.511;84.526;-16.323;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;3.3;4.746;21.105;kEUR;mio EUR;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek ovoja ×0,85 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R1;paket;0.181;49.389;2.0;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-1.198;56.725;-13.355;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;2.399;43.053;15.355;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;posameznik R3;paket;-1.475;62.037;-13.911;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-4.256;94.866;-25.917;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;1.953;33.687;12.006;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;proračun R3;paket;6.705;1.776;55.627;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.702;1.121;31.102;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.412;2.342;24.524;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.469;60.312;-20.145;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-4.13;94.975;-35.254;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;2.459;30.378;15.109;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;posameznik R1;paket;7.152;0.067;67.019;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;7.042;0.145;26.715;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;7.362;0.0;40.305;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.193;42.386;8.002;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-2.849;87.816;-11.341;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;2.996;3.153;19.342;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.398;20.724;44.491;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.475;11.352;25.163;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.993;28.817;19.329;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.194;43.257;5.731;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-3.684;88.503;-16.868;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;3.62;4.184;22.599;kEUR;mio EUR;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;osnova ovoja EUR/m² ogrevane (Eko);nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.651;-39.303;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.539;95.011;-43.603;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.034;38.433;4.3;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.427;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.013;88.648;-25.217;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.361;10.771;11.791;kEUR;mio EUR;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek ovoja sorazmeren debelini (A4) α 0,5 / 1,0;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-0.764;54.046;-13.365;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-2.277;63.377;-19.9;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.887;45.988;6.535;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-1.282;62.674;-29.276;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-5.59;93.42;-32.463;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;1.001;36.122;3.187;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;proračun R3;paket;5.973;3.702;52.277;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;7.88;2.097;29.436;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;4.619;5.089;22.842;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.787;63.193;-38.066;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.112;94.722;-43.072;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.141;35.966;5.007;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;5.568;0.017;50.507;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;5.46;0.036;20.204;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.709;0.0;30.303;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.14;45.971;-8.51;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-4.297;88.467;-17.851;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;1.174;9.273;9.341;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;proračun R3;paket;4.893;20.724;42.749;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;6.624;11.352;23.92;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.627;28.817;18.829;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.153;46.49;-11.684;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-5.58;88.648;-24.182;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.572;10.084;12.499;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek TČ ×0,8 / ×1,2;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.908;59.156;-19.883;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.43;69.776;-22.781;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.028;49.984;2.897;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.843;71.654;-35.794;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-7.014;96.132;-35.343;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-0.03;50.515;-0.451;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.76;1.826;56.544;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.64;1.085;31.35;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.402;2.466;25.194;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.579;65.807;-40.54;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-7.013;95.228;-44.134;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.97;40.4;3.594;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.356;0.888;44.651;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;3.701;1.916;16.743;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.003;0.0;27.908;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.064;49.037;-14.367;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.914;88.576;-21.312;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.53;14.892;6.946;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.438;20.724;45.434;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.482;11.352;25.497;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.997;28.817;19.936;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.141;47.412;-15.17;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.449;88.648;-26.253;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.109;11.801;11.083;kEUR;mio EUR;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek TČ ×0,8 / ×1,2;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-4.179;65.874;-32.896;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-6.227;79.067;-28.295;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-1.492;54.48;-4.601;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;posameznik R3;paket;-5.93;76.361;-48.807;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-11.007;94.432;-40.858;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-1.886;60.756;-7.949;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;proračun R3;paket;6.805;3.099;56.562;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.696;1.916;31.29;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.531;4.121;25.271;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-5.916;72.575;-54.823;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-11.418;95.228;-50.261;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;-0.694;53.013;-4.562;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;posameznik R1;paket;1.4;25.063;23.646;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;0.0;50.0;4.159;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;2.615;3.528;19.487;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;posameznik R3;paket;-2.646;67.666;-35.371;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-11.567;88.576;-33.896;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.024;49.61;-1.475;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.797;20.724;48.13;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;8.414;11.352;27.209;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;4.014;28.817;20.921;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;-1.714;60.496;-35.293;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-12.034;88.648;-38.202;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.212;36.185;2.91;kEUR;mio EUR;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;TČ 1.000 EUR/kW (kalkulator);nizko;ekonomski
+P3 − P1;posameznik R1;paket;-0.925;55.235;-14.199;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-2.402;64.787;-20.166;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.79;46.987;5.967;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-1.696;64.182;-30.11;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-5.895;93.167;-32.728;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.827;39.151;2.619;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.512;1.994;55.29;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.448;1.157;30.768;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.195;2.716;24.521;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.521;60.462;-35.994;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-5.917;93.709;-42.05;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.586;31.751;6.057;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;5.265;0.117;50.798;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;5.019;0.253;20.533;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.573;0.0;30.265;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.216;45.887;-8.22;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-4.594;88.359;-17.522;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;1.08;9.21;9.303;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.224;20.724;44.158;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.224;11.352;24.712;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.847;28.817;19.446;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.231;46.138;-10.137;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-5.466;88.648;-23.135;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.656;9.429;12.998;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek PV ×0,85 / ×1,15;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-2.208;61.166;-22.214;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.803;72.451;-23.926;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-0.305;51.421;1.712;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-3.093;74.82;-38.125;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-7.193;97.505;-36.488;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-0.442;55.229;-1.636;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.758;1.525;56.696;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.692;0.904;31.428;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.433;2.061;25.268;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.875;68.135;-42.612;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-7.203;95.915;-45.156;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.513;44.146;2.544;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.272;0.838;42.829;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;3.709;1.808;15.514;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;4.977;0.0;27.314;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;-0.022;51.315;-16.189;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-6.012;89.949;-22.541;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.444;17.952;6.352;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.399;20.724;45.556;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.455;11.352;25.605;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.963;28.817;19.951;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.075;47.847;-16.717;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.608;88.756;-27.3;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.063;12.52;10.583;kEUR;mio EUR;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;strošek PV ×0,85 / ×1,15;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.722;58.418;-18.833;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.251;68.8;-22.315;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.171;49.454;3.482;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.567;70.514;-34.744;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.769;96.023;-34.877;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.099;48.486;0.133;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.632;1.759;56.03;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.554;1.121;31.114;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.318;2.31;24.916;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.39;65.12;-39.875;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.757;95.083;-43.849;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.997;39.244;3.973;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.593;0.586;45.93;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.147;1.265;17.499;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.188;0.0;28.431;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.082;48.031;-13.087;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.564;88.539;-20.556;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.665;13.05;7.469;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.326;20.724;44.91;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.355;11.352;25.19;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.905;28.817;19.72;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.145;47.093;-14.233;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.206;88.648;-25.696;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.243;11.208;11.463;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;življenjska doba TČ 15 / 20 let;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.516;57.765;-17.868;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.018;67.932;-21.901;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.256;48.985;4.033;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.277;69.492;-33.779;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.486;95.662;-34.463;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.241;46.894;0.684;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.617;1.759;55.969;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.544;1.121;31.088;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.311;2.31;24.881;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.128;64.299;-38.996;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.419;94.939;-43.472;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.043;37.84;4.475;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.884;0.318;47.289;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.494;0.687;18.307;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.316;0.0;28.983;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.108;47.278;-11.728;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.177;88.539;-19.749;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.802;11.645;8.021;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.303;20.724;44.824;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.327;11.352;25.139;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.896;28.817;19.685;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.148;46.758;-12.995;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-5.919;88.648;-24.961;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.419;10.584;11.966;kEUR;mio EUR;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;življenjska doba TČ 15 / 20 let;visoko;ekonomski
+P3 − P1;posameznik R1;paket;3.707;36.706;31.224;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;2.804;38.503;2.068;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;5.454;35.155;29.156;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R3;paket;1.055;39.705;15.313;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-0.726;61.424;-10.494;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;4.826;20.949;25.807;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;proračun R3;paket;0.395;37.058;1.822;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;0.825;11.244;4.685;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;-0.378;59.351;-2.863;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.233;64.617;-39.197;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.527;95.011;-43.552;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.041;38.37;4.355;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;10.019;0.017;89.972;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;10.432;0.036;38.922;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;9.466;0.0;51.05;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;1.103;21.813;30.954;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;0.132;46.095;0.866;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;5.182;0.843;30.088;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;proračun R3;paket;-0.1;64.232;-3.042;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;0.446;24.91;1.961;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;-0.832;98.189;-5.003;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.859;-13.321;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.005;88.648;-25.166;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.371;10.771;11.846;kEUR;mio EUR;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;spodbude ×0 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-3.905;73.362;-42.921;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-5.655;85.719;-34.103;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;-2.339;62.691;-8.818;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-4.479;88.574;-58.832;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-10.147;96.276;-46.665;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;-2.312;81.923;-12.167;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;proračun R3;paket;10.02;1.994;83.078;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;12.51;1.229;44.305;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;8.163;2.654;38.773;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.237;64.701;-39.427;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.56;95.011;-43.663;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.027;38.526;4.236;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;2.305;4.406;25.234;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;1.527;9.436;7.575;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;3.192;0.062;17.659;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;-1.649;72.156;-33.783;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-8.644;88.648;-30.48;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;-0.548;57.914;-3.303;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;proračun R3;paket;8.187;20.724;68.807;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;10.726;11.352;36.757;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;6.321;28.817;32.049;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.147;46.926;-13.551;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.028;88.648;-25.277;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.344;10.896;11.726;kEUR;mio EUR;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;spodbude ×0 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.093;64.031;-29.763;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-5.44;95.445;-36.838;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.306;36.903;7.075;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.129;45.636;-6.862;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-4.973;88.648;-20.805;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.814;8.492;13.943;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;zmogljivost 0 / 113 EUR/kW-leto;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.289;64.969;-47.15;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-7.502;94.469;-49.168;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.908;39.494;2.018;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.149;48.015;-18.826;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.912;88.648;-28.847;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.963;12.925;10.02;kEUR;mio EUR;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;zmogljivost 0 / 113 EUR/kW-leto;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.119;63.897;-64.639;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-10.271;92.516;-61.843;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.83;39.182;-2.796;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;-0.485;52.94;-33.122;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-9.507;88.648;-38.323;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.458;22.104;5.201;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;zimske cene ×1,5 / ×2,0;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.73;64.215;-89.975;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-13.817;90.347;-80.082;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.59;41.648;-9.893;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;-1.653;62.908;-52.817;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-13.047;88.648;-51.429;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.338;40.681;-1.388;kEUR;mio EUR;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;zimske cene ×1,5 / ×2,0;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-0.555;54.113;-28.855;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-5.082;89.479;-38.035;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;2.451;23.572;9.18;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.163;45.418;-5.886;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-4.733;88.648;-20.219;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.924;8.086;14.334;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-4.43;74.887;-54.269;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-8.935;97.795;-51.579;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;-0.64;55.105;-2.69;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.053;49.657;-24.229;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-8.002;88.648;-32.377;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.593;15.985;8.148;kEUR;mio EUR;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;ojačitev omrežja 300 / 1.200 EUR/kW;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.204;59.792;-21.19;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-4.101;93.167;-31.126;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.859;30.971;9.936;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.157;43.592;0.79;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-3.471;86.985;-15.329;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;2.347;6.119;16.119;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;cena CO2 ×0,5 / ×1,5;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-3.144;69.074;-57.416;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-9.32;95.155;-56.081;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.339;46.55;-1.335;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;-0.078;50.41;-27.643;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-8.735;88.648;-35.106;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.533;17.39;7.463;kEUR;mio EUR;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;cena CO2 ×0,5 / ×1,5;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.024;63.863;-33.433;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-5.795;95.119;-39.593;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.274;36.872;6.16;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-8.017;97.437;-96.525;t;kt;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-14.735;98.12;-68.143;t;kt;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-5.332;96.847;-28.382;t;kt;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.166;45.954;-8.787;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-5.271;88.648;-22.17;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.72;9.085;13.383;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-6.139;79.276;-73.688;t;kt;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-13.629;88.648;-54.755;t;kt;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-3.201;71.183;-18.932;t;kt;EF elektrike 2050: 0,3 / 0,7;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.46;65.941;-47.271;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-7.672;94.902;-49.047;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.768;40.93;1.776;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-11.12;97.269;-135.851;t;kt;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-20.74;98.012;-95.01;t;kt;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-7.132;96.628;-40.841;t;kt;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.119;48.417;-19.724;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-7.144;88.648;-29.354;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.856;13.675;9.629;kEUR;mio EUR;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-9.756;79.276;-104.769;t;kt;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-19.04;88.648;-75.17;t;kt;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-5.351;71.183;-29.598;t;kt;EF elektrike 2050: 0,3 / 0,7;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.552;67.063;-61.818;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-9.906;94.107;-59.321;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.482;43.709;-2.497;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-15.004;92.26;-187.192;t;kt;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-28.336;95.119;-131.647;t;kt;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-8.722;89.791;-55.546;t;kt;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;-0.289;51.566;-31.039;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-9.312;88.648;-37.037;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.533;19.544;5.998;kEUR;mio EUR;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-13.864;79.276;-144.32;t;kt;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-26.156;88.648;-102.374;t;kt;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-7.461;71.183;-41.946;t;kt;mejni EF 0,367 kg/kWh (plinska PPE);nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.951;63.562;-39.819;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.505;94.324;-43.928;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.134;36.997;4.108;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.639;96.298;-117.249;t;kt;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.764;97.325;-81.831;t;kt;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-5.9;95.411;-35.417;t;kt;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.153;47.01;-13.862;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-6.052;88.648;-25.202;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.246;11.052;11.34;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-8.721;79.276;-90.664;t;kt;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-16.357;88.648;-64.166;t;kt;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.875;71.183;-26.498;t;kt;vgrajeni CO2 ×0,7 / ×1,3;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.623;1.776;55.993;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.098;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.894;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.468;65.539;-38.786;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-6.629;95.336;-43.279;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.982;39.806;4.492;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.322;97.604;-108.785;t;kt;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-16.677;98.265;-76.988;t;kt;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.222;97.034;-31.797;t;kt;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;proračun R3;paket;5.312;20.724;44.857;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.159;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.699;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.142;46.775;-12.991;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-5.999;88.648;-25.232;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;1.454;10.615;12.241;kEUR;mio EUR;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-6.561;79.276;-82.779;t;kt;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.435;88.648;-62.467;t;kt;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-3.311;71.183;-20.312;t;kt;vgrajeni CO2 ×0,7 / ×1,3;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;proračun R3;paket;6.901;1.709;58.994;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;8.955;1.085;33.118;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.487;2.248;25.876;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;družbeni NPV;paket;-2.217;64.55;-58.494;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-9.372;93.312;-56.583;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;0.802;39.713;-1.91;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;proračun R3;paket;5.577;20.724;47.136;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;7.76;11.352;26.672;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;4.055;28.817;20.464;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket;-0.363;52.22;-29.333;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-8.919;88.648;-34.916;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;0.449;20.762;5.583;kEUR;mio EUR;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;diskont javni 2 / 5 %;nizko;ekonomski
+P3 − P1;posameznik R1;paket;-1.585;58.016;-18.206;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;posameznik R1;paket pred 1981;-3.094;68.185;-22.046;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;posameznik R1;paket 1981–2002;0.231;49.235;3.84;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;posameznik R3;paket;-2.397;69.978;-34.117;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;posameznik R3;paket pred 1981;-6.587;95.879;-34.608;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;posameznik R3;paket 1981–2002;0.21;47.612;0.491;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;proračun R3;paket;6.232;1.742;51.49;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;proračun R3;paket pred 1981;7.893;1.048;28.061;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;proračun R3;paket 1981–2002;5.074;2.342;23.429;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;družbeni NPV;paket;-1.602;63.126;-11.714;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;družbeni NPV;paket pred 1981;-3.764;92.48;-24.694;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;družbeni NPV;paket 1981–2002;1.733;37.777;12.98;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket;-9.283;97.403;-113.017;t;kt;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket pred 1981;-17.268;98.156;-79.41;t;kt;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.607;t;kt;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.813;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;posameznik R1;paket pred 1981;4.357;0.723;18.024;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.789;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;posameznik R3;paket;0.102;47.562;-12.204;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;posameznik R3;paket pred 1981;-5.321;88.539;-20.032;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;posameznik R3;paket 1981–2002;0.759;12.176;7.827;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;proračun R3;paket;4.918;20.724;41.447;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;proračun R3;paket pred 1981;6.695;11.352;22.886;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;proračun R3;paket 1981–2002;3.679;28.817;18.561;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket;0.077;40.945;9.242;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket pred 1981;-2.527;81.02;-11.226;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;družbeni NPV;paket 1981–2002;3.268;6.338;20.468;kEUR;mio EUR;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket;-7.674;79.276;-86.722;t;kt;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.927;88.648;-63.317;t;kt;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.405;t;kt;diskont javni 2 / 5 %;visoko;ekonomski
+P3 − P1;posameznik R1;paket;-2.179;62.439;-26.671;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;posameznik R1;paket pred 1981;-4.293;75.886;-27.927;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;posameznik R1;paket 1981–2002;-0.182;50.827;1.257;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;posameznik R3;paket;-2.901;74.317;-42.087;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;posameznik R3;paket pred 1981;-8.262;96.421;-39.437;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;posameznik R3;paket 1981–2002;-0.477;55.229;-2.65;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;proračun R3;paket;6.798;2.027;57.305;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;proračun R3;paket pred 1981;8.824;1.302;31.976;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;proračun R3;paket 1981–2002;5.398;2.654;25.33;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;družbeni NPV;paket;-2.699;68.253;-49.714;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;družbeni NPV;paket pred 1981;-8.901;95.047;-50.057;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;družbeni NPV;paket 1981–2002;0.413;45.114;0.343;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;CO2e 30 let;paket;-10.428;96.448;-121.686;t;kt;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;CO2e 30 let;paket pred 1981;-19.379;97.397;-85.168;t;kt;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.689;95.629;-36.519;t;kt;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;posameznik R1;paket;4.549;0.452;45.17;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;posameznik R1;paket pred 1981;4.005;0.976;16.879;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;posameznik R1;paket 1981–2002;5.188;0.0;28.292;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;posameznik R3;paket;-0.169;51.466;-19.056;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;posameznik R3;paket pred 1981;-6.901;88.648;-24.386;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;posameznik R3;paket 1981–2002;0.429;19.357;5.33;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;proračun R3;paket;5.542;20.724;46.465;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;proračun R3;paket pred 1981;7.691;11.352;26.183;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;proračun R3;paket 1981–2002;4.044;28.817;20.283;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;družbeni NPV;paket;-0.03;50.209;-23.678;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;družbeni NPV;paket pred 1981;-8.3;88.648;-31.715;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;družbeni NPV;paket 1981–2002;0.562;17.015;8.037;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;CO2e 30 let;paket;-9.449;79.276;-99.202;t;kt;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;CO2e 30 let;paket pred 1981;-18.588;88.648;-71.227;t;kt;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1r;CO2e 30 let;paket 1981–2002;-5.15;71.183;-27.974;t;kt;COP A7/W35 4,0 / 5,0;nizko;urni
+P3 − P1;posameznik R1;paket;-1.213;55.604;-12.608;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;posameznik R1;paket pred 1981;-2.267;63.557;-17.943;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;posameznik R1;paket 1981–2002;0.317;48.736;5.335;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;posameznik R3;paket;-1.947;66.242;-27.8;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;posameznik R3;paket pred 1981;-5.332;94.902;-30.775;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;posameznik R3;paket 1981–2002;0.711;41.492;2.975;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;proračun R3;paket;6.495;1.659;54.983;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;proračun R3;paket pred 1981;8.331;1.048;30.418;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;proračun R3;paket 1981–2002;5.254;2.185;24.565;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;družbeni NPV;paket;-1.686;62.238;-31.079;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;družbeni NPV;paket pred 1981;-4.822;94.83;-38.5;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;družbeni NPV;paket 1981–2002;1.541;34.093;7.421;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;CO2e 30 let;paket;-8.429;98.174;-106.267;t;kt;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;CO2e 30 let;paket pred 1981;-15.524;98.843;-74.905;t;kt;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;CO2e 30 let;paket 1981–2002;-5.632;97.596;-31.362;t;kt;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;posameznik R1;paket;4.975;0.369;48.095;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;posameznik R1;paket pred 1981;4.626;0.795;18.914;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;posameznik R1;paket 1981–2002;5.332;0.0;29.181;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;posameznik R3;paket;0.126;45.451;-6.723;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;posameznik R3;paket pred 1981;-4.132;88.322;-16.553;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;posameznik R3;paket 1981–2002;1.202;8.43;9.83;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;proračun R3;paket;5.118;20.724;43.575;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;proračun R3;paket pred 1981;7.064;11.352;24.344;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;proračun R3;paket 1981–2002;3.798;28.817;19.231;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;družbeni NPV;paket;0.149;45.1;-5.226;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;družbeni NPV;paket pred 1981;-4.369;88.648;-20.025;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;družbeni NPV;paket 1981–2002;2.13;7.493;14.799;kEUR;mio EUR;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;CO2e 30 let;paket;-6.24;79.276;-76.77;t;kt;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;CO2e 30 let;paket pred 1981;-13.764;88.648;-57.013;t;kt;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1r;CO2e 30 let;paket 1981–2002;-3.276;71.183;-19.757;t;kt;COP A7/W35 4,0 / 5,0;visoko;urni
+P3 − P1;posameznik R1;paket;-1.24;56.425;-14.579;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;posameznik R1;paket pred 1981;-2.481;65.51;-19.605;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;posameznik R1;paket 1981–2002;0.431;48.579;5.026;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;posameznik R3;paket;-1.932;65.974;-28.347;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;posameznik R3;paket pred 1981;-5.439;95.192;-31.321;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;posameznik R3;paket 1981–2002;0.761;40.743;2.974;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;proračun R3;paket;6.437;1.709;54.833;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;proračun R3;paket pred 1981;8.326;1.048;30.417;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;proračun R3;paket 1981–2002;5.15;2.279;24.415;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;družbeni NPV;paket;-1.567;61.568;-31.295;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;družbeni NPV;paket pred 1981;-4.998;94.939;-39.003;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;družbeni NPV;paket 1981–2002;1.786;32.751;7.708;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;CO2e 30 let;paket;-7.977;97.755;-104.683;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;CO2e 30 let;paket pred 1981;-15.393;98.409;-74.568;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;CO2e 30 let;paket 1981–2002;-5.054;97.19;-30.115;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;posameznik R1;paket;5.094;0.067;48.416;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;posameznik R1;paket pred 1981;4.661;0.145;18.966;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;posameznik R1;paket 1981–2002;5.481;0.0;29.45;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;posameznik R3;paket;0.168;43.609;-6.743;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;posameznik R3;paket pred 1981;-4.076;88.322;-16.855;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;posameznik R3;paket 1981–2002;1.449;4.995;10.112;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;proračun R3;paket;5.076;20.724;43.568;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;proračun R3;paket pred 1981;7.065;11.352;24.41;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;proračun R3;paket 1981–2002;3.728;28.817;19.159;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;družbeni NPV;paket;0.18;42.989;-5.368;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;družbeni NPV;paket pred 1981;-4.281;88.648;-20.529;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;družbeni NPV;paket 1981–2002;2.413;3.559;15.162;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;CO2e 30 let;paket;-5.965;79.276;-76.883;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;CO2e 30 let;paket pred 1981;-13.952;88.648;-57.596;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1r;CO2e 30 let;paket 1981–2002;-2.727;71.183;-19.286;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;nizko;urni
+P3 − P1;posameznik R1;paket;-1.834;60.379;-21.996;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;posameznik R1;paket pred 1981;-3.693;72.198;-24.556;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;posameznik R1;paket 1981–2002;-0.037;50.172;2.56;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;posameznik R3;paket;-2.835;73.798;-39.781;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;posameznik R3;paket pred 1981;-7.702;96.312;-37.839;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;posameznik R3;paket 1981–2002;-0.365;54.355;-1.942;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;proračun R3;paket;6.824;1.776;57.14;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;proračun R3;paket pred 1981;8.79;1.157;31.771;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;proračun R3;paket 1981–2002;5.474;2.31;25.369;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;družbeni NPV;paket;-2.724;68.621;-47.18;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;družbeni NPV;paket pred 1981;-8.153;95.047;-48.13;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;družbeni NPV;paket 1981–2002;0.397;45.801;0.95;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;CO2e 30 let;paket;-10.635;97.102;-121.245;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;CO2e 30 let;paket pred 1981;-19.079;97.795;-84.184;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;CO2e 30 let;paket 1981–2002;-7.138;96.503;-37.061;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;posameznik R1;paket;4.527;0.586;45.274;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;posameznik R1;paket pred 1981;4.06;1.265;17.109;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;posameznik R1;paket 1981–2002;5.047;0.0;28.165;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;posameznik R3;paket;-0.327;52.488;-17.587;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;posameznik R3;paket pred 1981;-6.473;88.648;-23.159;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;posameznik R3;paket 1981–2002;0.38;21.261;5.572;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;proračun R3;paket;5.531;20.724;46.122;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;proračun R3;paket pred 1981;7.603;11.352;25.894;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;proračun R3;paket 1981–2002;4.071;28.817;20.228;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;družbeni NPV;paket;-0.214;51.097;-21.353;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;družbeni NPV;paket pred 1981;-7.755;88.648;-29.826;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;družbeni NPV;paket 1981–2002;0.464;18.67;8.474;kEUR;mio EUR;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;CO2e 30 let;paket;-9.371;79.276;-96.374;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;CO2e 30 let;paket pred 1981;-17.915;88.648;-68.933;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1r;CO2e 30 let;paket 1981–2002;-5.373;71.183;-27.441;t;kt;temperatura dovoda brez ovoja 50 / 60 °C;visoko;urni
+P3 − P1;posameznik R1;paket;-1.588;58.05;-18.421;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;posameznik R1;paket pred 1981;-3.132;68.221;-22.16;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;posameznik R1;paket 1981–2002;0.228;49.266;3.739;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;posameznik R3;paket;-2.416;70.079;-34.559;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;posameznik R3;paket pred 1981;-6.599;95.879;-34.847;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;posameznik R3;paket 1981–2002;0.192;47.799;0.288;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;proračun R3;paket;6.623;1.776;56.088;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;proračun R3;paket pred 1981;8.549;1.121;31.149;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;proračun R3;paket 1981–2002;5.312;2.342;24.939;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;družbeni NPV;paket;-2.252;64.785;-39.863;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;družbeni NPV;paket pred 1981;-6.559;95.011;-43.905;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;družbeni NPV;paket 1981–2002;1.011;38.682;4.041;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;CO2e 30 let;paket;-9.316;97.403;-113.614;t;kt;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;CO2e 30 let;paket pred 1981;-17.281;98.156;-79.727;t;kt;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1;CO2e 30 let;paket 1981–2002;-6.045;96.753;-33.887;t;kt;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;posameznik R1;paket;4.805;0.335;46.599;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;posameznik R1;paket pred 1981;4.354;0.723;17.91;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;posameznik R1;paket 1981–2002;5.277;0.0;28.689;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;posameznik R3;paket;0.096;47.696;-12.646;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;posameznik R3;paket pred 1981;-5.352;88.539;-20.271;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;posameznik R3;paket 1981–2002;0.739;12.426;7.625;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;proračun R3;paket;5.312;20.724;44.953;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;proračun R3;paket pred 1981;7.338;11.352;25.21;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;proračun R3;paket 1981–2002;3.9;28.817;19.743;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;družbeni NPV;paket;0.147;46.959;-13.987;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;družbeni NPV;paket pred 1981;-6.06;88.648;-25.519;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;družbeni NPV;paket 1981–2002;1.321;10.958;11.532;kEUR;mio EUR;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;CO2e 30 let;paket;-7.69;79.276;-87.319;t;kt;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;CO2e 30 let;paket pred 1981;-15.974;88.648;-63.634;t;kt;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni
+P3 − P1r;CO2e 30 let;paket 1981–2002;-4.124;71.183;-23.686;t;kt;n50 pri ciljni prenovi ≤ 3,0 (osnova 4,0);nizko;urni

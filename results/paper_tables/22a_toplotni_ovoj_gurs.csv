@@ -1,0 +1,5 @@
+﻿arhetip;A fond mediana [m²];A podvzorec GURS mediana [m²];n podvzorca;eksponent stena ~ A^b;eksponent streha ~ A^b;ovoj: stena;ovoj: streha/strop;ovoj: tla/kletni strop;ovoj: okna;pokritost stena (Eko / ovoj iste hiše);pokritost streha (Eko / F iste hiše);strošek: stena;strošek: streha;strošek: tla;strošek: okna;G11 (Eko mediane): stena / streha / tla / okna;G13a (podvzorec, brez popravka): stena / streha
+A1;110.5;155.0;285;-0.298;-0.545;1.284;0.836;0.836;0.138;1.284;1.161;1.649;0.971;0.836;0.138;2.00 / 0.88 / 0.56 / 0.138;1.15 / 0.72
+A2;137.468;189.962;325;-0.305;-0.538;1.277;0.665;0.665;0.123;1.072;0.965;1.369;0.642;0.665;0.123;1.77 / 0.78 / 0.50 / 0.123;1.16 / 0.56
+A3;154.652;220.092;266;-0.288;-0.483;1.224;0.605;0.605;0.114;1.122;0.876;1.373;0.53;0.605;0.114;1.65 / 0.72 / 0.46 / 0.114;1.08 / 0.51
+A4;153.938;227.046;942;-0.359;-0.455;1.222;0.635;0.635;0.117;1.067;1.0;1.304;0.635;0.635;0.117;1.60 / 0.70 / 0.57 / 0.117;1.05 / 0.53

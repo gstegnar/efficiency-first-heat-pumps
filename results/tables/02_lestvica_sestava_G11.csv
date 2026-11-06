@@ -1,0 +1,17 @@
+﻿obdobje;stanje;stavb;delež samo OVE [%];najpogostejše kombinacije URE;delež z oknami [%];delež s streho [%];delež s fasado [%]
+1;S0;646;100.0;(samo OVE) 100 %;0.0;0.0;0.0
+1;S1;12880;56.1;"(samo OVE) 56 %; okna 14 %; prezrac 9 %; fasada 8 %";18.2;9.5;11.2
+1;S2;2039;3.2;"streha+okna 20 %; fasada+okna 14 %; fasada+streha 13 %; fasada+streha+okna 9 %";60.6;56.9;51.3
+1;S3;1457;0.4;"fasada+streha+okna 52 %; fasada+streha+okna+prezrac 18 %; streha+okna 6 %; fasada+okna 4 %";89.2;87.4;86.3
+2;S0;1107;100.0;(samo OVE) 100 %;0.0;0.0;0.0
+2;S1;18489;47.8;"(samo OVE) 48 %; fasada 14 %; okna 13 %; streha 8 %";19.1;12.4;20.1
+2;S2;3784;2.0;"streha+okna 16 %; fasada+okna 15 %; fasada+streha 13 %; fasada+streha+okna 13 %";59.6;55.6;58.2
+2;S3;2590;0.9;"fasada+streha+okna 45 %; fasada+streha+okna+prezrac 15 %; streha+okna 6 %; fasada+okna 6 %";82.8;83.3;85.6
+3;S0;902;100.0;(samo OVE) 100 %;0.0;0.0;0.0
+3;S1;19745;48.0;"(samo OVE) 48 %; okna 14 %; fasada 13 %; streha 10 %";19.9;14.2;18.2
+3;S2;4207;2.5;"streha+okna 17 %; fasada+okna 14 %; fasada+streha 12 %; fasada+streha+okna 10 %";56.6;54.3;52.6
+3;S3;2740;0.5;"fasada+streha+okna 43 %; fasada+streha+okna+prezrac 12 %; fasada+okna 9 %; streha+okna 7 %";82.5;79.7;83.7
+4;S0;1550;100.0;(samo OVE) 100 %;0.0;0.0;0.0
+4;S1;34421;65.4;"(samo OVE) 65 %; okna 11 %; fasada 7 %; prezrac 7 %";13.1;8.4;9.0
+4;S2;4762;6.2;"streha+okna 15 %; okna 11 %; streha 11 %; fasada+streha 10 %";49.4;48.4;39.5
+4;S3;2601;1.1;"fasada+streha+okna 39 %; fasada+streha+okna+prezrac 11 %; streha+okna 8 %; fasada+streha 7 %";78.8;78.8;77.4

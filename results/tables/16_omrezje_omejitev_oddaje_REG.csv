@@ -1,0 +1,183 @@
+﻿c [kW/kWp];obdobje;kazalnik;enota;P1 mediana;P3 mediana;P3 − P1 mediana;delež P3 nižji/boljši [%];P1 vsota;P3 vsota;P3 − P1 vsota;enota vsote;zimski uvoz pravila brez hranilnikov [kWh];zimski uvoz pravila [kWh];zimski uvoz O1 [kWh];znižanje zimskega uvoza O1 [%];konica uvoza pravila brez hranilnikov [kW];konica uvoza O2 [kW];znižanje konice O2 [%]
+1.0;paket;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;10.572;4.91;-5.386;99.324;90.647;43.274;-47.373;MW;;;;;;;
+1.0;paket;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;5.632;2.27;-3.607;99.299;49.454;17.753;-31.701;mio EUR;;;;;;;
+1.0;paket;(d) obremenitev NN samo po uvozu;kW/hišo;5.595;3.443;-2.159;98.881;58.82;30.224;-28.596;MW;;;;;;;
+1.0;paket;(d) ojačitev NN samo po uvozu;kEUR/hišo;2.563;1.092;-1.354;92.206;28.352;9.887;-18.465;mio EUR;;;;;;;
+1.0;paket;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;5.595;2.619;-2.938;100.0;58.82;23.437;-35.383;MW;;;;;;;
+1.0;paket;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;9.672;4.91;-4.675;95.365;81.032;43.217;-37.814;MW;;;;;;;
+1.0;paket;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;75.83;;;;;;;;;;;;;;
+1.0;paket;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;99.975;;;;;;;;;;;;;
+1.0;paket;izgubljena energija PV (curtailment);kWh/a na hišo;0.0;0.0;0.0;;0.0;0.0;0.0;GWh/a;;;;;;;
+1.0;paket;izgubljena energija PV, delež proizvodnje;%;0.0;0.0;0.0;;;;;;;;;;;;
+1.0;paket;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;0.0;0.0;0.0;;0.0;0.0;0.0;mio EUR/a;;;;;;;
+1.0;paket;družbeni NPV;kEUR/hišo;61.462;78.192;13.711;21.281;589.339;668.583;79.245;mio EUR;;;;;;;
+1.0;paket;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;58.603;77.266;16.069;20.42;568.237;660.718;92.481;mio EUR;;;;;;;
+1.0;paket;posameznik NPV R1;kEUR/hišo;39.111;56.629;13.383;12.478;383.895;480.197;96.302;mio EUR;;;;;;;
+1.0;paket;posameznik NPV R3;kEUR/hišo;50.949;62.211;9.481;23.297;478.834;532.733;53.899;mio EUR;;;;;;;
+1.0;paket;zimski uvoz;kWh/a na hišo;5629.072;2736.284;-2783.542;100.0;61.754;24.402;-37.352;GWh/a;;;;;;;
+1.0;pred 1981;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;10.765;4.794;-5.934;99.627;49.601;21.706;-27.895;MW;;;;;;;
+1.0;pred 1981;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;5.866;2.056;-3.971;99.627;27.398;8.737;-18.661;mio EUR;;;;;;;
+1.0;pred 1981;(d) obremenitev NN samo po uvozu;kW/hišo;6.601;3.183;-3.402;100.0;34.874;14.348;-20.526;MW;;;;;;;
+1.0;pred 1981;(d) ojačitev NN samo po uvozu;kEUR/hišo;3.212;0.846;-2.186;95.007;17.619;4.397;-13.222;mio EUR;;;;;;;
+1.0;pred 1981;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;6.601;2.376;-4.161;100.0;34.874;10.962;-23.912;MW;;;;;;;
+1.0;pred 1981;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;9.733;4.794;-4.921;96.127;42.707;21.701;-21.006;MW;;;;;;;
+1.0;pred 1981;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;69.179;;;;;;;;;;;;;;
+1.0;pred 1981;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;100.0;;;;;;;;;;;;;
+1.0;pred 1981;izgubljena energija PV (curtailment);kWh/a na hišo;0.0;0.0;0.0;;0.0;0.0;0.0;GWh/a;;;;;;;
+1.0;pred 1981;izgubljena energija PV, delež proizvodnje;%;0.0;0.0;0.0;;;;;;;;;;;;
+1.0;pred 1981;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;0.0;0.0;0.0;;0.0;0.0;0.0;mio EUR/a;;;;;;;
+1.0;pred 1981;družbeni NPV;kEUR/hišo;66.923;76.989;5.902;36.024;340.114;343.369;3.256;mio EUR;;;;;;;
+1.0;pred 1981;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;64.451;76.026;7.5;34.298;330.335;339.03;8.695;mio EUR;;;;;;;
+1.0;pred 1981;posameznik NPV R1;kEUR/hišo;40.27;56.291;10.406;19.949;218.846;248.943;30.097;mio EUR;;;;;;;
+1.0;pred 1981;posameznik NPV R3;kEUR/hišo;55.084;61.431;3.566;39.477;274.189;273.999;-0.19;mio EUR;;;;;;;
+1.0;pred 1981;zimski uvoz;kWh/a na hišo;6470.396;2525.703;-3875.148;100.0;37.399;11.768;-25.631;GWh/a;;;;;;;
+1.0;1981–2002;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;10.217;5.261;-4.803;98.986;41.046;21.568;-19.478;MW;;;;;;;
+1.0;1981–2002;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;5.433;2.324;-3.212;98.935;22.055;9.016;-13.04;mio EUR;;;;;;;
+1.0;1981–2002;(d) obremenitev NN samo po uvozu;kW/hišo;4.878;3.746;-1.158;97.635;23.946;15.876;-8.07;MW;;;;;;;
+1.0;1981–2002;(d) ojačitev NN samo po uvozu;kEUR/hišo;2.093;1.307;-0.748;89.085;10.733;5.49;-5.243;mio EUR;;;;;;;
+1.0;1981–2002;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;4.878;2.895;-1.996;100.0;23.946;12.475;-11.471;MW;;;;;;;
+1.0;1981–2002;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;9.599;5.261;-4.368;94.517;38.325;21.517;-16.808;MW;;;;;;;
+1.0;1981–2002;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;83.238;;;;;;;;;;;;;;
+1.0;1981–2002;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;99.948;;;;;;;;;;;;;
+1.0;1981–2002;izgubljena energija PV (curtailment);kWh/a na hišo;0.0;0.0;0.0;;0.0;0.0;0.0;GWh/a;;;;;;;
+1.0;1981–2002;izgubljena energija PV, delež proizvodnje;%;0.0;0.0;0.0;;;;;;;;;;;;
+1.0;1981–2002;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;0.0;0.0;0.0;;0.0;0.0;0.0;mio EUR/a;;;;;;;
+1.0;1981–2002;družbeni NPV;kEUR/hišo;57.13;79.622;19.354;4.86;249.225;325.214;75.989;mio EUR;;;;;;;
+1.0;1981–2002;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;53.749;78.687;21.79;4.964;237.903;321.688;83.786;mio EUR;;;;;;;
+1.0;1981–2002;posameznik NPV R1;kEUR/hišo;38.204;57.014;16.618;4.158;165.049;231.254;66.205;mio EUR;;;;;;;
+1.0;1981–2002;posameznik NPV R3;kEUR/hišo;47.541;63.25;13.81;5.275;204.645;258.734;54.089;mio EUR;;;;;;;
+1.0;1981–2002;zimski uvoz;kWh/a na hišo;4950.557;2972.32;-1969.044;100.0;24.355;12.634;-11.721;GWh/a;;;;;;;
+1.0;paket;sočasna konica paketa (vsota urnih nizov): uvoz;MW;80.457;35.458;-44.999;;;;;;;;;;;;
+1.0;paket;sočasna konica paketa (vsota urnih nizov): oddaja;MW;85.068;45.025;-40.043;;;;;;;;;;;;
+0.7;paket;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;9.408;4.55;-4.63;99.521;82.831;40.327;-42.504;MW;;;;;;;
+0.7;paket;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;4.922;2.108;-3.096;99.496;44.217;15.811;-28.406;mio EUR;;;;;;;
+0.7;paket;(d) obremenitev NN samo po uvozu;kW/hišo;5.595;3.443;-2.159;98.881;58.82;30.224;-28.596;MW;;;;;;;
+0.7;paket;(d) ojačitev NN samo po uvozu;kEUR/hišo;2.563;1.092;-1.354;92.206;28.352;9.887;-18.465;mio EUR;;;;;;;
+0.7;paket;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;5.595;2.619;-2.938;100.0;58.82;23.437;-35.383;MW;;;;;;;
+0.7;paket;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;8.61;4.55;-3.892;96.336;71.739;40.152;-31.587;MW;;;;;;;
+0.7;paket;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;70.888;;;;;;;;;;;;;;
+0.7;paket;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;99.73;;;;;;;;;;;;;
+0.7;paket;izgubljena energija PV (curtailment);kWh/a na hišo;40.207;4.763;-34.171;;0.37;0.051;-0.319;GWh/a;;;;;;;
+0.7;paket;izgubljena energija PV, delež proizvodnje;%;0.284;0.062;-0.214;;;;;;;;;;;;
+0.7;paket;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;1.263;0.16;-1.067;;0.012;0.002;-0.011;mio EUR/a;;;;;;;
+0.7;paket;družbeni NPV;kEUR/hišo;60.686;77.975;14.226;20.937;584.342;666.673;82.331;mio EUR;;;;;;;
+0.7;paket;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;58.628;77.268;16.027;20.47;568.477;660.75;92.273;mio EUR;;;;;;;
+0.7;paket;posameznik NPV R1;kEUR/hišo;39.117;56.629;13.352;12.528;384.135;480.198;96.063;mio EUR;;;;;;;
+0.7;paket;posameznik NPV R3;kEUR/hišo;50.963;62.212;9.467;23.322;478.971;532.75;53.779;mio EUR;;;;;;;
+0.7;paket;zimski uvoz;kWh/a na hišo;5629.072;2736.284;-2783.542;100.0;61.754;24.402;-37.352;GWh/a;;;;;;;
+0.7;pred 1981;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;9.52;4.55;-5.201;99.697;45.891;20.32;-25.572;MW;;;;;;;
+0.7;pred 1981;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;5.2;1.874;-3.461;99.697;24.913;7.828;-17.085;mio EUR;;;;;;;
+0.7;pred 1981;(d) obremenitev NN samo po uvozu;kW/hišo;6.601;3.183;-3.402;100.0;34.874;14.348;-20.526;MW;;;;;;;
+0.7;pred 1981;(d) ojačitev NN samo po uvozu;kEUR/hišo;3.212;0.846;-2.186;95.007;17.619;4.397;-13.222;mio EUR;;;;;;;
+0.7;pred 1981;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;6.601;2.376;-4.161;100.0;34.874;10.962;-23.912;MW;;;;;;;
+0.7;pred 1981;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;8.68;4.55;-4.13;97.27;38.059;20.295;-17.764;MW;;;;;;;
+0.7;pred 1981;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;63.626;;;;;;;;;;;;;;
+0.7;pred 1981;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;99.953;;;;;;;;;;;;;
+0.7;pred 1981;izgubljena energija PV (curtailment);kWh/a na hišo;37.094;3.971;-32.83;;0.186;0.021;-0.165;GWh/a;;;;;;;
+0.7;pred 1981;izgubljena energija PV, delež proizvodnje;%;0.262;0.053;-0.205;;;;;;;;;;;;
+0.7;pred 1981;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;1.144;0.135;-0.987;;0.006;0.001;-0.005;mio EUR/a;;;;;;;
+0.7;pred 1981;družbeni NPV;kEUR/hišo;66.136;76.8;6.376;35.301;337.746;342.474;4.727;mio EUR;;;;;;;
+0.7;pred 1981;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;64.475;76.03;7.468;34.391;330.453;339.043;8.59;mio EUR;;;;;;;
+0.7;pred 1981;posameznik NPV R1;kEUR/hišo;40.298;56.291;10.363;20.019;219.004;248.943;29.939;mio EUR;;;;;;;
+0.7;pred 1981;posameznik NPV R3;kEUR/hišo;55.098;61.432;3.547;39.524;274.256;274.006;-0.25;mio EUR;;;;;;;
+0.7;pred 1981;zimski uvoz;kWh/a na hišo;6470.396;2525.703;-3875.148;100.0;37.399;11.768;-25.631;GWh/a;;;;;;;
+0.7;1981–2002;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;9.116;4.9;-4.116;99.324;36.939;20.007;-16.932;MW;;;;;;;
+0.7;1981–2002;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;4.679;2.108;-2.753;99.272;19.304;7.982;-11.322;mio EUR;;;;;;;
+0.7;1981–2002;(d) obremenitev NN samo po uvozu;kW/hišo;4.878;3.746;-1.158;97.635;23.946;15.876;-8.07;MW;;;;;;;
+0.7;1981–2002;(d) ojačitev NN samo po uvozu;kEUR/hišo;2.093;1.307;-0.748;89.085;10.733;5.49;-5.243;mio EUR;;;;;;;
+0.7;1981–2002;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;4.878;2.895;-1.996;100.0;23.946;12.475;-11.471;MW;;;;;;;
+0.7;1981–2002;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;8.428;4.9;-3.598;95.296;33.68;19.857;-13.823;MW;;;;;;;
+0.7;1981–2002;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;78.976;;;;;;;;;;;;;;
+0.7;1981–2002;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;99.48;;;;;;;;;;;;;
+0.7;1981–2002;izgubljena energija PV (curtailment);kWh/a na hišo;42.998;5.864;-35.754;;0.184;0.03;-0.155;GWh/a;;;;;;;
+0.7;1981–2002;izgubljena energija PV, delež proizvodnje;%;0.306;0.073;-0.223;;;;;;;;;;;;
+0.7;1981–2002;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;1.393;0.195;-1.153;;0.006;0.001;-0.005;mio EUR/a;;;;;;;
+0.7;1981–2002;družbeni NPV;kEUR/hišo;56.271;79.375;19.815;4.938;246.596;324.199;77.604;mio EUR;;;;;;;
+0.7;1981–2002;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;53.782;78.69;21.753;4.964;238.024;321.707;83.682;mio EUR;;;;;;;
+0.7;1981–2002;posameznik NPV R1;kEUR/hišo;38.207;57.014;16.618;4.184;165.131;231.255;66.124;mio EUR;;;;;;;
+0.7;1981–2002;posameznik NPV R3;kEUR/hišo;47.565;63.253;13.794;5.275;204.715;258.744;54.029;mio EUR;;;;;;;
+0.7;1981–2002;zimski uvoz;kWh/a na hišo;4950.557;2972.32;-1969.044;100.0;24.355;12.634;-11.721;GWh/a;;;;;;;
+0.7;paket;sočasna konica paketa (vsota urnih nizov): uvoz;MW;80.457;35.458;-44.999;;;;;;;;;;;;
+0.7;paket;sočasna konica paketa (vsota urnih nizov): oddaja;MW;71.758;40.155;-31.603;;;;;;;;;;;;
+0.5;paket;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;6.973;3.461;-3.655;99.939;69.522;31.971;-37.551;MW;;;;;;;
+0.5;paket;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;3.69;1.304;-2.385;99.533;35.309;10.714;-24.594;mio EUR;;;;;;;
+0.5;paket;(d) obremenitev NN samo po uvozu;kW/hišo;5.595;3.443;-2.159;98.881;58.82;30.224;-28.596;MW;;;;;;;
+0.5;paket;(d) ojačitev NN samo po uvozu;kEUR/hišo;2.563;1.092;-1.354;92.206;28.352;9.887;-18.465;mio EUR;;;;;;;
+0.5;paket;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;5.595;2.619;-2.938;100.0;58.82;23.437;-35.383;MW;;;;;;;
+0.5;paket;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;6.15;3.25;-2.78;96.398;51.258;28.682;-22.576;MW;;;;;;;
+0.5;paket;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;54.032;;;;;;;;;;;;;;
+0.5;paket;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;89.784;;;;;;;;;;;;;
+0.5;paket;izgubljena energija PV (curtailment);kWh/a na hišo;772.764;242.776;-524.5;;6.532;2.182;-4.35;GWh/a;;;;;;;
+0.5;paket;izgubljena energija PV, delež proizvodnje;%;5.491;3.18;-2.26;;;;;;;;;;;;
+0.5;paket;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;28.748;9.258;-19.131;;0.246;0.083;-0.163;mio EUR/a;;;;;;;
+0.5;paket;družbeni NPV;kEUR/hišo;59.638;77.46;14.479;21.158;580.024;663.095;83.071;mio EUR;;;;;;;
+0.5;paket;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;59.159;77.427;15.589;20.9;573.067;662.268;89.201;mio EUR;;;;;;;
+0.5;paket;posameznik NPV R1;kEUR/hišo;39.48;56.749;12.806;13.401;390.616;481.79;91.174;mio EUR;;;;;;;
+0.5;paket;posameznik NPV R3;kEUR/hišo;51.282;62.321;9.236;23.703;481.809;533.68;51.871;mio EUR;;;;;;;
+0.5;paket;zimski uvoz;kWh/a na hišo;5629.072;2736.284;-2783.542;100.0;61.754;24.402;-37.352;GWh/a;;;;;;;
+0.5;pred 1981;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;7.5;3.25;-4.309;99.953;39.668;15.644;-24.024;MW;;;;;;;
+0.5;pred 1981;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;3.887;1.137;-2.831;99.743;20.747;5.01;-15.737;mio EUR;;;;;;;
+0.5;pred 1981;(d) obremenitev NN samo po uvozu;kW/hišo;6.601;3.183;-3.402;100.0;34.874;14.348;-20.526;MW;;;;;;;
+0.5;pred 1981;(d) ojačitev NN samo po uvozu;kEUR/hišo;3.212;0.846;-2.186;95.007;17.619;4.397;-13.222;mio EUR;;;;;;;
+0.5;pred 1981;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;6.601;2.376;-4.161;100.0;34.874;10.962;-23.912;MW;;;;;;;
+0.5;pred 1981;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;6.2;3.25;-2.95;97.387;27.196;14.499;-12.697;MW;;;;;;;
+0.5;pred 1981;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;46.337;;;;;;;;;;;;;;
+0.5;pred 1981;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;95.45;;;;;;;;;;;;;
+0.5;pred 1981;izgubljena energija PV (curtailment);kWh/a na hišo;763.479;222.07;-538.377;;3.394;1.037;-2.356;GWh/a;;;;;;;
+0.5;pred 1981;izgubljena energija PV, delež proizvodnje;%;5.38;3.036;-2.314;;;;;;;;;;;;
+0.5;pred 1981;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;28.016;8.514;-19.279;;0.127;0.04;-0.087;mio EUR/a;;;;;;;
+0.5;pred 1981;družbeni NPV;kEUR/hišo;65.228;76.293;6.329;35.604;335.944;340.381;4.437;mio EUR;;;;;;;
+0.5;pred 1981;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;64.959;76.187;6.994;35.138;332.816;339.769;6.952;mio EUR;;;;;;;
+0.5;pred 1981;posameznik NPV R1;kEUR/hišo;40.949;56.443;9.648;21.442;223.234;249.611;26.377;mio EUR;;;;;;;
+0.5;pred 1981;posameznik NPV R3;kEUR/hišo;55.457;61.521;3.272;40.201;275.719;274.45;-1.269;mio EUR;;;;;;;
+0.5;pred 1981;zimski uvoz;kWh/a na hišo;6470.396;2525.703;-3875.148;100.0;37.399;11.768;-25.631;GWh/a;;;;;;;
+0.5;1981–2002;obremenitev NN izvoda max(uvoz, oddaja);kW/hišo;6.8;3.749;-3.08;99.922;29.853;16.327;-13.527;MW;;;;;;;
+0.5;1981–2002;ojačitev NN (670 EUR/kW nad P0);kEUR/hišo;3.305;1.313;-2.006;99.298;14.562;5.704;-8.857;mio EUR;;;;;;;
+0.5;1981–2002;(d) obremenitev NN samo po uvozu;kW/hišo;4.878;3.746;-1.158;97.635;23.946;15.876;-8.07;MW;;;;;;;
+0.5;1981–2002;(d) ojačitev NN samo po uvozu;kEUR/hišo;2.093;1.307;-0.748;89.085;10.733;5.49;-5.243;mio EUR;;;;;;;
+0.5;1981–2002;sočasna konica uvoza (hiša, 10 h flote);kW/hišo;4.878;2.895;-1.996;100.0;23.946;12.475;-11.471;MW;;;;;;;
+0.5;1981–2002;sočasna konica oddaje (hiša, 10 h flote);kW/hišo;6.02;3.5;-2.57;95.296;24.062;14.184;-9.879;MW;;;;;;;
+0.5;1981–2002;odločilna konica P1: delež hiš, kjer je oddaja > uvoz;%;62.604;;;;;;;;;;;;;;
+0.5;1981–2002;odločilna konica P3: delež hiš, kjer je oddaja > uvoz;%;;83.472;;;;;;;;;;;;;
+0.5;1981–2002;izgubljena energija PV (curtailment);kWh/a na hišo;781.171;266.359;-505.72;;3.139;1.145;-1.994;GWh/a;;;;;;;
+0.5;1981–2002;izgubljena energija PV, delež proizvodnje;%;5.603;3.34;-2.201;;;;;;;;;;;;
+0.5;1981–2002;vrednost izgubljene energije (urna cena dan vnaprej 2025);EUR/a na hišo;29.56;10.121;-18.808;;0.12;0.044;-0.076;mio EUR/a;;;;;;;
+0.5;1981–2002;družbeni NPV;kEUR/hišo;55.21;78.905;20.154;5.068;244.08;322.714;78.634;mio EUR;;;;;;;
+0.5;1981–2002;(d) družbeni NPV, NN samo po uvozu;kEUR/hišo;54.334;78.868;21.291;5.042;240.251;322.499;82.248;mio EUR;;;;;;;
+0.5;1981–2002;posameznik NPV R1;kEUR/hišo;38.403;57.162;16.39;4.444;167.382;232.179;64.797;mio EUR;;;;;;;
+0.5;1981–2002;posameznik NPV R3;kEUR/hišo;47.934;63.383;13.566;5.327;206.09;259.23;53.14;mio EUR;;;;;;;
+0.5;1981–2002;zimski uvoz;kWh/a na hišo;4950.557;2972.32;-1969.044;100.0;24.355;12.634;-11.721;GWh/a;;;;;;;
+0.5;paket;sočasna konica paketa (vsota urnih nizov): uvoz;MW;80.457;35.458;-44.999;;;;;;;;;;;;
+0.5;paket;sočasna konica paketa (vsota urnih nizov): oddaja;MW;51.258;28.682;-22.576;;;;;;;;;;;;
+;(e) 03b krog 1, 12,5 kWp;A3 brez ovoja: brez hranilnikov;kWh / kW;;;;;;;;;10913.568;10913.568;10663.272;2.293;14.679;10.138;30.932
+;(e) 03b krog 1, 12,5 kWp;A3 brez ovoja: baterija 10 kWh;kWh / kW;;;;;;;;;10913.568;10664.67;10472.473;4.042;14.679;8.65;41.073
+;(e) 03b krog 1, 12,5 kWp;A3 brez ovoja: hranilnik toplote 800 L;kWh / kW;;;;;;;;;10913.568;10913.568;10468.323;4.08;14.679;7.967;45.722
+;(e) 03b krog 1, 12,5 kWp;A3 brez ovoja: baterija 10 kWh + hranilnik 800 L;kWh / kW;;;;;;;;;10913.568;10664.67;10328.161;5.364;14.679;7.718;47.418
+;(e) 03b krog 1, 12,5 kWp;A3 FSO: brez hranilnikov;kWh / kW;;;;;;;;;3116.242;3116.242;2844.839;8.709;5.545;1.904;65.671
+;(e) 03b krog 1, 12,5 kWp;A3 FSO: baterija 10 kWh;kWh / kW;;;;;;;;;3116.242;2638.574;2432.922;21.928;5.545;1.639;70.439
+;(e) 03b krog 1, 12,5 kWp;A3 FSO: hranilnik toplote 800 L;kWh / kW;;;;;;;;;3116.242;3116.242;2615.311;16.075;5.545;1.696;69.415
+;(e) 03b krog 1, 12,5 kWp;A3 FSO: baterija 10 kWh + hranilnik 800 L;kWh / kW;;;;;;;;;3116.242;2638.574;2267.84;27.225;5.545;1.519;72.614
+;(e) 03b krog 1, 12,5 kWp;A4 brez ovoja: brez hranilnikov;kWh / kW;;;;;;;;;5931.868;5931.868;5672.467;4.373;9.43;5.02;46.767
+;(e) 03b krog 1, 12,5 kWp;A4 brez ovoja: baterija 10 kWh;kWh / kW;;;;;;;;;5931.868;5524.245;5340.628;9.967;9.43;3.704;60.723
+;(e) 03b krog 1, 12,5 kWp;A4 brez ovoja: hranilnik toplote 800 L;kWh / kW;;;;;;;;;5931.868;5931.868;5458.686;7.977;9.43;3.586;61.97
+;(e) 03b krog 1, 12,5 kWp;A4 brez ovoja: baterija 10 kWh + hranilnik 800 L;kWh / kW;;;;;;;;;5931.868;5524.245;5203.541;12.278;9.43;3.307;64.931
+;(e) 03b krog 1, 12,5 kWp;A4 FSO: brez hranilnikov;kWh / kW;;;;;;;;;3047.613;3047.613;2782.641;8.694;5.365;1.874;65.062
+;(e) 03b krog 1, 12,5 kWp;A4 FSO: baterija 10 kWh;kWh / kW;;;;;;;;;3047.613;2567.773;2368.337;22.289;5.365;1.594;70.288
+;(e) 03b krog 1, 12,5 kWp;A4 FSO: hranilnik toplote 800 L;kWh / kW;;;;;;;;;3047.613;3047.613;2576.485;15.459;5.365;1.674;68.804
+;(e) 03b krog 1, 12,5 kWp;A4 FSO: baterija 10 kWh + hranilnik 800 L;kWh / kW;;;;;;;;;3047.613;2567.773;2220.049;27.155;5.365;1.477;72.466
+;(e) 03b krog 1, PV paketa;A1 brez ovoja: brez hranilnikov;kWh / kW;;;;;;;;;20561.9;20561.9;20420.67;0.687;19.8;16.15;18.434
+;(e) 03b krog 1, PV paketa;A1 brez ovoja: baterija 10 kWh;kWh / kW;;;;;;;;;20561.9;20431.46;20343.17;1.064;19.8;14.46;26.97
+;(e) 03b krog 1, PV paketa;A1 FSO: brez hranilnikov;kWh / kW;;;;;;;;;2980.29;2980.29;2822.83;5.283;4.62;1.72;62.771
+;(e) 03b krog 1, PV paketa;A1 FSO: baterija 10 kWh;kWh / kW;;;;;;;;;2980.29;2666.95;2595.96;12.896;4.62;1.5;67.532
+;(e) 03b krog 1, PV paketa;A2 brez ovoja: brez hranilnikov;kWh / kW;;;;;;;;;15108.37;15108.37;14900.44;1.376;17.41;13.12;24.641
+;(e) 03b krog 1, PV paketa;A2 brez ovoja: baterija 10 kWh;kWh / kW;;;;;;;;;15108.37;14925.38;14766.11;2.265;17.41;11.54;33.716
+;(e) 03b krog 1, PV paketa;A2 FSO: brez hranilnikov;kWh / kW;;;;;;;;;3239.23;3239.23;3051.3;5.802;5.2;1.88;63.846
+;(e) 03b krog 1, PV paketa;A2 FSO: baterija 10 kWh;kWh / kW;;;;;;;;;3239.23;2917.58;2828.8;12.671;5.2;1.66;68.077
+;(e) 03b krog 1, PV paketa;A3 brez ovoja: brez hranilnikov;kWh / kW;;;;;;;;;10902.86;10902.86;10650.84;2.312;14.68;10.13;30.995
+;(e) 03b krog 1, PV paketa;A3 brez ovoja: baterija 10 kWh;kWh / kW;;;;;;;;;10902.86;10651.06;10457.94;4.081;14.68;8.65;41.076
+;(e) 03b krog 1, PV paketa;A3 FSO: brez hranilnikov;kWh / kW;;;;;;;;;3398.64;3398.64;3184.41;6.303;5.58;1.99;64.337
+;(e) 03b krog 1, PV paketa;A3 FSO: baterija 10 kWh;kWh / kW;;;;;;;;;3398.64;3063.24;2957.0;12.995;5.58;1.76;68.459
+;(e) 03b krog 1, PV paketa;A4 brez ovoja: brez hranilnikov;kWh / kW;;;;;;;;;5962.34;5962.34;5708.74;4.253;9.43;5.04;46.554
+;(e) 03b krog 1, PV paketa;A4 brez ovoja: baterija 10 kWh;kWh / kW;;;;;;;;;5962.34;5567.57;5392.48;9.558;9.43;3.71;60.657
+;(e) 03b krog 1, PV paketa;A4 FSO: brez hranilnikov;kWh / kW;;;;;;;;;3326.88;3326.88;3119.25;6.241;5.4;1.94;64.074
+;(e) 03b krog 1, PV paketa;A4 FSO: baterija 10 kWh;kWh / kW;;;;;;;;;3326.88;2988.03;2881.86;13.376;5.4;1.72;68.148

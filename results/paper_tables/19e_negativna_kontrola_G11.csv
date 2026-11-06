@@ -1,0 +1,5 @@
+﻿izid;HR;IZ spodaj;IZ zgoraj;p;dogodkov;dogodkov s PV;SE;kode ukrepov
+prezračevanje (prezrac: centralno + lokalno);0.8006;0.679;0.9439;0.0081;1234;256.0;robustne (po stavbi);prezrac
+vsi ne-ovojni brez kolektorjev in ogrevanja (prezrac, razsvetljava, energ_pregled, vozila);0.8006;0.679;0.9439;0.0081;1234;256.0;robustne (po stavbi);prezrac, razsvetljava, energ_pregled, vozila
+sončni kolektorji (PV jih neposredno nadomesti);1.4961;0.4198;5.3326;0.5344;40;4.0;robustne (po stavbi);kolektorji
+primerjava: ovoj (M1);0.6448;0.5329;0.7801;0.0;1219;;robustne (po stavbi);fasada, okna_vrata, streha, celovita_prenova

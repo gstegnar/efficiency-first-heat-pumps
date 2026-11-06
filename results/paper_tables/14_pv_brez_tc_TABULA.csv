@@ -1,0 +1,148 @@
+﻿sklop;kazalnik;enota;statistika;pred 1981;1981–2002;skupaj
+skupina;stavb;št.;število;4012.0;3247.0;7259.0
+skupina;PV;kWp;mediana;12.6;12.25;12.4
+skupina;delež PV do 2024 (letni net metering);%;delež;99.25224327018944;99.35324915306437;99.29742388758783
+skupina;ogrevana površina;m²;mediana;115.0;117.5;116.0
+skupina;Qh,nd (model, položaj kot pri paketu);kWh/m²a;mediana;148.14096069335938;94.00458526611328;117.352783203125
+skupina;energent iz izkaznice;%;delež;1.669990029910269;1.4166923313828148;1.55668824907012
+skupina;≤ ciljna prenova + 5 (F3 brez ukrepa na ovoju);%;delež;1.5204386839481556;4.5272559285494305;2.865408458465353
+pričakovana vgradnja TČ (Kaplan–Meier);v 3 letih;%;delež;9.367558496269085;11.583042120051743;10.35855936779716
+pričakovana vgradnja TČ (Kaplan–Meier);v 3 letih;št.;pričakovano število;375.8264468703157;376.1013776380801;751.9278245083958
+pričakovana vgradnja TČ (Kaplan–Meier);v 5 letih;%;delež;14.735867109676267;17.24383073069041;15.857696270364094
+pričakovana vgradnja TČ (Kaplan–Meier);v 5 letih;št.;pričakovano število;591.2029884402118;559.9071838255176;1151.1101722657295
+pričakovana vgradnja TČ (Kaplan–Meier);v 10 letih;%;delež;25.83273037472657;30.548212689849336;27.94199763980491
+pričakovana vgradnja TČ (Kaplan–Meier);v 10 letih;št.;pričakovano število;1036.40914263403;991.9004660394079;2028.3096086734383
+prihodnosti (posameznik);NPV stroškov 30 let, R1 (letni net metering) — F1;kEUR;mediana;20.631050315752464;20.385522355415695;20.49370839520077
+prihodnosti (posameznik);NPV stroškov 30 let, R1 (letni net metering) — F1r;kEUR;mediana;19.65084098309409;18.562205266442472;19.65084098309409
+prihodnosti (posameznik);NPV stroškov 30 let, R1 (letni net metering) — F3;kEUR;mediana;24.21865753766257;26.930232138318654;25.225841134263472
+prihodnosti (posameznik);NPV stroškov 30 let, R3 — F1;kEUR;mediana;30.851434341274825;25.971458036946466;28.290699053584394
+prihodnosti (posameznik);NPV stroškov 30 let, R3 — F1r;kEUR;mediana;30.441638526951596;23.849408620220817;26.86852514859414
+prihodnosti (posameznik);NPV stroškov 30 let, R3 — F3;kEUR;mediana;22.398150619866325;26.40399917860447;24.028005882093886
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3) — F1;kEUR;mediana;21.52927322011699;20.940374445830585;21.23193078395007
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3) — F1r;kEUR;mediana;20.930185787040134;18.958386480085306;20.002002082863278
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3) — F3;kEUR;mediana;24.083675245714257;26.84751756246651;25.081405962177957
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3 — F1;kEUR;mediana;28.645622315204733;24.821887223719322;26.67892436030871
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3 — F1r;kEUR;mediana;28.250053668983977;22.674519207361808;25.24186954353633
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3 — F3;kEUR;mediana;22.760605614311167;26.55390146380122;24.173734624998215
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3 — F1;kEUR;mediana;26.905089533334902;23.853426932158328;25.257425617165975
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3 — F1r;kEUR;mediana;26.40310176814853;21.677794464707922;23.828479118326083
+prihodnosti (posameznik);NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3 — F3;kEUR;mediana;23.117072400620643;26.690414566287345;24.434714594584257
+prihodnosti (država);javni proračun NPV, R3 — F1;kEUR;mediana;-4.626801109644833;-3.6115446167340037;-4.100183341707946
+prihodnosti (država);javni proračun NPV, R3 — F1r;kEUR;mediana;-4.478477566690968;-3.2036175349826;-3.77012127506757
+prihodnosti (država);javni proračun NPV, R3 — F3;kEUR;mediana;1.1433653421771623;1.7244630351486983;1.4071019893277512
+prihodnosti (država);družbeni NPV — F1;kEUR;mediana;41.94226256366167;35.32454733946032;38.48567019132466
+prihodnosti (država);družbeni NPV — F1r;kEUR;mediana;41.27441186912288;33.170779056911925;36.990447268748746
+prihodnosti (država);družbeni NPV — F3;kEUR;mediana;32.16185398190785;37.065975696721104;34.02906079722733
+prihodnosti (država);spodbude (nominalno) — F1;kEUR;mediana;4.5;4.5;4.5
+prihodnosti (država);spodbude (nominalno) — F1r;kEUR;mediana;4.5;4.5;4.5
+prihodnosti (država);spodbude (nominalno) — F3;kEUR;mediana;9.62924026735508;11.042191393898106;10.271413336832444
+prihodnosti (država);zimski uvoz (nov–feb), leto 20 — F1;kWh/a;mediana;5187.76806640625;4051.5341796875;4575.439453125
+prihodnosti (država);zimski uvoz (nov–feb), leto 20 — F1r;kWh/a;mediana;5156.7744140625;4052.136962890625;4566.4990234375
+prihodnosti (država);zimski uvoz (nov–feb), leto 20 — F3;kWh/a;mediana;2274.982421875;2490.51318359375;2369.657958984375
+prihodnosti (država);prispevek h sistemski konici, leto 20 — F1;kW;mediana;1.5539263247680668;1.1969750579833986;1.3573477435302734
+prihodnosti (država);prispevek h sistemski konici, leto 20 — F1r;kW;mediana;1.531823190307617;1.1969099822998046;1.3499455072021487
+prihodnosti (država);prispevek h sistemski konici, leto 20 — F3;kW;mediana;0.5795982876586914;0.6854375463867192;0.6313895709228516
+prihodnosti (država);obremenitev NN omrežja — F1;kW;mediana;10.904406070709229;10.23580265045166;10.599331855773926
+prihodnosti (država);obremenitev NN omrežja — F1r;kW;mediana;10.938981056213379;10.245409965515137;10.652217864990234
+prihodnosti (država);obremenitev NN omrežja — F3;kW;mediana;10.647326946258545;10.336026191711426;10.508923530578613
+prihodnosti (okolje);CO2e 30 let (obratovalni + vgrajeni) — F1;t;mediana;35.77620090362936;28.704556370630097;31.951798587834165
+prihodnosti (okolje);CO2e 30 let (obratovalni + vgrajeni) — F1r;t;mediana;35.41337919905244;27.88966588020087;31.318184334583265
+prihodnosti (okolje);CO2e 30 let (obratovalni + vgrajeni) — F3;t;mediana;20.560277840125465;22.73973787377378;21.46631849845858
+prihodnosti (posameznik);moč TČ (leto 20) — F1;kW;mediana;12.45859432220459;12.974302291870117;12.698253631591797
+prihodnosti (posameznik);moč TČ (leto 20) — F1r;kW;mediana;12.0;10.0;10.0
+prihodnosti (posameznik);moč TČ (leto 20) — F3;kW;mediana;5.0;6.0;6.0
+F3 − F1: posameznik;NPV stroškov 30 let, R1 (letni net metering);kEUR;mediana;1.6625557716249242;5.541587884034066;3.0914741378560975
+F3 − F1: posameznik;NPV stroškov 30 let, R1 (letni net metering);%;delež F3 < F1;35.3938185443669;18.540190945488146;27.855076456812235
+F3 − F1: posameznik;NPV stroškov 30 let, R3;kEUR;mediana;-8.400078346150483;0.15396327167322307;-3.8408783264566884
+F3 − F1: posameznik;NPV stroškov 30 let, R3;%;delež F3 < F1;99.52642073778664;48.47551586079458;76.69100427056068
+F3 − F1: posameznik;NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3);kEUR;mediana;0.8632369115764686;4.996526333745042;2.3005862664866763
+F3 − F1: posameznik;NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3);%;delež F3 < F1;41.42572283150548;19.956883276870958;31.822565091610418
+F3 − F1: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3;kEUR;mediana;-6.091552842681043;1.264500784191725;-2.7430083988832266
+F3 − F1: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3;%;delež F3 < F1;97.78165503489531;37.141977209732055;70.65711530513845
+F3 − F1: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3;kEUR;mediana;-4.181264664933764;2.227764077109263;-1.6995473001822974
+F3 − F1: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3;%;delež F3 < F1;91.12662013958126;30.489682784108407;64.003306240529
+F3 − F1: država;javni proračun NPV, R3;kEUR;mediana;5.8049141331745595;5.351136250412846;5.596985293163244
+F3 − F1: država;javni proračun NPV, R3;%;delež F3 < F1;0.07477567298105683;0.1847859562673237;0.12398401983744317
+F3 − F1: država;družbeni NPV;kEUR;mediana;-9.242108652856999;1.2826164004508829;-4.1306337159879805
+F3 − F1: država;družbeni NPV;%;delež F3 < F1;99.65104685942173;37.91191869417924;72.03471552555449
+F3 − F1: država;spodbude (nominalno);kEUR;mediana;5.137825661876896;6.542191393898105;5.77450336643277
+F3 − F1: država;spodbude (nominalno);%;delež F3 < F1;1.794616151545364;2.5870033877425316;2.149056343849015
+F3 − F1: država;zimski uvoz (nov–feb), leto 20;kWh/a;mediana;-2787.57080078125;-1428.020263671875;-2059.1689453125
+F3 − F1: država;zimski uvoz (nov–feb), leto 20;%;delež F3 < F1;98.47956131605184;95.44194641207268;97.12081553933048
+F3 − F1: država;prispevek h sistemski konici, leto 20;kW;mediana;-0.9169382919311528;-0.4670002972412105;-0.6635467724609376
+F3 − F1: država;prispevek h sistemski konici, leto 20;%;delež F3 < F1;98.47956131605184;95.44194641207268;97.12081553933048
+F3 − F1: država;obremenitev NN omrežja;kW;mediana;0.27469611167907715;0.2106170654296875;0.2371993064880371
+F3 − F1: država;obremenitev NN omrežja;%;delež F3 < F1;16.400797607178465;5.2663997536187255;11.420305827248932
+F3 − F1: okolje;CO2e 30 let (obratovalni + vgrajeni);t;mediana;-14.251870041605732;-5.38713101067135;-9.095784781264598
+F3 − F1: okolje;CO2e 30 let (obratovalni + vgrajeni);%;delež F3 < F1;99.97507477567298;99.84601170311056;99.91734398677504
+F3 − F1: posameznik;moč TČ (leto 20);kW;mediana;-7.193180084228516;-7.12407112121582;-7.153528213500977
+F3 − F1: posameznik;moč TČ (leto 20);%;delež F3 < F1;98.5543369890329;99.19926085617493;98.84281581485052
+F3 − F1r: posameznik;NPV stroškov 30 let, R1 (letni net metering);kEUR;mediana;2.381889154539147;7.803096146861946;4.1333133244116285
+F3 − F1r: posameznik;NPV stroškov 30 let, R1 (letni net metering);%;delež F3 < F1r;20.48853439680957;0.8315368032029566;11.69582587133214
+F3 − F1r: posameznik;NPV stroškov 30 let, R3;kEUR;mediana;-7.428884957949433;2.0191032343344086;-1.6430136111596585
+F3 − F1r: posameznik;NPV stroškov 30 let, R3;%;delež F3 < F1r;98.33000997008973;9.51647674776717;58.603113376498136
+F3 − F1r: posameznik;NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3);kEUR;mediana;1.5644721552669525;7.277544204226117;3.29506343157222
+F3 − F1r: posameznik;NPV stroškov 30 let, dejanski režim (PV ≤ 2024: R1 do konca življenjske dobe PV, nato R3);%;delež F3 < F1r;25.47357926221336;0.769941484447182;14.42347430775589
+F3 − F1r: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3;kEUR;mediana;-5.123698103323;3.258521230660903;-0.760750110230676
+F3 − F1r: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2030, nato R3;%;delež F3 < F1r;96.75972083748754;3.572528487834924;55.07645681223309
+F3 − F1r: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3;kEUR;mediana;-3.1908736088023906;4.2779289523312105;0.0
+F3 − F1r: posameznik;NPV stroškov 30 let, dejanski režim — občutljivost: R1 do 2034, nato R3;%;delež F3 < F1r;88.6839481555334;1.6938712657838004;49.77269596363135
+F3 − F1r: država;javni proračun NPV, R3;kEUR;mediana;5.7094508436379945;4.8011444289859435;5.330197912148593
+F3 − F1r: država;javni proračun NPV, R3;%;delež F3 < F1r;0.0;0.0;0.0
+F3 − F1r: država;družbeni NPV;kEUR;mediana;-8.280814388686162;3.223544690807328;-2.1729581028302962
+F3 − F1r: država;družbeni NPV;%;delež F3 < F1r;98.35493519441675;7.2374499538035115;57.59746521559443
+F3 − F1r: država;spodbude (nominalno);kEUR;mediana;5.1292402673550805;6.542191393898105;5.77450336643277
+F3 − F1r: država;spodbude (nominalno);%;delež F3 < F1r;0.0;0.0;0.0
+F3 − F1r: država;zimski uvoz (nov–feb), leto 20;kWh/a;mediana;-2771.275390625;-1429.885009765625;-2056.167236328125
+F3 − F1r: država;zimski uvoz (nov–feb), leto 20;%;delež F3 < F1r;98.47956131605184;95.47274407145056;97.13459154153465
+F3 − F1r: država;prispevek h sistemski konici, leto 20;kW;mediana;-0.9069241333007811;-0.4680271362304691;-0.6621484133911131
+F3 − F1r: država;prispevek h sistemski konici, leto 20;%;delež F3 < F1r;98.47956131605184;95.47274407145056;97.13459154153465
+F3 − F1r: država;obremenitev NN omrežja;kW;mediana;0.2943720817565918;0.24786090850830078;0.26706409454345703
+F3 − F1r: država;obremenitev NN omrežja;%;delež F3 < F1r;16.30109670987039;5.913150600554358;11.654497864719659
+F3 − F1r: okolje;CO2e 30 let (obratovalni + vgrajeni);t;mediana;-14.117456112083302;-4.356855791171455;-8.437196188176681
+F3 − F1r: okolje;CO2e 30 let (obratovalni + vgrajeni);%;delež F3 < F1r;98.47956131605184;95.47274407145056;97.13459154153465
+F3 − F1r: posameznik;moč TČ (leto 20);kW;mediana;-6.0;-3.0;-4.0
+F3 − F1r: posameznik;moč TČ (leto 20);%;delež F3 < F1r;93.14556331006979;87.12657838004311;90.45323047251688
+F1r − F1;NPV stroškov 30 let, dejanski režim;kEUR;mediana;-0.31669985196323613;-2.0226397575612207;-1.1680039373565452
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);zimski uvoz (nov–feb), leto 20;GWh/a;vsota;-1.3711791254145198;-0.7129996521778236;-2.0841787775923435
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);prispevek h sistemski konici, leto 20;MW;vsota;-0.47640545891616487;-0.23977317311276994;-0.7161786320289347
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);obremenitev NN omrežja;MW;vsota;-0.09140154786237577;0.046800038054961655;-0.044601509807414105
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);CO2e 30 let (obratovalni + vgrajeni);kt;vsota;-7.184135315660315;-2.830339131550242;-10.014474447210556
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);spodbude (nominalno);mio EUR;vsota;2.5891486343618464;3.496396623076099;6.085545257437946
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);družbeni NPV;mio EUR;vsota;-4.407181615152666;1.3392517272175675;-3.067929887935099
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1);javni proračun NPV, R3;mio EUR;vsota;2.8647959051234864;2.711643573990761;5.5764394791142475
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);zimski uvoz (nov–feb), leto 20;GWh/a;vsota;-2.1576200826387955;-1.0606619662167827;-3.218282048855578
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);prispevek h sistemski konici, leto 20;MW;vsota;-0.7498281246288268;-0.35678327386140063;-1.1066113984902275
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);obremenitev NN omrežja;MW;vsota;-0.14138339808135503;0.06811552573675783;-0.07326787234459722
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);CO2e 30 let (obratovalni + vgrajeni);kt;vsota;-11.29309858773723;-4.210564368794308;-15.503662956531539
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);spodbude (nominalno);mio EUR;vsota;4.0895046130170565;5.201504750278952;9.291009363296007
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);družbeni NPV;mio EUR;vsota;-6.8962226779253655;1.990975656001694;-4.905247021923669
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1);javni proračun NPV, R3;mio EUR;vsota;4.514423864351325;4.034191063148027;8.548614927499353
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);zimski uvoz (nov–feb), leto 20;GWh/a;vsota;-3.7845345664827637;-1.880291977338007;-5.66482654382077
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);prispevek h sistemski konici, leto 20;MW;vsota;-1.3155745361244422;-0.6326706312777752;-1.9482451674022174
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);obremenitev NN omrežja;MW;vsota;-0.2488314536936114;0.11739814120968123;-0.1314333124839302
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);CO2e 30 let (obratovalni + vgrajeni);kt;vsota;-19.806247655411376;-7.465536803657536;-27.27178445906891
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);spodbude (nominalno);mio EUR;vsota;7.1741947769908645;9.22003901589502;16.394233792885885
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);družbeni NPV;mio EUR;vsota;-12.089931871701795;3.52866079230426;-8.561271079397537
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1);javni proračun NPV, R3;mio EUR;vsota;7.918739966547765;7.150781395068556;15.069521361616323
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);zimski uvoz (nov–feb), leto 20;GWh/a;vsota;-1.4631480145858455;-0.753065065201669;-2.2162130797875146
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);prispevek h sistemski konici, leto 20;MW;vsota;-0.5136673320136131;-0.2594156316979101;-0.7730829637115232
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);obremenitev NN omrežja;MW;vsota;-0.1404890732683342;0.03610631773032428;-0.10438275553800995
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);CO2e 30 let (obratovalni + vgrajeni);kt;vsota;-7.550335684229018;-2.7017509046396464;-10.252086588868664
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);spodbude (nominalno);mio EUR;vsota;2.592871711481274;3.504560514288366;6.097432225769641
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);družbeni NPV;mio EUR;vsota;-4.5523731212435035;2.011402346675167;-2.540970774568337
+ukrep A: pričakovane TČ v 3 letih × (F3 − F1r);javni proračun NPV, R3;mio EUR;vsota;2.874709172208665;2.5727092996225855;5.44741847183125
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);zimski uvoz (nov–feb), leto 20;GWh/a;vsota;-2.3024775392784758;-1.1173219638981542;-3.4197995031766295
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);prispevek h sistemski konici, leto 20;MW;vsota;-0.8084857656713466;-0.3848059600893206;-1.1932917257606672
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);obremenitev NN omrežja;MW;vsota;-0.21798024188064288;0.051641010909352233;-0.1663392309712907
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);CO2e 30 let (obratovalni + vgrajeni);kt;vsota;-11.87415934198352;-4.003374339979376;-15.877533681962893
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);spodbude (nominalno);mio EUR;vsota;4.095378088830954;5.2135900676390055;9.308968156469959
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);družbeni NPV;mio EUR;vsota;-7.132778461667757;3.004961687802416;-4.12781677386534
+ukrep A: pričakovane TČ v 5 letih × (F3 − F1r);javni proračun NPV, R3;mio EUR;vsota;4.531608778229558;3.8252679734947908;8.35687675172435
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);zimski uvoz (nov–feb), leto 20;GWh/a;vsota;-4.037999784219032;-1.980073036544811;-6.018072820763842
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);prispevek h sistemski konici, leto 20;MW;vsota;-1.4182314767585757;-0.6820820304307427;-2.1003135071893184
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);obremenitev NN omrežja;MW;vsota;-0.38295790136590074;0.08579043660051974;-0.29716746476538103
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);CO2e 30 let (obratovalni + vgrajeni);kt;vsota;-20.823334718383553;-7.095573375889242;-27.918908094272798
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);spodbude (nominalno);mio EUR;vsota;7.184501944618525;9.241401611575816;16.42590355619434
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);družbeni NPV;mio EUR;vsota;-12.504773246806282;5.325460640467475;-7.179312606338806
+ukrep A: pričakovane TČ v 10 letih × (F3 − F1r);javni proračun NPV, R3;mio EUR;vsota;7.948986029630257;6.78040623868207;14.729392268312328

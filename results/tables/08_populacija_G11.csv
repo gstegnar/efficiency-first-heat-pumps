@@ -1,0 +1,26 @@
+﻿skupina;stavb;kazalnik;dejansko (P1/PA);URE-najprej (P3/PC);razlika (cena zaklepanja);OVE pravilno dimenzionirano (P1r/PA);od tega dimenzioniranje (P1−P1r);od tega ovoj (P1r−P3)
+fond Q1+Q2 brez ovoja;29977;zimski uvoz [GWh/a, leto 20];271.96;145.92;126.04;265.56;6.4;119.64
+fond Q1+Q2 brez ovoja;29977;sistemska konica [MW, leto 20];108.85;59.41;49.43;105.71;3.13;46.3
+fond Q1+Q2 brez ovoja;29977;CO2e 30 let [kt];1899.75;1303.65;596.1;1865.54;34.21;561.89
+fond Q1+Q2 brez ovoja;29977;spodbude [mio EUR];74.96;376.01;-301.05;84.91;-9.95;-291.1
+fond Q1+Q2 brez ovoja;29977;NPV posameznikov R3 [mio EUR];1929.2;1641.36;287.83;1899.03;30.17;257.67
+Q1;15341;zimski uvoz [GWh/a, leto 20];161.96;74.02;87.94;157.13;4.83;83.11
+Q1;15341;sistemska konica [MW, leto 20];64.68;30.15;34.53;62.26;2.42;32.11
+Q1;15341;CO2e 30 let [kt];1104.42;667.08;437.34;1083.66;20.76;416.58
+Q1;15341;spodbude [mio EUR];37.76;196.2;-158.44;42.47;-4.72;-153.72
+Q1;15341;NPV posameznikov R3 [mio EUR];1083.15;841.15;242.0;1063.95;19.2;222.81
+Q2;14636;zimski uvoz [GWh/a, leto 20];110.0;71.9;38.1;108.44;1.57;36.53
+Q2;14636;sistemska konica [MW, leto 20];44.17;29.27;14.9;43.45;0.71;14.19
+Q2;14636;CO2e 30 let [kt];795.33;636.57;158.76;781.88;13.46;145.3
+Q2;14636;spodbude [mio EUR];37.2;179.81;-142.61;42.43;-5.23;-137.38
+Q2;14636;NPV posameznikov R3 [mio EUR];846.04;800.21;45.83;835.08;10.97;34.86
+paket TČ+PV, Q1;2751;zimski uvoz [GWh/a, leto 20];26.66;11.47;15.19;22.88;3.78;11.41
+paket TČ+PV, Q1;2751;sistemska konica [MW, leto 20];9.56;3.92;5.64;7.65;1.91;3.73
+paket TČ+PV, Q1;2751;CO2e 30 let [kt];200.34;121.38;78.96;184.38;15.96;63.0
+paket TČ+PV, Q1;2751;spodbude [mio EUR];11.13;37.62;-26.49;14.32;-3.19;-23.3
+paket TČ+PV, Q1;2751;NPV posameznikov R3 [mio EUR];184.99;150.81;34.17;170.56;14.43;19.74
+paket TČ+PV, Q1+Q2;5969;zimski uvoz [GWh/a, leto 20];47.11;24.77;22.34;42.15;4.96;17.38
+paket TČ+PV, Q1+Q2;5969;sistemska konica [MW, leto 20];16.62;8.52;8.1;14.17;2.45;5.65
+paket TČ+PV, Q1+Q2;5969;CO2e 30 let [kt];371.32;258.3;113.02;345.03;26.29;86.72
+paket TČ+PV, Q1+Q2;5969;spodbude [mio EUR];24.25;78.5;-54.24;30.53;-6.27;-47.97
+paket TČ+PV, Q1+Q2;5969;NPV posameznikov R3 [mio EUR];355.7;321.59;34.12;333.79;21.91;12.2

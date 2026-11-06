@@ -1,0 +1,13 @@
+﻿vzorec;obdobje;stavb;A_ogr mediana [m²];dejansko mediana [EUR];dejansko na m² ogrevane mediana [EUR/m²];dejansko / model element: P25;dejansko / model element: mediana;dejansko / model element: P75;dejansko / model m² ogrevane: P25;dejansko / model m² ogrevane: mediana;dejansko / model m² ogrevane: P75;bližja osnova
+celovit paket (fasada + streha + okna ali celovita prenova);1981–2002;27;129.7;58763.51;487.922;1.121;1.392;1.695;1.076;1.313;1.759;m² ogrevane
+celovit paket (fasada + streha + okna ali celovita prenova);pred 1981;80;125.65;58338.875;468.593;1.589;2.171;2.503;0.971;1.302;1.557;m² ogrevane
+element: fasada;1981–2002;913;117.8;18083.33;155.744;1.883;2.576;3.53;0.722;0.988;1.354;m² ogrevane
+element: fasada;pred 1981;2311;115.6;17994.1;159.274;2.006;2.604;3.428;0.779;1.011;1.331;m² ogrevane
+element: okna_vrata;1981–2002;1296;119.8;11439.78;97.909;0.346;0.658;1.053;0.571;1.085;1.738;m² ogrevane
+element: okna_vrata;pred 1981;1778;120.15;9826.615;86.437;0.47;0.908;1.569;0.496;0.958;1.656;m² ogrevane
+element: streha;1981–2002;332;121.15;13743.62;113.578;0.447;0.978;1.613;0.533;1.167;1.925;element
+element: streha;pred 1981;745;104.4;10406.47;96.378;0.879;1.927;3.621;0.452;0.991;1.861;m² ogrevane
+celovit paket (fasada + streha + okna ali celovita prenova);vse;107;127.1;58763.51;474.726;1.384;1.915;2.42;0.989;1.303;1.591;m² ogrevane
+element: fasada;vse;3224;116.0;17999.31;158.557;1.964;2.598;3.455;0.759;1.006;1.337;m² ogrevane
+element: okna_vrata;vse;3074;120.0;10458.77;90.653;0.419;0.777;1.336;0.52;1.005;1.698;m² ogrevane
+element: streha;vse;1077;108.8;11231.546;102.541;0.74;1.494;2.841;0.49;1.054;1.893;m² ogrevane

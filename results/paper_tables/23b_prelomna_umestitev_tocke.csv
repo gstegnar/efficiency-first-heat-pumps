@@ -1,0 +1,19 @@
+﻿umestitev;obdobje;kazalnik;prelom mediana = 0 [kWh/m²a];prelom delež = 50 % [kWh/m²a]
+register;pred 1981;posameznik R3;165.758;165.668
+register;pred 1981;družba;175.065;175.443
+register;pred 1981;CO2e 30 let;-inf;-inf
+register;1981–2002;posameznik R3;192.782;192.174
+register;1981–2002;družba;205.729;204.938
+register;1981–2002;CO2e 30 let;-inf;-inf
+register;paket;posameznik R3;170.544;170.877
+register;paket;družba;177.601;178.159
+register;paket;CO2e 30 let;-inf;-inf
+B2;pred 1981;posameznik R3;-inf;-inf
+B2;pred 1981;družba;-inf;-inf
+B2;pred 1981;CO2e 30 let;-inf;-inf
+B2;1981–2002;posameznik R3;170.377;170.838
+B2;1981–2002;družba;176.567;178.68
+B2;1981–2002;CO2e 30 let;-inf;-inf
+B2;paket;posameznik R3;140.219;134.261
+B2;paket;družba;142.338;134.077
+B2;paket;CO2e 30 let;-inf;-inf

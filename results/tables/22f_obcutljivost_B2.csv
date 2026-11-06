@@ -1,0 +1,37 @@
+﻿umestitev;kazalnik;vzorec;P3 − P1 mediana;delež P3 < P1 [%];P3 − P1r mediana;delež P3 < P1r [%];brez ukrepa na ovoju v P3 [%]
+register (osnova);posameznik R1 [kEUR];pred 1981;10.406;19.949;18.99;0.0;0.0
+register (osnova);posameznik R1 [kEUR];1981–2002;16.618;4.158;23.207;0.0;0.0
+register (osnova);posameznik R1 [kEUR];paket;13.383;12.478;20.98;0.0;0.0
+register (osnova);posameznik R3 [kEUR];pred 1981;3.566;39.477;5.494;31.918;0.0
+register (osnova);posameznik R3 [kEUR];1981–2002;13.81;5.275;15.664;0.702;0.0
+register (osnova);posameznik R3 [kEUR];paket;9.481;23.297;11.484;17.15;0.0
+register (osnova);družbeni NPV [kEUR];pred 1981;5.902;36.024;7.685;30.518;0.0
+register (osnova);družbeni NPV [kEUR];1981–2002;19.354;4.86;20.989;0.78;0.0
+register (osnova);družbeni NPV [kEUR];paket;13.711;21.281;15.322;16.449;0.0
+register (osnova);proračun R3 [kEUR];pred 1981;15.975;0.0;14.7;0.0;0.0
+register (osnova);proračun R3 [kEUR];1981–2002;13.971;0.0;12.614;0.0;0.0
+register (osnova);proračun R3 [kEUR];paket;14.937;0.0;13.682;0.0;0.0
+register (osnova);CO2e 30 let [t];pred 1981;-18.682;99.533;-18.009;96.057;0.0
+register (osnova);CO2e 30 let [t];1981–2002;-6.44;93.633;-4.444;78.326;0.0
+register (osnova);CO2e 30 let [t];paket;-11.44;96.742;-9.841;87.669;0.0
+register (osnova);obremenitev NN [kW];pred 1981;-5.934;99.627;-4.596;100.0;0.0
+register (osnova);obremenitev NN [kW];1981–2002;-4.803;98.986;-2.499;100.0;0.0
+register (osnova);obremenitev NN [kW];paket;-5.386;99.324;-3.353;100.0;0.0
+B2 (umestitev po Qh,nd);posameznik R1 [kEUR];pred 1981;-3.758;73.472;3.09;3.313;9.566
+B2 (umestitev po Qh,nd);posameznik R1 [kEUR];1981–2002;2.868;39.111;8.916;0.0;19.023
+B2 (umestitev po Qh,nd);posameznik R1 [kEUR];paket;-1.409;57.217;5.163;1.746;14.04
+B2 (umestitev po Qh,nd);posameznik R3 [kEUR];pred 1981;-7.529;96.734;-6.036;90.411;9.566
+B2 (umestitev po Qh,nd);posameznik R3 [kEUR];1981–2002;1.478;36.149;2.575;7.64;19.023
+B2 (umestitev po Qh,nd);posameznik R3 [kEUR];paket;-2.981;68.072;-0.613;51.254;14.04
+B2 (umestitev po Qh,nd);družbeni NPV [kEUR];pred 1981;-8.042;96.477;-7.254;90.434;9.566
+B2 (umestitev po Qh,nd);družbeni NPV [kEUR];1981–2002;2.85;29.054;3.901;7.354;19.023
+B2 (umestitev po Qh,nd);družbeni NPV [kEUR];paket;-3.018;64.581;-0.626;51.131;14.04
+B2 (umestitev po Qh,nd);proračun R3 [kEUR];pred 1981;8.067;0.793;6.911;9.566;9.566
+B2 (umestitev po Qh,nd);proračun R3 [kEUR];1981–2002;7.395;1.351;6.025;19.023;19.023
+B2 (umestitev po Qh,nd);proračun R3 [kEUR];paket;7.793;1.057;6.552;14.04;14.04
+B2 (umestitev po Qh,nd);CO2e 30 let [t];pred 1981;-17.728;98.763;-16.88;90.434;9.566
+B2 (umestitev po Qh,nd);CO2e 30 let [t];1981–2002;-6.658;97.999;-4.609;80.977;19.023
+B2 (umestitev po Qh,nd);CO2e 30 let [t];paket;-11.621;98.402;-10.102;85.96;14.04
+B2 (umestitev po Qh,nd);obremenitev NN [kW];pred 1981;-4.853;97.667;-3.744;90.457;9.566
+B2 (umestitev po Qh,nd);obremenitev NN [kW];1981–2002;-4.197;96.388;-1.682;80.873;19.023
+B2 (umestitev po Qh,nd);obremenitev NN [kW];paket;-4.543;97.062;-2.519;85.923;14.04
